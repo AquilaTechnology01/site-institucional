@@ -8,6 +8,8 @@
       content="Política de Privacidade da Aquila Technology, com informações sobre o uso e proteção de dados."
     />
     <title>Aquila Technology | Política de Privacidade</title>
+    <meta name="theme-color" content="#081123" />
+    <link rel="icon" type="image/png" href="src/img/logo/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -15,14 +17,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
   </head>
   <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
     <header>
       <div class="navbar container">
         <a class="brand" href="index.html">
-          <img src="logo/Logo aquila technology - sem fundo.png" alt="Logo Aquila Technology" />
+          <img src="src/img/logo/logo-branco.png" alt="Logo Aquila Technology" />
           <span>Aquila Technology</span>
         </a>
-        <nav class="nav-links">
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Abrir menu">
+          <i class="bi bi-list" aria-hidden="true"></i>
+        </button>
+        <nav id="main-navigation" class="nav-links" aria-label="Navegação principal">
           <a href="index.html#servicos">Serviços</a>
+          <a href="pdv.html">Sistema PDV</a>
           <a href="index.html#projetos">Projetos</a>
           <a href="index.html#tecnologias">Tecnologias</a>
           <a href="index.html#sobre">Sobre</a>
@@ -31,8 +38,8 @@
       </div>
     </header>
 
-    <main>
-      <section class="hero">
+    <main id="conteudo">
+      <section class="hero internal-hero">
         <div class="hero-copy container">
           <span class="eyebrow">Política de Privacidade</span>
           <h1>Proteção de dados e privacidade</h1>
@@ -105,5 +112,6 @@
         <p>© 2026 Aquila Technology. Todos os direitos reservados.</p>
       </div>
     </footer>
+    <script src="src/js/main.js" defer></script>
   </body>
 </html>
