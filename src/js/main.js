@@ -19,46 +19,29 @@ if (menuButton && navigation) {
 
   navigation.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
   document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') closeMenu();
-  });
-}
-
-// Cria o efeito decorativo da seção de tecnologias apenas quando ela existe.
-const techSection = document.getElementById('tecnologias');
-if (techSection) {
-  const effectLayer = techSection.querySelector('.tech-effect');
-  const mouseLight = techSection.querySelector('.tech-mouse-light');
-
-  for (let index = 0; index < 12; index += 1) {
-    const particle = document.createElement('span');
-    const size = 6 + Math.random() * 12;
-    particle.className = 'tech-particle';
-    particle.style.width = `${size}px`;
-    particle.style.height = `${size}px`;
-    particle.style.left = `${Math.random() * 100}%`;
-    particle.style.top = `${Math.random() * 100}%`;
-    particle.style.animationDelay = `${Math.random() * -12}s`;
-    effectLayer.appendChild(particle);
-  }
-
-  techSection.addEventListener('mousemove', (event) => {
-    const rect = techSection.getBoundingClientRect();
-    mouseLight.style.transform = `translate3d(${event.clientX - rect.left - 130}px, ${event.clientY - rect.top - 130}px, 0)`;
+    if (event.key === 'Escape' && navigation.classList.contains('is-open')) {
+      closeMenu();
+      menuButton.focus();
+    }
   });
 }
 
 // Revela os blocos gradualmente durante a rolagem.
 const revealElements = document.querySelectorAll('.reveal');
-if ('IntersectionObserver' in window) {
+if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   const observer = new IntersectionObserver((entries, revealObserver) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
+        entry.target.classList.remove('is-pending');
         entry.target.classList.add('is-visible');
         revealObserver.unobserve(entry.target);
       }
     });
   }, { threshold: 0.12 });
-  revealElements.forEach((element) => observer.observe(element));
+  revealElements.forEach((element) => {
+    element.classList.add('is-pending');
+    observer.observe(element);
+  });
 } else {
   revealElements.forEach((element) => element.classList.add('is-visible'));
 }

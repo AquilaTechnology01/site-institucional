@@ -1,6 +1,6 @@
 # Contribuindo
 
-Obrigado pelo interesse em contribuir com os projetos da Aquila Technology.
+Obrigado pelo interesse em contribuir com os projetos da Aquila Tecnology Brasil.
 
 ## Antes de contribuir
 
@@ -50,4 +50,4 @@ Caso encontre algum bug, abra uma Issue contendo:
 - comportamento esperado;
 - prints (quando possível).
 
-Obrigado por contribuir com a Aquila Technology.
+Obrigado por contribuir com a Aquila Tecnology Brasil.

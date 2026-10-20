@@ -1,4 +1,4 @@
-﻿# 🚀 Aquila Technology - Site Institucional
+﻿# 🚀 Aquila Tecnology Brasil - Site Institucional
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue" />
@@ -9,15 +9,15 @@
 
 ## 💻 Sobre o Projeto
 
-Este repositório contém o site institucional oficial da **Aquila Technology**, uma empresa focada em soluções de Tecnologia da Informação.
+Este repositório contém o site institucional oficial da **Aquila Tecnology Brasil**, uma empresa focada em soluções de Tecnologia da Informação.
 
 O projeto foi desenvolvido para apresentar os serviços, soluções e identidade digital da empresa, proporcionando uma experiência moderna, responsiva e profissional para clientes e parceiros.
 
 ---
 
-## 🏢 Sobre a Aquila Technology
+## 🏢 Sobre a Aquila Tecnology Brasil
 
-A **Aquila Technology** oferece soluções em tecnologia para empresas que buscam melhorar sua infraestrutura, segurança e produtividade.
+A **Aquila Tecnology Brasil** oferece soluções em tecnologia para empresas que buscam melhorar sua infraestrutura, segurança e produtividade.
 
 ### Principais áreas de atuação:
 

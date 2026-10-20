@@ -1,6 +1,6 @@
 # Código de Conduta
 
-A Aquila Technology acredita que tecnologia deve ser desenvolvida em um ambiente profissional, respeitoso e colaborativo.
+A Aquila Tecnology Brasil acredita que tecnologia deve ser desenvolvida em um ambiente profissional, respeitoso e colaborativo.
 
 ## Nosso compromisso
 
@@ -30,7 +30,7 @@ Todos os colaboradores, parceiros e contribuidores devem agir com:
 
 ## Aplicação
 
-A Aquila Technology reserva-se o direito de remover conteúdos, contribuições ou usuários que violem este Código de Conduta.
+A Aquila Tecnology Brasil reserva-se o direito de remover conteúdos, contribuições ou usuários que violem este Código de Conduta.
 
 ## Contato
 
