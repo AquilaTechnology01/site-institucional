@@ -1,17 +1,17 @@
 # Licença
 
-Copyright © 2026 Aquila Tecnology Brasil.
+Copyright © 2026 Aquila Tecnology.
 
 Todos os direitos reservados.
 
-Este projeto, incluindo seu código-fonte, design, documentação, imagens, logotipos e demais arquivos, é de propriedade exclusiva da Aquila Tecnology Brasil.
+Este projeto, incluindo seu código-fonte, design, documentação, imagens, logotipos e demais arquivos, é de propriedade exclusiva da Aquila Tecnology.
 
 É proibido:
 
 - copiar total ou parcialmente este projeto;
 - redistribuir o código sem autorização;
 - modificar o código para fins comerciais;
-- utilizar a identidade visual da Aquila Tecnology Brasil.
+- utilizar a identidade visual da Aquila Tecnology.
 
 É permitido:
 

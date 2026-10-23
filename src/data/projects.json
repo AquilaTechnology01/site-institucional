@@ -1,0 +1,275 @@
+[
+  {
+    "id": "aquila-pdv",
+    "slug": "aquila-pdv",
+    "title": "Aquila PDV",
+    "summary": "Vendas, estoque e caixa em uma solução para o ponto de venda.",
+    "description": "Produto apresentado na página pública do Aquila PDV. Conheça os recursos documentados e solicite uma apresentação pelo contato da Aquila.",
+    "category": "Sistemas",
+    "technologies": [],
+    "image": "/src/img/portfolio-placeholder.svg",
+    "imageAlt": "Ilustração de interface digital da Aquila",
+    "status": "Produto",
+    "visibility": "public",
+    "demoUrl": null,
+    "repositoryUrl": null,
+    "caseStudyUrl": "/pdv.html",
+    "features": [
+      "Registro de vendas",
+      "Controle de estoque",
+      "Gestão de caixa e fechamento diário",
+      "Relatórios de vendas"
+    ],
+    "problem": "Organizar as rotinas de vendas, estoque e caixa de pequenas e médias empresas.",
+    "solution": "Centralização dessas rotinas no sistema apresentado pela Aquila.",
+    "evidence": [
+      "pdv.html"
+    ]
+  },
+  {
+    "id": "site-aquila",
+    "slug": "site-aquila",
+    "title": "Site institucional Aquila",
+    "summary": "Presença digital para apresentar serviços e facilitar o contato com a Aquila.",
+    "description": "Site institucional desenvolvido com HTML, CSS e JavaScript, com páginas de produto, informações legais e formulário de orçamento pelo WhatsApp.",
+    "category": "Websites",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "image": "/src/img/portfolio-placeholder.svg",
+    "imageAlt": "Ilustração de interface digital da Aquila",
+    "status": "Projeto institucional",
+    "visibility": "public",
+    "demoUrl": null,
+    "repositoryUrl": null,
+    "caseStudyUrl": "/index.html",
+    "features": [
+      "Navegação responsiva",
+      "Apresentação de serviços",
+      "Página do Aquila PDV",
+      "Formulário de orçamento via WhatsApp"
+    ],
+    "problem": "Apresentar os serviços da Aquila e oferecer canais de contato.",
+    "solution": "Páginas estáticas responsivas e formulário que prepara a solicitação para envio pelo WhatsApp.",
+    "evidence": [
+      "index.html",
+      "styles.css",
+      "src/js/main.js"
+    ]
+  },
+  {
+    "id": "modelo-institucional",
+    "slug": "modelo-institucional",
+    "title": "Modelo de site institucional",
+    "summary": "Apresentação de marca, serviços e contato em um site institucional.",
+    "description": "Apresentação de marca, serviços e contato em um site institucional. Confira as telas na galeria.",
+    "category": "Websites",
+    "technologies": [],
+    "image": "/portfolio/img/Site%20Institucional/Captura%20de%20tela%20de%202026-10-22%2022-46-23.png",
+    "imageAlt": "Modelo de site institucional — captura 1",
+    "gallery": [
+      {
+        "src": "/portfolio/img/Site%20Institucional/Captura%20de%20tela%20de%202026-10-22%2022-46-23.png",
+        "alt": "Modelo de site institucional — captura 1"
+      },
+      {
+        "src": "/portfolio/img/Site%20Institucional/Captura%20de%20tela%20de%202026-10-22%2022-46-41.png",
+        "alt": "Modelo de site institucional — captura 2"
+      },
+      {
+        "src": "/portfolio/img/Site%20Institucional/Captura%20de%20tela%20de%202026-10-22%2022-47-19.png",
+        "alt": "Modelo de site institucional — captura 3"
+      },
+      {
+        "src": "/portfolio/img/Site%20Institucional/Captura%20de%20tela%20de%202026-10-22%2022-48-32.png",
+        "alt": "Modelo de site institucional — captura 4"
+      },
+      {
+        "src": "/portfolio/img/Site%20Institucional/Captura%20de%20tela%20de%202026-10-22%2022-48-44.png",
+        "alt": "Modelo de site institucional — captura 5"
+      },
+      {
+        "src": "/portfolio/img/Site%20Institucional/Captura%20de%20tela%20de%202026-10-22%2022-49-49.png",
+        "alt": "Modelo de site institucional — captura 6"
+      },
+      {
+        "src": "/portfolio/img/Site%20Institucional/Captura%20de%20tela%20de%202026-10-22%2022-50-18.png",
+        "alt": "Modelo de site institucional — captura 7"
+      }
+    ],
+    "status": "Modelo demonstrativo",
+    "visibility": "public",
+    "demoUrl": null,
+    "repositoryUrl": null,
+    "caseStudyUrl": null,
+    "features": [
+      "Apresentação da marca",
+      "Seção de serviços",
+      "Formulário de contato"
+    ],
+    "problem": "Apresentar informações e facilitar o contato com o público.",
+    "solution": "Uma página com apresentação visual e seções organizadas para o segmento.",
+    "evidence": [
+      "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-46-23.png",
+      "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-46-41.png",
+      "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-47-19.png",
+      "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-48-32.png",
+      "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-48-44.png",
+      "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-49-49.png",
+      "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-50-18.png"
+    ]
+  },
+  {
+    "id": "cardapio-digital",
+    "slug": "cardapio-digital",
+    "title": "Cardápio digital",
+    "summary": "Modelo de cardápio com destaques, seleção de pedidos e contato.",
+    "description": "Modelo de cardápio com destaques, seleção de pedidos e contato. Confira as telas na galeria.",
+    "category": "Websites",
+    "technologies": [],
+    "image": "/portfolio/img/Cardapio%20digital/Captura%20de%20tela%20de%202026-10-22%2022-35-24.png",
+    "imageAlt": "Cardápio digital — captura 1",
+    "gallery": [
+      {
+        "src": "/portfolio/img/Cardapio%20digital/Captura%20de%20tela%20de%202026-10-22%2022-35-24.png",
+        "alt": "Cardápio digital — captura 1"
+      },
+      {
+        "src": "/portfolio/img/Cardapio%20digital/Captura%20de%20tela%20de%202026-10-22%2022-35-41.png",
+        "alt": "Cardápio digital — captura 2"
+      },
+      {
+        "src": "/portfolio/img/Cardapio%20digital/Captura%20de%20tela%20de%202026-10-22%2022-36-04.png",
+        "alt": "Cardápio digital — captura 3"
+      },
+      {
+        "src": "/portfolio/img/Cardapio%20digital/Captura%20de%20tela%20de%202026-10-22%2022-36-22.png",
+        "alt": "Cardápio digital — captura 4"
+      },
+      {
+        "src": "/portfolio/img/Cardapio%20digital/Captura%20de%20tela%20de%202026-10-22%2022-36-39.png",
+        "alt": "Cardápio digital — captura 5"
+      },
+      {
+        "src": "/portfolio/img/Cardapio%20digital/Captura%20de%20tela%20de%202026-10-22%2022-36-53.png",
+        "alt": "Cardápio digital — captura 6"
+      },
+      {
+        "src": "/portfolio/img/Cardapio%20digital/Captura%20de%20tela%20de%202026-10-22%2022-37-16.png",
+        "alt": "Cardápio digital — captura 7"
+      }
+    ],
+    "status": "Modelo demonstrativo",
+    "visibility": "public",
+    "demoUrl": null,
+    "repositoryUrl": null,
+    "caseStudyUrl": null,
+    "features": [
+      "Destaques do cardápio",
+      "Montagem de pedido",
+      "Avaliações e contato"
+    ],
+    "problem": "Apresentar informações e facilitar o contato com o público.",
+    "solution": "Uma página com apresentação visual e seções organizadas para o segmento.",
+    "evidence": [
+      "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-35-24.png",
+      "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-35-41.png",
+      "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-36-04.png",
+      "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-36-22.png",
+      "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-36-39.png",
+      "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-36-53.png",
+      "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-37-16.png"
+    ]
+  },
+  {
+    "id": "landing-advocacia",
+    "slug": "landing-advocacia",
+    "title": "Landing page de advocacia",
+    "summary": "Apresentação de escritório, áreas de atuação e canais de contato.",
+    "description": "Apresentação de escritório, áreas de atuação e canais de contato. Confira as telas na galeria.",
+    "category": "Websites",
+    "technologies": [],
+    "image": "/portfolio/img/landing-page/Advocacia/Captura%20de%20tela%20de%202026-10-22%2022-19-03.png",
+    "imageAlt": "Landing page de advocacia — captura 1",
+    "gallery": [
+      {
+        "src": "/portfolio/img/landing-page/Advocacia/Captura%20de%20tela%20de%202026-10-22%2022-19-03.png",
+        "alt": "Landing page de advocacia — captura 1"
+      },
+      {
+        "src": "/portfolio/img/landing-page/Advocacia/Captura%20de%20tela%20de%202026-10-22%2022-19-45.png",
+        "alt": "Landing page de advocacia — captura 2"
+      },
+      {
+        "src": "/portfolio/img/landing-page/Advocacia/Captura%20de%20tela%20de%202026-10-22%2022-20-04.png",
+        "alt": "Landing page de advocacia — captura 3"
+      },
+      {
+        "src": "/portfolio/img/landing-page/Advocacia/Captura%20de%20tela%20de%202026-10-22%2022-20-22.png",
+        "alt": "Landing page de advocacia — captura 4"
+      }
+    ],
+    "status": "Modelo demonstrativo",
+    "visibility": "public",
+    "demoUrl": null,
+    "repositoryUrl": null,
+    "caseStudyUrl": null,
+    "features": [
+      "Apresentação do escritório",
+      "Áreas de atuação",
+      "Informações de contato"
+    ],
+    "problem": "Apresentar informações e facilitar o contato com o público.",
+    "solution": "Uma página com apresentação visual e seções organizadas para o segmento.",
+    "evidence": [
+      "portfolio/img/landing-page/Advocacia/Captura de tela de 2026-10-22 22-19-03.png",
+      "portfolio/img/landing-page/Advocacia/Captura de tela de 2026-10-22 22-19-45.png",
+      "portfolio/img/landing-page/Advocacia/Captura de tela de 2026-10-22 22-20-04.png",
+      "portfolio/img/landing-page/Advocacia/Captura de tela de 2026-10-22 22-20-22.png"
+    ]
+  },
+  {
+    "id": "landing-padaria",
+    "slug": "landing-padaria",
+    "title": "Landing page de padaria",
+    "summary": "Apresentação de padaria com produtos e história da marca.",
+    "description": "Apresentação de padaria com produtos e história da marca. Confira as telas na galeria.",
+    "category": "Websites",
+    "technologies": [],
+    "image": "/portfolio/img/landing-page/Padaria/Captura%20de%20tela%20de%202026-10-22%2022-22-19.png",
+    "imageAlt": "Landing page de padaria — captura 1",
+    "gallery": [
+      {
+        "src": "/portfolio/img/landing-page/Padaria/Captura%20de%20tela%20de%202026-10-22%2022-22-19.png",
+        "alt": "Landing page de padaria — captura 1"
+      },
+      {
+        "src": "/portfolio/img/landing-page/Padaria/Captura%20de%20tela%20de%202026-10-22%2022-27-19.png",
+        "alt": "Landing page de padaria — captura 2"
+      },
+      {
+        "src": "/portfolio/img/landing-page/Padaria/Captura%20de%20tela%20de%202026-10-22%2022-27-42.png",
+        "alt": "Landing page de padaria — captura 3"
+      }
+    ],
+    "status": "Modelo demonstrativo",
+    "visibility": "public",
+    "demoUrl": null,
+    "repositoryUrl": null,
+    "caseStudyUrl": null,
+    "features": [
+      "Apresentação da padaria",
+      "Vitrine de produtos",
+      "História da marca"
+    ],
+    "problem": "Apresentar informações e facilitar o contato com o público.",
+    "solution": "Uma página com apresentação visual e seções organizadas para o segmento.",
+    "evidence": [
+      "portfolio/img/landing-page/Padaria/Captura de tela de 2026-10-22 22-22-19.png",
+      "portfolio/img/landing-page/Padaria/Captura de tela de 2026-10-22 22-27-19.png",
+      "portfolio/img/landing-page/Padaria/Captura de tela de 2026-10-22 22-27-42.png"
+    ]
+  }
+]
