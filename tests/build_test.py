@@ -11,6 +11,7 @@ import unittest
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / 'scripts'))
 from build import build, minify_css
+from version_assets import refresh
 
 
 class BuildTest(unittest.TestCase):
@@ -58,8 +59,9 @@ class BuildTest(unittest.TestCase):
                 self.assertEqual(match[1], fingerprints[name][:16])
         headers=(self.root/'dist/_headers').read_text()
         self.assertIn('/assets/runtime/*', headers)
-        self.assertNotIn('\n/*', headers)
-        self.assertNotIn('/src/', headers)
+        self.assertNotIn('\n/*\n', headers)
+        self.assertNotIn('immutable', headers.split('/assets/runtime/*')[0])
+        self.assertIn('/src/js/*\n  Cache-Control: no-cache', headers)
 
     def test_failed_validation_preserves_previous_dist(self):
         build(self.root)
@@ -70,6 +72,25 @@ class BuildTest(unittest.TestCase):
             with self.assertRaises(ValueError):build(self.root)
             self.assertEqual((self.root/'dist/index.html').read_bytes(),old)
         finally:source.write_bytes(original)
+
+    def test_asset_version_changes_with_css_and_build_uses_bundles(self):
+        stylesheet = self.root/'styles.css'
+        original = stylesheet.read_bytes()
+        try:
+            refresh(self.root)
+            before = (self.root/'index.html').read_text()
+            stylesheet.write_bytes(original + b'\n/* cache regression fixture */\n')
+            refresh(self.root)
+            after = (self.root/'index.html').read_text()
+            pattern = r'href="styles.css\?v=([a-f0-9]+)"'
+            self.assertNotEqual(re.search(pattern, before)[1], re.search(pattern, after)[1])
+            build(self.root)
+            published = (self.root/'dist/index.html').read_text()
+            self.assertRegex(published, r'href="/assets/runtime/home\.[a-f0-9]+\.css"')
+            self.assertNotIn('src="/src/js/consent.js', published)
+        finally:
+            stylesheet.write_bytes(original)
+            refresh(self.root)
 
     def test_static_catalog_rejects_unsafe_navigation(self):
         catalog = self.root/'src/data/projects.json'

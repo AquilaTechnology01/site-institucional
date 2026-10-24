@@ -123,7 +123,10 @@ def build(root=ROOT):
                 attribute = re.search(r'(?:href|src)="([^"]+)"', tag)
                 if not attribute:
                     return tag
-                normalized = '/' + attribute[1].lstrip('/')
+                url = urlsplit(attribute[1])
+                if url.scheme or url.netloc:
+                    return tag
+                normalized = '/' + url.path.lstrip('/')
                 if normalized in removed:
                     return ''
                 if normalized == '/styles.css' and page == stage / 'index.html':

@@ -65,3 +65,15 @@ Os testes de navegador requerem Playwright, Chrome e, em alguns casos, axe-core 
 Consulte [RELATORIO_OTIMIZACAO.md](RELATORIO_OTIMIZACAO.md) para alterações, resultados e pendências. Use o processo de publicação existente somente após revisar as alterações e autorizar o envio; o repositório permanece integrado à hospedagem original.
 
 O slider da home usa HTML/CSS/JS locais, imagens WebP e controles acessíveis. Consulte [implementação e créditos](docs/executive-slider.md); teste com `SITE_BASE=http://127.0.0.1:4181 node tests/executive-slider.browser.cjs` após servir `dist/` nessa porta.
+
+## Configuração do Cloudflare Pages
+
+- Branch de produção: `main`.
+- Framework: nenhum (site estático).
+- Comando de build: `python3 scripts/build.py`.
+- Diretório de saída: `dist`.
+- Diretório raiz: raiz deste repositório.
+
+A publicação deve usar o HTML gerado em `dist/`, com URLs `/assets/runtime/` para CSS/JS. Publicar a raiz diretamente ignora os bundles e as validações de saída. Para manter a edição estática compatível, as referências CSS/JS da fonte também possuem versão: execute `python3 scripts/version_assets.py` depois de editar esses recursos. O build não modifica as fontes e continua gerando seus próprios bundles com hash.
+
+`_headers` exige revalidação de HTML, CSS/JS da fonte e catálogo. Apenas `/assets/runtime/*` usa cache longo e imutável. Não aplicar regras externas de cache longo a HTML ou arquivos sem hash.
