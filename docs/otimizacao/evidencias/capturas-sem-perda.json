@@ -1,0 +1,18 @@
+[
+  {
+    "source": "home-depois.png",
+    "file": "home-depois.webp",
+    "pngBytes": 519251,
+    "webpBytes": 338124,
+    "rgbaIdentical": true,
+    "pixelSHA256": "bbdac12195216ec5874007b84db455a89f35c5613d3da0186f85b7040f97ae9b"
+  },
+  {
+    "source": "popup-depois.png",
+    "file": "popup-depois.webp",
+    "pngBytes": 372020,
+    "webpBytes": 219676,
+    "rgbaIdentical": true,
+    "pixelSHA256": "55dc64937ba2d1dd60498fb6f28097e21cb77be2b341dbbc46adcf54cb0316d5"
+  }
+]

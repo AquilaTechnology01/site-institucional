@@ -1,3 +1,4 @@
+const SITE_BASE = process.env.SITE_BASE || 'http://127.0.0.1:4173';
 const {chromium} = require('playwright');
 const assert = require('node:assert/strict');
 (async () => {
@@ -9,7 +10,7 @@ const assert = require('node:assert/strict');
       document.addEventListener('securitypolicyviolation', e => window.cspViolations.push(e.effectiveDirective));
     });
     for (const path of ['/', '/portfolio/', '/FAQ.html', '/pdv.html', '/blog.html', '/privacidade.html', '/termos.html', '/lgpd.html']) {
-      await page.goto('http://127.0.0.1:4173' + path);
+      await page.goto(SITE_BASE + path);
       assert.deepEqual(await page.evaluate(() => window.cspViolations), [], path);
     }
     await page.evaluate(() => {
@@ -20,7 +21,7 @@ const assert = require('node:assert/strict');
     assert.equal(await page.evaluate(() => window.injected), undefined);
     const noJS = await browser.newContext({javaScriptEnabled: false, reducedMotion: 'reduce'});
     const fallback = await noJS.newPage();
-    await fallback.goto('http://127.0.0.1:4173/');
+    await fallback.goto(SITE_BASE + '/');
     await fallback.locator('#nome').fill('Teste');
     await fallback.locator('#email').fill('teste@example.com');
     await fallback.locator('#assunto').fill('Teste de segurança');

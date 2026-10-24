@@ -1,0 +1,16 @@
+[
+  {
+    "removed": "docs/identidade-azul/evidencias/producao-home.png",
+    "canonical": "docs/auditoria/evidencias/home-antes.png",
+    "bytes": 1226342,
+    "sha256": "d8e5a9aa79e85ddd1c2a104937c5edbf4ff4cc05c7fbdd875b56bd962b968909",
+    "reason": "Cópia byte a byte de captura histórica preservada; não pertence ao runtime."
+  },
+  {
+    "removed": "docs/identidade-azul/evidencias/producao-portfolio.png",
+    "canonical": "docs/auditoria/evidencias/portfolio-antes.png",
+    "bytes": 697487,
+    "sha256": "0a5abe5b0e98b3638d853e4753b1d596a806c72163dea38259f7939ac9522dc0",
+    "reason": "Cópia byte a byte de captura histórica preservada; não pertence ao runtime."
+  }
+]

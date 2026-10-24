@@ -1,0 +1,40 @@
+{
+  "build": "PASS",
+  "pages": 8,
+  "missingLocalTargets": [],
+  "logos": [
+    {
+      "path": "src/img/optimized/logo-preto.png",
+      "bytes": 20891,
+      "width": 216,
+      "height": 159,
+      "includedInBuild": true,
+      "sha256": "14500a8a933954c3d964c50676ae2cad4c230d1c599a25141aa1ca734f94a099"
+    },
+    {
+      "path": "src/img/optimized/logo-preto.webp",
+      "bytes": 12952,
+      "width": 216,
+      "height": 159,
+      "includedInBuild": true,
+      "sha256": "78a69125a4d279f188262748fde88086fc6082f2776cfb433e2347c575aab1bc"
+    },
+    {
+      "path": "src/img/optimized/logo-branco.png",
+      "bytes": 18163,
+      "width": 216,
+      "height": 160,
+      "includedInBuild": true,
+      "sha256": "622e2092310abbcb1c2cd3f89861010147781e701f669e61ffcdd7043da34f4f"
+    },
+    {
+      "path": "src/img/optimized/logo-branco.webp",
+      "bytes": 12058,
+      "width": 216,
+      "height": 160,
+      "includedInBuild": true,
+      "sha256": "bbc3a5bd88cc947ad0a99c6e33911286f04d065ed4fe84e7ec56d1316927d580"
+    }
+  ],
+  "privateDirectoriesExcluded": true
+}

@@ -1,0 +1,1 @@
+PASS: 72 combinações, 144 verificações de logos, 27 screenshots, fallback PNG, menus/Escape/foco, rotas atuais, imagens, formulário simulado, console/recursos e axe nas 8 páginas/2 diálogos.

@@ -1,0 +1,84 @@
+[
+  {
+    "url": "https://aquilatechnology.com.br/",
+    "finalUrl": "https://aquilatechnology.com.br/",
+    "status": 200,
+    "title": "Desenvolvimento de Sites e Software | Aquila Tecnology",
+    "logos": [
+      {
+        "src": "https://aquilatechnology.com.br/src/img/logo/logo-branco.png",
+        "complete": true,
+        "naturalWidth": 612,
+        "naturalHeight": 408,
+        "rect": {
+          "x": 120,
+          "y": 16,
+          "width": 72,
+          "height": 48
+        },
+        "style": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "width": "72px",
+          "height": "48px",
+          "objectFit": "contain",
+          "maxWidth": "100%",
+          "filter": "none",
+          "clipPath": "none"
+        },
+        "parentBackground": "rgba(4, 12, 25, 0.78)"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://aquilatechnology.com.br/src/img/logo/logo-branco.png",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 85603
+      }
+    ],
+    "errors": []
+  },
+  {
+    "url": "https://www.aquilatechnology.com.br/portfolio/",
+    "finalUrl": "https://www.aquilatechnology.com.br/portfolio/",
+    "status": 200,
+    "title": "Portfólio de Sites e Sistemas | Aquila Tecnology",
+    "logos": [
+      {
+        "src": "https://www.aquilatechnology.com.br/src/img/logo/logo-branco.png",
+        "complete": true,
+        "naturalWidth": 612,
+        "naturalHeight": 408,
+        "rect": {
+          "x": 120,
+          "y": 16,
+          "width": 72,
+          "height": 48
+        },
+        "style": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "width": "72px",
+          "height": "48px",
+          "objectFit": "contain",
+          "maxWidth": "100%",
+          "filter": "none",
+          "clipPath": "none"
+        },
+        "parentBackground": "rgba(4, 12, 25, 0.78)"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://www.aquilatechnology.com.br/src/img/logo/logo-branco.png",
+        "status": 200,
+        "type": "image/png",
+        "bytes": 85603
+      }
+    ],
+    "errors": []
+  }
+]

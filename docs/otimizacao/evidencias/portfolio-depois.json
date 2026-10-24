@@ -1,0 +1,637 @@
+{
+  "lighthouseVersion": "13.5.0",
+  "requestedUrl": "http://127.0.0.1:4178/portfolio/",
+  "finalDisplayedUrl": "http://127.0.0.1:4178/portfolio/",
+  "fetchTime": "2026-10-24T02:41:38.171Z",
+  "configSettings": {
+    "output": [
+      "json"
+    ],
+    "maxWaitForFcp": 30000,
+    "maxWaitForLoad": 45000,
+    "pauseAfterFcpMs": 1000,
+    "pauseAfterLoadMs": 1000,
+    "networkQuietThresholdMs": 1000,
+    "cpuQuietThresholdMs": 1000,
+    "formFactor": "mobile",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "throttlingMethod": "simulate",
+    "screenEmulation": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+    "auditMode": false,
+    "gatherMode": false,
+    "clearStorageTypes": [
+      "file_systems",
+      "shader_cache",
+      "service_workers",
+      "cache_storage"
+    ],
+    "disableStorageReset": false,
+    "debugNavigation": false,
+    "channel": "cli",
+    "usePassiveGathering": false,
+    "disableFullPageScreenshot": false,
+    "skipAboutBlank": false,
+    "blankPage": "about:blank",
+    "ignoreStatusCode": false,
+    "locale": "en-US",
+    "blockedUrlPatterns": null,
+    "additionalTraceCategories": null,
+    "extraHeaders": null,
+    "precomputedLanternData": null,
+    "onlyAudits": null,
+    "onlyCategories": [
+      "performance",
+      "accessibility",
+      "seo"
+    ],
+    "skipAudits": null
+  },
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "environment": {
+    "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36",
+    "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "benchmarkIndex": 1828,
+    "credits": {
+      "axe-core": "4.14.0"
+    }
+  },
+  "runtimeError": null,
+  "runWarnings": [],
+  "categories": {
+    "performance": {
+      "id": "performance",
+      "title": "Performance",
+      "score": 1
+    },
+    "accessibility": {
+      "id": "accessibility",
+      "title": "Accessibility",
+      "score": 1
+    },
+    "seo": {
+      "id": "seo",
+      "title": "SEO",
+      "score": 1
+    }
+  },
+  "audits": {
+    "first-contentful-paint": {
+      "id": "first-contentful-paint",
+      "title": "First Contentful Paint",
+      "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1056.6667,
+      "numericUnit": "millisecond",
+      "displayValue": "1.1 s",
+      "scoringOptions": {
+        "p10": 1800,
+        "median": 3000
+      }
+    },
+    "largest-contentful-paint": {
+      "id": "largest-contentful-paint",
+      "title": "Largest Contentful Paint",
+      "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1540.50005,
+      "numericUnit": "millisecond",
+      "displayValue": "1.5 s",
+      "scoringOptions": {
+        "p10": 2500,
+        "median": 4000
+      }
+    },
+    "speed-index": {
+      "id": "speed-index",
+      "title": "Speed Index",
+      "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1056.6667,
+      "numericUnit": "millisecond",
+      "displayValue": "1.1 s",
+      "scoringOptions": {
+        "p10": 3387,
+        "median": 5800
+      }
+    },
+    "total-blocking-time": {
+      "id": "total-blocking-time",
+      "title": "Total Blocking Time",
+      "description": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more about the Total Blocking Time metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "displayValue": "0 ms",
+      "scoringOptions": {
+        "p10": 200,
+        "median": 600
+      }
+    },
+    "cumulative-layout-shift": {
+      "id": "cumulative-layout-shift",
+      "title": "Cumulative Layout Shift",
+      "description": "Cumulative Layout Shift measures the movement of visible elements within the viewport. [Learn more about the Cumulative Layout Shift metric](https://web.dev/articles/cls).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "unitless",
+      "displayValue": "0",
+      "scoringOptions": {
+        "p10": 0.1,
+        "median": 0.25
+      },
+      "details": {
+        "type": "debugdata",
+        "items": [
+          {
+            "cumulativeLayoutShiftMainFrame": 0,
+            "newEngineResult": {
+              "cumulativeLayoutShift": 0,
+              "cumulativeLayoutShiftMainFrame": 0
+            },
+            "newEngineResultDiffered": false
+          }
+        ]
+      }
+    },
+    "total-byte-weight": {
+      "id": "total-byte-weight",
+      "title": "Avoids enormous network payloads",
+      "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn how to reduce payload sizes](https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight/).",
+      "score": 1,
+      "scoreDisplayMode": "metricSavings",
+      "numericValue": 256523,
+      "numericUnit": "byte",
+      "displayValue": "Total size was 251 KiB",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "totalBytes",
+            "valueType": "bytes",
+            "label": "Transfer Size"
+          }
+        ],
+        "items": [
+          {
+            "url": "http://127.0.0.1:4178/portfolio/img/thumbs/landing-padaria-800.webp",
+            "totalBytes": 51877
+          },
+          {
+            "url": "http://127.0.0.1:4178/src/img/thumbs/site-aquila-800.webp",
+            "totalBytes": 35083
+          },
+          {
+            "url": "http://127.0.0.1:4178/portfolio/img/thumbs/landing-advocacia-800.webp",
+            "totalBytes": 26519
+          },
+          {
+            "url": "http://127.0.0.1:4178/portfolio/img/thumbs/cardapio-digital-800.webp",
+            "totalBytes": 23667
+          },
+          {
+            "url": "http://127.0.0.1:4178/src/img/thumbs/aquila-pdv-800.webp",
+            "totalBytes": 19009
+          },
+          {
+            "url": "http://127.0.0.1:4178/portfolio/img/thumbs/modelo-institucional-800.webp",
+            "totalBytes": 18663
+          },
+          {
+            "url": "http://127.0.0.1:4178/assets/runtime/site.bedc590d8f6e2bf3.css",
+            "totalBytes": 18659
+          },
+          {
+            "url": "http://127.0.0.1:4178/portfolio/",
+            "totalBytes": 15028
+          },
+          {
+            "url": "http://127.0.0.1:4178/src/img/optimized/logo-preto.webp",
+            "totalBytes": 13141
+          },
+          {
+            "url": "http://127.0.0.1:4178/src/data/projects.json",
+            "totalBytes": 11091
+          }
+        ],
+        "sortedBy": [
+          "totalBytes"
+        ]
+      },
+      "guidanceLevel": 1
+    },
+    "network-requests": {
+      "id": "network-requests",
+      "title": "Network Requests",
+      "description": "Lists the network requests that were made during page load.",
+      "score": 1,
+      "scoreDisplayMode": "informative",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "protocol",
+            "valueType": "text",
+            "label": "Protocol"
+          },
+          {
+            "key": "networkRequestTime",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Network Request Time"
+          },
+          {
+            "key": "networkEndTime",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Network End Time"
+          },
+          {
+            "key": "transferSize",
+            "valueType": "bytes",
+            "displayUnit": "kb",
+            "granularity": 1,
+            "label": "Transfer Size"
+          },
+          {
+            "key": "resourceSize",
+            "valueType": "bytes",
+            "displayUnit": "kb",
+            "granularity": 1,
+            "label": "Resource Size"
+          },
+          {
+            "key": "statusCode",
+            "valueType": "text",
+            "label": "Status Code"
+          },
+          {
+            "key": "mimeType",
+            "valueType": "text",
+            "label": "MIME Type"
+          },
+          {
+            "key": "resourceType",
+            "valueType": "text",
+            "label": "Resource Type"
+          }
+        ],
+        "items": [
+          {
+            "url": "http://127.0.0.1:4178/portfolio/",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 0,
+            "networkRequestTime": 2.155000001192093,
+            "networkEndTime": 10.729000000283122,
+            "finished": true,
+            "transferSize": 15028,
+            "resourceSize": 14840,
+            "statusCode": 200,
+            "mimeType": "text/html",
+            "resourceType": "Document",
+            "priority": "VeryHigh",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4178/assets/runtime/site.bedc590d8f6e2bf3.css",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 21.49400000087917,
+            "networkRequestTime": 31.598999999463558,
+            "networkEndTime": 38.90599999949336,
+            "finished": true,
+            "transferSize": 18659,
+            "resourceSize": 18472,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet",
+            "priority": "VeryHigh",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4178/assets/runtime/portfolio.5675a9d4d0cbefcd.css",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 21.95299999974668,
+            "networkRequestTime": 32.55400000140071,
+            "networkEndTime": 40.087000001221895,
+            "finished": true,
+            "transferSize": 3474,
+            "resourceSize": 3288,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet",
+            "priority": "VeryHigh",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4178/src/img/optimized/logo-preto.webp",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 24.867000000551343,
+            "networkRequestTime": 33.89100000075996,
+            "networkEndTime": 50.57200000062585,
+            "finished": true,
+            "transferSize": 13141,
+            "resourceSize": 12952,
+            "statusCode": 200,
+            "mimeType": "image/webp",
+            "resourceType": "Image",
+            "priority": "High",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4178/assets/runtime/site.c0e676cd5507280e.js",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 25.579000001773238,
+            "networkRequestTime": 34.937000000849366,
+            "networkEndTime": 48.12300000153482,
+            "finished": true,
+            "transferSize": 6287,
+            "resourceSize": 6094,
+            "statusCode": 200,
+            "mimeType": "text/javascript",
+            "resourceType": "Script",
+            "priority": "Low",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4178/assets/runtime/portfolio.28b40450b19d79f7.js",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 25.950000001117587,
+            "networkRequestTime": 36.25400000065565,
+            "networkEndTime": 47.18800000101328,
+            "finished": true,
+            "transferSize": 9994,
+            "resourceSize": 9801,
+            "statusCode": 200,
+            "mimeType": "text/javascript",
+            "resourceType": "Script",
+            "priority": "Low",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4178/src/img/thumbs/aquila-pdv-800.webp",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 115.63100000098348,
+            "networkRequestTime": 116.26400000043213,
+            "networkEndTime": 137.62300000153482,
+            "finished": true,
+            "transferSize": 19009,
+            "resourceSize": 18820,
+            "statusCode": 200,
+            "mimeType": "image/webp",
+            "resourceType": "Image",
+            "priority": "Low",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4178/src/img/thumbs/site-aquila-800.webp",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 115.84600000083447,
+            "networkRequestTime": 117.69400000013411,
+            "networkEndTime": 135.7719999998808,
+            "finished": true,
+            "transferSize": 35083,
+            "resourceSize": 34894,
+            "statusCode": 200,
+            "mimeType": "image/webp",
+            "resourceType": "Image",
+            "priority": "Low",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4178/portfolio/img/thumbs/modelo-institucional-800.webp",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 116.00700000114739,
+            "networkRequestTime": 118.42899999953806,
+            "networkEndTime": 134.76500000059605,
+            "finished": true,
+            "transferSize": 18663,
+            "resourceSize": 18474,
+            "statusCode": 200,
+            "mimeType": "image/webp",
+            "resourceType": "Image",
+            "priority": "Low",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4178/portfolio/img/thumbs/cardapio-digital-800.webp",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 116.14300000108778,
+            "networkRequestTime": 119.23399999924004,
+            "networkEndTime": 136.89599999971688,
+            "finished": true,
+            "transferSize": 23667,
+            "resourceSize": 23478,
+            "statusCode": 200,
+            "mimeType": "image/webp",
+            "resourceType": "Image",
+            "priority": "Low",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4178/portfolio/img/thumbs/landing-advocacia-800.webp",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 116.41899999976158,
+            "networkRequestTime": 120.1550000011921,
+            "networkEndTime": 133.12800000049174,
+            "finished": true,
+            "transferSize": 26519,
+            "resourceSize": 26330,
+            "statusCode": 200,
+            "mimeType": "image/webp",
+            "resourceType": "Image",
+            "priority": "Low",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4178/portfolio/img/thumbs/landing-padaria-800.webp",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 116.57800000160933,
+            "networkRequestTime": 121.35500000044703,
+            "networkEndTime": 133.92899999953806,
+            "finished": true,
+            "transferSize": 51877,
+            "resourceSize": 51688,
+            "statusCode": 200,
+            "mimeType": "image/webp",
+            "resourceType": "Image",
+            "priority": "Low",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4178/src/data/projects.json",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 142.8300000000745,
+            "networkRequestTime": 143.49000000022352,
+            "networkEndTime": 150.36900000087917,
+            "finished": true,
+            "transferSize": 11091,
+            "resourceSize": 10896,
+            "statusCode": 200,
+            "mimeType": "application/json",
+            "resourceType": "Fetch",
+            "priority": "High",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4178/src/img/optimized/favicon-preto.png",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 176.21800000034273,
+            "networkRequestTime": 177.34899999946356,
+            "networkEndTime": 182.35500000044703,
+            "finished": true,
+            "transferSize": 4031,
+            "resourceSize": 3844,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Other",
+            "priority": "High",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          }
+        ],
+        "debugData": {
+          "type": "debugdata",
+          "networkStartTimeTs": 11889429724,
+          "initiators": [
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4178/portfolio/",
+              "lineNumber": 20,
+              "columnNumber": 78
+            },
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4178/portfolio/",
+              "lineNumber": 21,
+              "columnNumber": 83
+            },
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4178/portfolio/",
+              "lineNumber": 109,
+              "columnNumber": 74
+            },
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4178/portfolio/",
+              "lineNumber": 109,
+              "columnNumber": 74
+            },
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4178/portfolio/",
+              "lineNumber": 110,
+              "columnNumber": 79
+            },
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4178/portfolio/",
+              "lineNumber": 150,
+              "columnNumber": 1
+            },
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4178/portfolio/",
+              "lineNumber": 150,
+              "columnNumber": 1
+            },
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4178/portfolio/",
+              "lineNumber": 150,
+              "columnNumber": 1
+            },
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4178/portfolio/",
+              "lineNumber": 150,
+              "columnNumber": 1
+            },
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4178/portfolio/",
+              "lineNumber": 150,
+              "columnNumber": 1
+            },
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4178/portfolio/",
+              "lineNumber": 150,
+              "columnNumber": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "note": "Resumo verificável da medição original; inclui métricas e requisições, sem screenshots/trace embutidos."
+}

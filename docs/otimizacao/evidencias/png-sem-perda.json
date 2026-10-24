@@ -1,0 +1,330 @@
+[
+  {
+    "file": "src/img/PDV/Controle-de-estoque.png",
+    "before": 115771,
+    "after": 113016,
+    "pixelSHA256": "8dfc6cfbfb5c093129b23dca11170e75b00d4a608bd361bf329082551c85bd12",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "src/img/PDV/Venda-PDV.png",
+    "before": 47135,
+    "after": 45679,
+    "pixelSHA256": "1208ccc4a47b24ebd42108929f4e7769f45b8b6e05202a70ac4b020b67a624e0",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "src/img/PDV/backup.png",
+    "before": 38159,
+    "after": 37053,
+    "pixelSHA256": "b1d8848bd73dd2c260608d18de201ee80be9823a6ecfe9c233729daa58ea6e72",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "src/img/PDV/confi-empresa.png",
+    "before": 94283,
+    "after": 92050,
+    "pixelSHA256": "9dda0a190e38f8fab1b2a7ebbacc78acbec7a7ff40e59297e6ccb7c055152396",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "src/img/PDV/contabilidade.png",
+    "before": 139795,
+    "after": 136037,
+    "pixelSHA256": "3d23517f010ee5d14af716e55fd60bd3a7d72331febfccdcfd6bfeab2f76c446",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "src/img/PDV/controle-caixa.png",
+    "before": 67094,
+    "after": 64946,
+    "pixelSHA256": "1e3d53426f8287664a10869497f7bf7010887905cec471c025ec55b63c705945",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "src/img/PDV/fechamento-diario.png",
+    "before": 51508,
+    "after": 49830,
+    "pixelSHA256": "1e9c87612acb2752a558cb53e4ee77bd28ec1b2573eb4d5b6fb474639d2c2fa6",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "src/img/PDV/perfil-config.png",
+    "before": 32544,
+    "after": 31574,
+    "pixelSHA256": "8c8a7a481b34dfd4732d8a5919f4cd6707a65c0243f5c789d8316e3f9eedcef3",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "src/img/PDV/relatorio-de-vendas.png",
+    "before": 122812,
+    "after": 119786,
+    "pixelSHA256": "0f9f1c023630d2e95e93585c0e77bf6499bb26bb4913e896889c9c4a55fb9669",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "src/img/backgraund-img/Futuristic Data Display.png",
+    "before": 1376848,
+    "after": 1284381,
+    "pixelSHA256": "12860c09bfeed30c757cc0dd6fe1be0ccf77553ab5c2b4e7ebdebc0db0540cbe",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "src/img/logo/favicon.png",
+    "before": 85603,
+    "after": 68589,
+    "pixelSHA256": "a9ebd084af613e173e48d273e4dc2daf1905ca4db85f067fce18f9a1f863a387",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "src/img/logo/logo-branco.png",
+    "before": 85603,
+    "after": 68589,
+    "pixelSHA256": "a9ebd084af613e173e48d273e4dc2daf1905ca4db85f067fce18f9a1f863a387",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "src/img/logo/logo-preto.png",
+    "before": 466215,
+    "after": 290535,
+    "pixelSHA256": "745a980db903b272aa1b027f30faac6221ac9700eba765b7e41e418730a47513",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-35-24.png",
+    "before": 333220,
+    "after": 285042,
+    "pixelSHA256": "04d815388d35da76b562cf50d24ce01aff74ac59c724f9586ae48f84ad98fb4e",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-46-41.png",
+    "before": 187407,
+    "after": 161051,
+    "pixelSHA256": "dcec2fabb2557cb474370e8767d4c7ddce49a3893f84792b69afbff71233cff9",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "portfolio/img/landing-page/Padaria/Captura de tela de 2026-10-22 22-27-19.png",
+    "before": 560414,
+    "after": 554694,
+    "pixelSHA256": "f5e9001144ce9593e42a716301d0c7e3addd5c05c471411f4a74ddb5e29c1f5e",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "portfolio/img/landing-page/Advocacia/Captura de tela de 2026-10-22 22-19-03.png",
+    "before": 183940,
+    "after": 173089,
+    "pixelSHA256": "c78f216c44ba815304ef871971a2c0522d8bb2b8c2a61a94efb9b515495d5f60",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/producao-home.png",
+    "before": 1313117,
+    "after": 1226342,
+    "pixelSHA256": "dc72f895feb1f3c828da9b81fecb969c8d68ebb98fdd64f0fa15e0ac77c2f575",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/producao-portfolio.png",
+    "before": 713901,
+    "after": 697487,
+    "pixelSHA256": "14646e66eb887863ccc58ceee20f1c01bce549e70d6e68e78ee416941515191c",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/home-1024.png",
+    "before": 790262,
+    "after": 787506,
+    "pixelSHA256": "eae1a653c5f3eb9634ba7dcd6410743d1a006dfe71080e31c53dd9b9dbbda789",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/home-1366.png",
+    "before": 976663,
+    "after": 966180,
+    "pixelSHA256": "47f9508c00f88be999dee8e296cd38c147862de9e0de5933045132a4f39a9116",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/home-1440.png",
+    "before": 1018315,
+    "after": 1005993,
+    "pixelSHA256": "9fce469efb635b0d43f7eee555102db0a4f0c43c9009d53f652f3208d6a7fd76",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/home-1920.png",
+    "before": 1178265,
+    "after": 1161158,
+    "pixelSHA256": "95a3873f17a4bec00135fcc9b76fbf097aeae1b5f0ffa2b90a710d7c7fffb457",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/pdv-320.png",
+    "before": 430578,
+    "after": 425485,
+    "pixelSHA256": "b75466c3cae5f874fd9b9261f2db04ed8715408879a7b4c63981e1e0992258ee",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/pdv-375.png",
+    "before": 509898,
+    "after": 501292,
+    "pixelSHA256": "1bbb367431715ca00d675f2825a26c40c3999b1096429389a218a401fd3b08db",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/pdv-390.png",
+    "before": 530438,
+    "after": 521078,
+    "pixelSHA256": "8aba785a8fd11cadcbebc5c677a4e93a019c44a77166649aa7a544525c01e4ee",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/pdv-430.png",
+    "before": 588295,
+    "after": 579473,
+    "pixelSHA256": "d2ec8a8537032cb798ce3ff3b5277ac290686e0825b24f462e8b8e2b8310de52",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/pdv-768.png",
+    "before": 491229,
+    "after": 487145,
+    "pixelSHA256": "62f3cff66a9818c93a9fb91026fb126b480ed23b7b964ddbeb92d989589e02f9",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/pdv-1024.png",
+    "before": 687566,
+    "after": 672561,
+    "pixelSHA256": "c035ce6dff53b932726f629cd9ed23124d8cb3732922dad7721a3c8840eac7de",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/pdv-1366.png",
+    "before": 1010213,
+    "after": 980837,
+    "pixelSHA256": "213c10701bd8fd3d3dc0d96921b09c64aa691c2424f583a70e2d5b7c7cc88f9d",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/pdv-1440.png",
+    "before": 1039300,
+    "after": 1010241,
+    "pixelSHA256": "a9aa63de67c46685774b1bcc12fd28bddceee32eba4fffda1a6d49022d1266a1",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/pdv-1920.png",
+    "before": 1062945,
+    "after": 1034994,
+    "pixelSHA256": "263be2d3e82906bb1e329cc295f63e16041def84ce53e6e9c01e761e852ad1fd",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/portfolio-390.png",
+    "before": 584580,
+    "after": 583085,
+    "pixelSHA256": "10b9d0adcd73404a4c6971a0fb643e21972cd92c712f8c9ddda787a9b3cd4c1b",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/portfolio-768.png",
+    "before": 557202,
+    "after": 556971,
+    "pixelSHA256": "827f289ae7ddfaa851b88f78a117ab1069d21b0d87e7d3636a0bf4b171e24228",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/portfolio-1366.png",
+    "before": 591096,
+    "after": 590482,
+    "pixelSHA256": "57e9aed6a4f150e5b76c9a684da6a1c37bffdabdf87c989d92439a0ba52620e1",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/portfolio-1440.png",
+    "before": 605748,
+    "after": 605160,
+    "pixelSHA256": "9a4d72707a9662f5e5c2f075b51ac229ae5ec6ec1d8a50635db834942808dcb9",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/identidade-azul/evidencias/portfolio-1920.png",
+    "before": 622604,
+    "after": 620980,
+    "pixelSHA256": "8da0880d1e96a5c9ee17b3ebd188f2d294e50a99138d2a3b150003bd2c5cdec9",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/redesign/evidencias/referencia-stefanini.png",
+    "before": 227642,
+    "after": 216545,
+    "pixelSHA256": "85ef8627c88bd93352c47bd7bd56c86deaa15454a8d36dcb15b5ebf337159fd9",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/redesign/evidencias/menu-mobile.png",
+    "before": 121895,
+    "after": 120852,
+    "pixelSHA256": "abc22e0b52501c2872aa47e16227bbae9648366cdf07173590a5641cc2a2049e",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/auditoria/evidencias/portfolio-antes.png",
+    "before": 713901,
+    "after": 697487,
+    "pixelSHA256": "14646e66eb887863ccc58ceee20f1c01bce549e70d6e68e78ee416941515191c",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  },
+  {
+    "file": "docs/auditoria/evidencias/home-antes.png",
+    "before": 1313117,
+    "after": 1226342,
+    "pixelSHA256": "dc72f895feb1f3c828da9b81fecb969c8d68ebb98fdd64f0fa15e0ac77c2f575",
+    "rgbaIdentical": true,
+    "iccPreserved": true
+  }
+]
