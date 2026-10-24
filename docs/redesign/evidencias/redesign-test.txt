@@ -1,0 +1,1 @@
+PASS: 56 combinações; menus/submenus/Escape; popup sem salto; imagens/console/recursos; formulário simulado; axe em 8 páginas e 2 diálogos.

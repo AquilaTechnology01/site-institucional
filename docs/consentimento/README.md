@@ -1,3 +1,5 @@
+> Estado atual após redesign: fontes do dispositivo e sprite SVG local substituem Google Fonts/jsDelivr. Não há requisições de fontes/ícones a terceiros. O popup permanece em cada carregamento, com tema claro/vermelho e sem mensagem de sucesso no rodapé. As seções abaixo também registram a implementação anterior; a entrega atual está em ../redesign/02-entrega.md.
+
 # Gerenciamento de preferências — Aquila
 
 Implementado em 23/10/2026, na branch de trabalho `audit/aquila-diagnostico-2026-10-23`. Sem push, publicação, alterações de DNS ou deploy. Este trabalho implementa o novo pedido de consentimento; as propostas de redesign da auditoria anterior permanecem pendentes.

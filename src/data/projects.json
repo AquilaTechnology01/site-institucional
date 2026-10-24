@@ -7,8 +7,8 @@
     "description": "Produto apresentado na página pública do Aquila PDV. Conheça os recursos documentados e solicite uma apresentação pelo contato da Aquila.",
     "category": "Sistemas",
     "technologies": [],
-    "image": "/src/img/portfolio-placeholder.svg",
-    "imageAlt": "Ilustração de interface digital da Aquila",
+    "image": "/src/img/optimized/aquila-pdv-1.webp",
+    "imageAlt": "Tela principal do produto Aquila PDV",
     "status": "Produto",
     "visibility": "public",
     "demoUrl": null,
@@ -38,8 +38,8 @@
       "CSS",
       "JavaScript"
     ],
-    "image": "/src/img/portfolio-placeholder.svg",
-    "imageAlt": "Ilustração de interface digital da Aquila",
+    "image": "/src/img/optimized/site-aquila.webp",
+    "imageAlt": "Captura real da página inicial da Aquila Technology redesenhada",
     "status": "Projeto institucional",
     "visibility": "public",
     "demoUrl": null,
@@ -67,36 +67,50 @@
     "description": "Apresentação de marca, serviços e contato em um site institucional. Confira as telas na galeria.",
     "category": "Websites",
     "technologies": [],
-    "image": "/portfolio/img/Site%20Institucional/Captura%20de%20tela%20de%202026-10-22%2022-46-23.png",
+    "image": "/portfolio/img/optimized/modelo-institucional-1.webp",
     "imageAlt": "Modelo de site institucional — captura 1",
     "gallery": [
       {
-        "src": "/portfolio/img/Site%20Institucional/Captura%20de%20tela%20de%202026-10-22%2022-46-23.png",
-        "alt": "Modelo de site institucional — captura 1"
+        "src": "/portfolio/img/optimized/modelo-institucional-1.webp",
+        "alt": "Modelo de site institucional — captura 1",
+        "width": 1067,
+        "height": 685
       },
       {
-        "src": "/portfolio/img/Site%20Institucional/Captura%20de%20tela%20de%202026-10-22%2022-46-41.png",
-        "alt": "Modelo de site institucional — captura 2"
+        "src": "/portfolio/img/optimized/modelo-institucional-2.webp",
+        "alt": "Modelo de site institucional — captura 2",
+        "width": 1067,
+        "height": 685
       },
       {
-        "src": "/portfolio/img/Site%20Institucional/Captura%20de%20tela%20de%202026-10-22%2022-47-19.png",
-        "alt": "Modelo de site institucional — captura 3"
+        "src": "/portfolio/img/optimized/modelo-institucional-3.webp",
+        "alt": "Modelo de site institucional — captura 3",
+        "width": 1067,
+        "height": 697
       },
       {
-        "src": "/portfolio/img/Site%20Institucional/Captura%20de%20tela%20de%202026-10-22%2022-48-32.png",
-        "alt": "Modelo de site institucional — captura 4"
+        "src": "/portfolio/img/optimized/modelo-institucional-4.webp",
+        "alt": "Modelo de site institucional — captura 4",
+        "width": 1200,
+        "height": 576
       },
       {
-        "src": "/portfolio/img/Site%20Institucional/Captura%20de%20tela%20de%202026-10-22%2022-48-44.png",
-        "alt": "Modelo de site institucional — captura 5"
+        "src": "/portfolio/img/optimized/modelo-institucional-5.webp",
+        "alt": "Modelo de site institucional — captura 5",
+        "width": 1200,
+        "height": 576
       },
       {
-        "src": "/portfolio/img/Site%20Institucional/Captura%20de%20tela%20de%202026-10-22%2022-49-49.png",
-        "alt": "Modelo de site institucional — captura 6"
+        "src": "/portfolio/img/optimized/modelo-institucional-6.webp",
+        "alt": "Modelo de site institucional — captura 6",
+        "width": 1200,
+        "height": 571
       },
       {
-        "src": "/portfolio/img/Site%20Institucional/Captura%20de%20tela%20de%202026-10-22%2022-50-18.png",
-        "alt": "Modelo de site institucional — captura 7"
+        "src": "/portfolio/img/optimized/modelo-institucional-7.webp",
+        "alt": "Modelo de site institucional — captura 7",
+        "width": 1200,
+        "height": 81
       }
     ],
     "status": "Modelo demonstrativo",
@@ -129,36 +143,50 @@
     "description": "Modelo de cardápio com destaques, seleção de pedidos e contato. Confira as telas na galeria.",
     "category": "Websites",
     "technologies": [],
-    "image": "/portfolio/img/Cardapio%20digital/Captura%20de%20tela%20de%202026-10-22%2022-35-24.png",
+    "image": "/portfolio/img/optimized/cardapio-digital-1.webp",
     "imageAlt": "Cardápio digital — captura 1",
     "gallery": [
       {
-        "src": "/portfolio/img/Cardapio%20digital/Captura%20de%20tela%20de%202026-10-22%2022-35-24.png",
-        "alt": "Cardápio digital — captura 1"
+        "src": "/portfolio/img/optimized/cardapio-digital-1.webp",
+        "alt": "Cardápio digital — captura 1",
+        "width": 1067,
+        "height": 787
       },
       {
-        "src": "/portfolio/img/Cardapio%20digital/Captura%20de%20tela%20de%202026-10-22%2022-35-41.png",
-        "alt": "Cardápio digital — captura 2"
+        "src": "/portfolio/img/optimized/cardapio-digital-2.webp",
+        "alt": "Cardápio digital — captura 2",
+        "width": 1067,
+        "height": 580
       },
       {
-        "src": "/portfolio/img/Cardapio%20digital/Captura%20de%20tela%20de%202026-10-22%2022-36-04.png",
-        "alt": "Cardápio digital — captura 3"
+        "src": "/portfolio/img/optimized/cardapio-digital-3.webp",
+        "alt": "Cardápio digital — captura 3",
+        "width": 1067,
+        "height": 756
       },
       {
-        "src": "/portfolio/img/Cardapio%20digital/Captura%20de%20tela%20de%202026-10-22%2022-36-22.png",
-        "alt": "Cardápio digital — captura 4"
+        "src": "/portfolio/img/optimized/cardapio-digital-4.webp",
+        "alt": "Cardápio digital — captura 4",
+        "width": 1067,
+        "height": 747
       },
       {
-        "src": "/portfolio/img/Cardapio%20digital/Captura%20de%20tela%20de%202026-10-22%2022-36-39.png",
-        "alt": "Cardápio digital — captura 5"
+        "src": "/portfolio/img/optimized/cardapio-digital-5.webp",
+        "alt": "Cardápio digital — captura 5",
+        "width": 1067,
+        "height": 757
       },
       {
-        "src": "/portfolio/img/Cardapio%20digital/Captura%20de%20tela%20de%202026-10-22%2022-36-53.png",
-        "alt": "Cardápio digital — captura 6"
+        "src": "/portfolio/img/optimized/cardapio-digital-6.webp",
+        "alt": "Cardápio digital — captura 6",
+        "width": 1067,
+        "height": 860
       },
       {
-        "src": "/portfolio/img/Cardapio%20digital/Captura%20de%20tela%20de%202026-10-22%2022-37-16.png",
-        "alt": "Cardápio digital — captura 7"
+        "src": "/portfolio/img/optimized/cardapio-digital-7.webp",
+        "alt": "Cardápio digital — captura 7",
+        "width": 1067,
+        "height": 183
       }
     ],
     "status": "Modelo demonstrativo",
@@ -191,24 +219,32 @@
     "description": "Apresentação de escritório, áreas de atuação e canais de contato. Confira as telas na galeria.",
     "category": "Websites",
     "technologies": [],
-    "image": "/portfolio/img/landing-page/Advocacia/Captura%20de%20tela%20de%202026-10-22%2022-19-03.png",
+    "image": "/portfolio/img/optimized/landing-advocacia-1.webp",
     "imageAlt": "Landing page de advocacia — captura 1",
     "gallery": [
       {
-        "src": "/portfolio/img/landing-page/Advocacia/Captura%20de%20tela%20de%202026-10-22%2022-19-03.png",
-        "alt": "Landing page de advocacia — captura 1"
+        "src": "/portfolio/img/optimized/landing-advocacia-1.webp",
+        "alt": "Landing page de advocacia — captura 1",
+        "width": 1075,
+        "height": 845
       },
       {
-        "src": "/portfolio/img/landing-page/Advocacia/Captura%20de%20tela%20de%202026-10-22%2022-19-45.png",
-        "alt": "Landing page de advocacia — captura 2"
+        "src": "/portfolio/img/optimized/landing-advocacia-2.webp",
+        "alt": "Landing page de advocacia — captura 2",
+        "width": 1075,
+        "height": 845
       },
       {
-        "src": "/portfolio/img/landing-page/Advocacia/Captura%20de%20tela%20de%202026-10-22%2022-20-04.png",
-        "alt": "Landing page de advocacia — captura 3"
+        "src": "/portfolio/img/optimized/landing-advocacia-3.webp",
+        "alt": "Landing page de advocacia — captura 3",
+        "width": 1075,
+        "height": 600
       },
       {
-        "src": "/portfolio/img/landing-page/Advocacia/Captura%20de%20tela%20de%202026-10-22%2022-20-22.png",
-        "alt": "Landing page de advocacia — captura 4"
+        "src": "/portfolio/img/optimized/landing-advocacia-4.webp",
+        "alt": "Landing page de advocacia — captura 4",
+        "width": 1075,
+        "height": 550
       }
     ],
     "status": "Modelo demonstrativo",
@@ -238,20 +274,26 @@
     "description": "Apresentação de padaria com produtos e história da marca. Confira as telas na galeria.",
     "category": "Websites",
     "technologies": [],
-    "image": "/portfolio/img/landing-page/Padaria/Captura%20de%20tela%20de%202026-10-22%2022-22-19.png",
+    "image": "/portfolio/img/optimized/landing-padaria-1.webp",
     "imageAlt": "Landing page de padaria — captura 1",
     "gallery": [
       {
-        "src": "/portfolio/img/landing-page/Padaria/Captura%20de%20tela%20de%202026-10-22%2022-22-19.png",
-        "alt": "Landing page de padaria — captura 1"
+        "src": "/portfolio/img/optimized/landing-padaria-1.webp",
+        "alt": "Landing page de padaria — captura 1",
+        "width": 1075,
+        "height": 737
       },
       {
-        "src": "/portfolio/img/landing-page/Padaria/Captura%20de%20tela%20de%202026-10-22%2022-27-19.png",
-        "alt": "Landing page de padaria — captura 2"
+        "src": "/portfolio/img/optimized/landing-padaria-2.webp",
+        "alt": "Landing page de padaria — captura 2",
+        "width": 1075,
+        "height": 791
       },
       {
-        "src": "/portfolio/img/landing-page/Padaria/Captura%20de%20tela%20de%202026-10-22%2022-27-42.png",
-        "alt": "Landing page de padaria — captura 3"
+        "src": "/portfolio/img/optimized/landing-padaria-3.webp",
+        "alt": "Landing page de padaria — captura 3",
+        "width": 1075,
+        "height": 391
       }
     ],
     "status": "Modelo demonstrativo",

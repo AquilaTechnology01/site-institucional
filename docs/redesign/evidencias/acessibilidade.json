@@ -1,0 +1,42 @@
+[
+  {
+    "route": "/",
+    "violations": []
+  },
+  {
+    "route": "/portfolio/",
+    "violations": []
+  },
+  {
+    "route": "/pdv.html",
+    "violations": []
+  },
+  {
+    "route": "/FAQ.html",
+    "violations": []
+  },
+  {
+    "route": "/blog.html",
+    "violations": []
+  },
+  {
+    "route": "/privacidade.html",
+    "violations": []
+  },
+  {
+    "route": "/termos.html",
+    "violations": []
+  },
+  {
+    "route": "/lgpd.html",
+    "violations": []
+  },
+  {
+    "route": "popup",
+    "violations": []
+  },
+  {
+    "route": "preferencias",
+    "violations": []
+  }
+]

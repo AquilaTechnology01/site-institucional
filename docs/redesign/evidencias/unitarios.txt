@@ -1,0 +1,52 @@
+TAP version 13
+# Subtest: catálogo público possui somente projetos documentados
+ok 1 - catálogo público possui somente projetos documentados
+  ---
+  duration_ms: 3.218976
+  type: 'test'
+  ...
+# Subtest: filtros de categoria e estado vazio
+ok 2 - filtros de categoria e estado vazio
+  ---
+  duration_ms: 0.742905
+  type: 'test'
+  ...
+# Subtest: busca combina categoria, termos, tecnologia, acentos e descrição
+ok 3 - busca combina categoria, termos, tecnologia, acentos e descrição
+  ---
+  duration_ms: 0.926932
+  type: 'test'
+  ...
+# Subtest: rejeita URLs perigosas e credenciais
+ok 4 - rejeita URLs perigosas e credenciais
+  ---
+  duration_ms: 0.683582
+  type: 'test'
+  ...
+# Subtest: demonstrações ausentes e projetos privados
+ok 5 - demonstrações ausentes e projetos privados
+  ---
+  duration_ms: 2.317722
+  type: 'test'
+  ...
+# Subtest: dados ausentes, catálogo inválido e IDs duplicados geram erro recuperável
+ok 6 - dados ausentes, catálogo inválido e IDs duplicados geram erro recuperável
+  ---
+  duration_ms: 0.652694
+  type: 'test'
+  ...
+# Subtest: imagens não podem escapar das pastas públicas nem conter codificações inválidas
+ok 7 - imagens não podem escapar das pastas públicas nem conter codificações inválidas
+  ---
+  duration_ms: 0.633799
+  type: 'test'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 282.518076

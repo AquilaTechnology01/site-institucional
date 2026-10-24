@@ -3,8 +3,10 @@ const menuButton = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('.nav-links');
 
 if (menuButton && navigation) {
+  document.documentElement.classList.add('js-nav');
   const closeMenu = () => {
     navigation.classList.remove('is-open');
+    navigation.querySelectorAll('details[open]').forEach(item => { item.open = false; });
     menuButton.setAttribute('aria-expanded', 'false');
     menuButton.setAttribute('aria-label', 'Abrir menu');
     menuButton.querySelector('i').className = 'bi bi-list';
@@ -17,6 +19,22 @@ if (menuButton && navigation) {
     menuButton.querySelector('i').className = isOpen ? 'bi bi-x-lg' : 'bi bi-list';
   });
 
+  navigation.querySelectorAll('details').forEach(item => {
+    item.addEventListener('toggle', () => {
+      if (item.open) navigation.querySelectorAll('details').forEach(other => { if (other !== item) other.open = false; });
+    });
+  });
+  document.addEventListener('click', event => {
+    if (!navigation.contains(event.target) && !menuButton.contains(event.target)) closeMenu();
+  });
+  document.addEventListener('keydown', event => {
+    const opened = navigation.querySelector('details[open]');
+    if (event.key === 'Escape' && opened) {
+      event.preventDefault();
+      opened.open = false;
+      opened.querySelector('summary').focus();
+    }
+  });
   navigation.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape' && navigation.classList.contains('is-open')) {
@@ -24,26 +42,6 @@ if (menuButton && navigation) {
       menuButton.focus();
     }
   });
-}
-
-// Revela os blocos gradualmente durante a rolagem.
-const revealElements = document.querySelectorAll('.reveal');
-if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-  const observer = new IntersectionObserver((entries, revealObserver) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.remove('is-pending');
-        entry.target.classList.add('is-visible');
-        revealObserver.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.12 });
-  revealElements.forEach((element) => {
-    element.classList.add('is-pending');
-    observer.observe(element);
-  });
-} else {
-  revealElements.forEach((element) => element.classList.add('is-visible'));
 }
 
 // Valida o orçamento e envia os dados para o WhatsApp da empresa.

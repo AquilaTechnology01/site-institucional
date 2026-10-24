@@ -29,7 +29,7 @@
       if (!Array.isArray(p.technologies) || !p.technologies.every(t => typeof t === 'string') || !Array.isArray(p.features) || !p.features.every(t => typeof t === 'string')) throw new Error('Projeto inválido');
       ids.add(p.id);
       return true;
-    }).map(p => ({...p, image: safeImage(p.image), gallery: Array.isArray(p.gallery) ? p.gallery.filter(item => item && typeof item.src === 'string').map(item => ({src: safeImage(item.src), alt: typeof item.alt === 'string' ? item.alt : p.title})) : [], imageAlt: typeof p.imageAlt === 'string' ? p.imageAlt : 'Ilustração do projeto', demoUrl: safeUrl(p.demoUrl), repositoryUrl: safeUrl(p.repositoryUrl), caseStudyUrl: safeUrl(p.caseStudyUrl)}));
+    }).map(p => ({...p, image: safeImage(p.image), gallery: Array.isArray(p.gallery) ? p.gallery.filter(item => item && typeof item.src === 'string').map(item => ({src: safeImage(item.src), alt: typeof item.alt === 'string' ? item.alt : p.title, width: Number.isInteger(item.width) && item.width > 0 ? item.width : 1200, height: Number.isInteger(item.height) && item.height > 0 ? item.height : 750})) : [], imageAlt: typeof p.imageAlt === 'string' ? p.imageAlt : 'Ilustração do projeto', demoUrl: safeUrl(p.demoUrl), repositoryUrl: safeUrl(p.repositoryUrl), caseStudyUrl: safeUrl(p.caseStudyUrl)}));
   }
   function filter(projects, category, query) {
     const terms = normalize(query).trim().split(/\s+/).filter(Boolean);

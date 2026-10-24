@@ -44,7 +44,7 @@ const assert = require('node:assert/strict');
  await page.unroute('**/src/data/projects.json');
  for(const path of ['/index.html','/pdv.html','/FAQ.html','/blog.html','/privacidade.html','/termos.html','/lgpd.html']) {
   const response=await page.goto('http://127.0.0.1:4173'+path); assert.equal(response.status(),200);
-  assert.equal(await page.locator('nav a[href="/portfolio/"]').count(),1);
+  assert.equal(await page.locator('#main-navigation a[href="/portfolio/"]').count(),1);
  }
  assert.deepEqual(errors,[]);
  console.log('PASS: rota direta/recarga, filtros/busca, seleção/Enter/foco, ausência de demo, vazio, falha/retry, dados inválidos, menu/Escape, 5 larguras, 7 páginas sem erros JS.');

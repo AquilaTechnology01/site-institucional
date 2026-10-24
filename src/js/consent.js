@@ -26,8 +26,8 @@
   function close() {
     dialog.close();
     if (!banner.hidden && !banner.open) banner.showModal();
-    if (returnFocus?.isConnected && !returnFocus.closest('[hidden]')) returnFocus.focus();
-    else document.querySelector('[data-cookie-open]').focus();
+    if (returnFocus?.isConnected && !returnFocus.closest('[hidden]')) returnFocus.focus({preventScroll: true});
+    else document.querySelector('[data-cookie-open]').focus({preventScroll: true});
   }
   function save(action) {
     const value = {version: VERSION, decidedAt: new Date().toISOString(), action, necessary: true};
@@ -35,7 +35,7 @@
     try { localStorage.setItem(KEY, JSON.stringify(value)); } catch { stored = false; }
     syncPopup(false);
     if (dialog.open) close();
-    else document.querySelector('[data-cookie-open]').focus();
+    else document.querySelector('[data-cookie-open]').focus({preventScroll: true});
     notice.textContent = stored ? '' : 'Preferência aplicada nesta página. O navegador não permitiu salvá-la; o aviso poderá reaparecer.';
   }
   document.querySelectorAll('[data-cookie-open]').forEach(button => button.addEventListener('click', () => {
@@ -53,14 +53,14 @@
     const controls = [...popup.querySelectorAll('a[href], button:not(:disabled)')];
     const first = controls[0], last = controls[controls.length - 1];
     if (event.shiftKey && document.activeElement === first) {
-      event.preventDefault(); last.focus();
+      event.preventDefault(); last.focus({preventScroll: true});
     } else if (!event.shiftKey && document.activeElement === last) {
-      event.preventDefault(); first.focus();
+      event.preventDefault(); first.focus({preventScroll: true});
     }
   }));
   function dismissNotice() {
     syncPopup(false);
-    document.querySelector('[data-cookie-open]').focus();
+    document.querySelector('[data-cookie-open]').focus({preventScroll: true});
   }
   banner.querySelector('[data-cookie-dismiss]').addEventListener('click', dismissNotice);
   banner.addEventListener('cancel', event => {
@@ -73,7 +73,7 @@
     try { localStorage.removeItem(KEY); } catch { removed = false; }
     close();
     syncPopup(true);
-    banner.querySelector('button').focus();
+    banner.querySelector('button').focus({preventScroll: true});
     notice.textContent = removed ? 'Decisão apagada. Você pode escolher novamente. Nenhuma tecnologia opcional está ativa.' : 'Não foi possível apagar a decisão no navegador. Use as configurações de armazenamento do navegador.';
   });
   window.addEventListener('storage', event => {

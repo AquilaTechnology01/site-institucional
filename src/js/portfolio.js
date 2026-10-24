@@ -25,7 +25,7 @@
       project.gallery.forEach(item => {
         const link = node('a'); link.href = item.src; link.target = '_blank'; link.rel = 'noopener noreferrer';
         link.setAttribute('aria-label', `Ampliar: ${item.alt} (abre em nova aba)`);
-        const image = node('img'); image.src = item.src; image.alt = item.alt; image.loading = 'lazy';
+        const image = node('img'); image.src = item.src; image.alt = item.alt; image.loading = 'lazy'; image.width = item.width || 1200; image.height = item.height || 750;
         link.append(image); gallery.append(link);
       });
       detail.append(gallery);
@@ -47,7 +47,10 @@
     }
     detail.append(actions);
     list.querySelectorAll('button[data-project]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.project === selected)));
-    if (focus) title.focus();
+    if (focus) {
+      title.focus();
+      if (window.matchMedia('(max-width: 900px)').matches) detail.scrollIntoView({block: 'start'});
+    }
   }
   function render() {
     const visible = filter(projects, category, search.value);
@@ -64,11 +67,15 @@
     if (!visible.length) { selected = null; detail.hidden = true; detail.replaceChildren(); }
     else showDetail(visible.find(p => p.id === selected) || visible[0]);
   }
-  categories.forEach(name => {
+  function renderCategories() {
+  const available = categories.filter(name => name === 'Todos' || projects.some(project => project.category === name));
+  document.getElementById('filters').replaceChildren();
+  available.forEach(name => {
     const button = node('button', name); button.type = 'button'; button.setAttribute('aria-pressed', String(name === category));
     button.addEventListener('click', () => { category = name; document.querySelectorAll('#filters button').forEach(b => b.setAttribute('aria-pressed', String(b === button))); render(); });
     document.getElementById('filters').append(button);
   });
+  }
   search.addEventListener('input', render);
   async function load() {
     retry.hidden = true; status.textContent = 'Carregando projetos…';
@@ -76,6 +83,7 @@
       const response = await fetch('/src/data/projects.json', {credentials: 'omit'});
       if (!response.ok) throw new Error('Falha no catálogo');
       projects = validate(await response.json());
+      renderCategories();
       document.getElementById('portfolio-tools').hidden = false; render();
     } catch {
       list.replaceChildren(); detail.hidden = true; document.getElementById('portfolio-tools').hidden = true;
