@@ -63,3 +63,5 @@ Para regenerar miniaturas após editar as imagens do catálogo, execute `python3
 Os testes de navegador requerem Playwright, Chrome e, em alguns casos, axe-core no ambiente de desenvolvimento. Aceitam `SITE_BASE` para testar `dist/` servido localmente. `tests/optimization.browser.cjs` também aceita `SOURCE_BASE` para comparar os estilos da fonte com os do build. `ARTIFACT_DIR` direciona evidências e `SKIP_SCREENSHOTS=1` evita recriar capturas pesadas no teste de identidade.
 
 Consulte [RELATORIO_OTIMIZACAO.md](RELATORIO_OTIMIZACAO.md) para alterações, resultados e pendências. Use o processo de publicação existente somente após revisar as alterações e autorizar o envio; o repositório permanece integrado à hospedagem original.
+
+O slider da home usa HTML/CSS/JS locais, imagens WebP e controles acessíveis. Consulte [implementação e créditos](docs/executive-slider.md); teste com `SITE_BASE=http://127.0.0.1:4181 node tests/executive-slider.browser.cjs` após servir `dist/` nessa porta.

@@ -112,10 +112,11 @@ def build(root=ROOT):
         common_css = bundle('site', ['styles.css', 'src/consent.css'], 'css')
         portfolio_css = bundle('portfolio', ['src/portfolio.css'], 'css')
         common_js = bundle('site', ['src/js/main.js', 'src/js/consent.js'], 'js')
-        contact_js = bundle('contact', ['src/js/contact.js'], 'js')
+        contact_js = bundle('home', ['src/js/contact.js', 'src/js/executive-slider.js', 'src/js/showcase.js'], 'js')
         portfolio_js = bundle('portfolio', ['src/js/portfolio-core.js', 'src/js/portfolio.js'], 'js')
+        home_css = bundle('home', ['styles.css', 'src/consent.css', 'src/executive-slider.css'], 'css')
         replacements = {'/styles.css':common_css, '/src/portfolio.css':portfolio_css, '/src/js/main.js':common_js, '/src/js/contact.js':contact_js, '/src/js/portfolio-core.js':portfolio_js}
-        removed = {'/src/consent.css','/src/js/consent.js','/src/js/portfolio.js'}
+        removed = {'/src/js/showcase.js','/src/executive-slider.css','/src/js/executive-slider.js','/src/consent.css','/src/js/consent.js','/src/js/portfolio.js'}
         for page in stage.rglob('*.html'):
             def replace_tag(match):
                 tag = match[0]
@@ -125,6 +126,8 @@ def build(root=ROOT):
                 normalized = '/' + attribute[1].lstrip('/')
                 if normalized in removed:
                     return ''
+                if normalized == '/styles.css' and page == stage / 'index.html':
+                    return tag.replace(attribute[1], home_css)
                 if normalized in replacements:
                     return tag.replace(attribute[1], replacements[normalized])
                 return tag

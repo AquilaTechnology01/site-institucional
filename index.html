@@ -35,6 +35,7 @@
     <link rel="icon" type="image/png" sizes="64x64" href="/src/img/optimized/favicon-preto.png" />
     <link rel="icon" type="image/png" sizes="64x64" href="/src/img/optimized/favicon-branco.png" media="(prefers-color-scheme: dark)" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/src/executive-slider.css" />
     <link rel="canonical" href="https://www.aquilatechnology.com.br/" />
     <meta property="og:url" content="https://www.aquilatechnology.com.br/" />
     <link rel="stylesheet" href="/src/consent.css" />
@@ -85,73 +86,60 @@
             </div>
             <span class="hero-index">DESENVOLVIMENTO · AUTOMAÇÃO · CONSULTORIA</span>
           </div>
-          <figure class="hero-visual">
-            <img src="src/img/optimized/office-1024.webp" srcset="src/img/optimized/office-640.webp 640w, src/img/optimized/office-1024.webp 1024w, src/img/optimized/office-1600.webp 1600w" sizes="(max-width: 767px) 92vw, 50vw" alt="Ambiente de trabalho contemporâneo com mesas e luz natural" width="1600" height="1068" fetchpriority="high" />
-            <figcaption>Imagem ilustrativa · Unsplash</figcaption>
+          <figure class="hero-visual executive-slider" aria-label="Aquila Executive — soluções digitais" aria-roledescription="carrossel">
+            <div class="executive-slide is-current" role="group" aria-roledescription="slide" aria-label="1 de 3" data-slide="0">
+              <img src="/src/img/executive/digital-1600.webp" srcset="/src/img/executive/digital-640.webp 640w, /src/img/executive/digital-1024.webp 1024w, /src/img/executive/digital-1600.webp 1600w" sizes="100vw" alt="Ilustração abstrata de cubos azuis translúcidos: transformação digital" width="1600" height="720" fetchpriority="high" decoding="async" />
+            </div>
+            <template data-executive-slide="1">
+              <div class="executive-slide executive-systems" role="group" aria-roledescription="slide" aria-label="2 de 3" data-slide="1" aria-hidden="true">
+                <img src="/src/img/executive/systems-1600.webp" srcset="/src/img/executive/systems-640.webp 640w, /src/img/executive/systems-1024.webp 1024w, /src/img/executive/systems-1600.webp 1600w" sizes="100vw" alt="Ilustração de um painel de gestão: desenvolvimento de sistemas" width="1600" height="720" fetchpriority="low" decoding="async" />
+              </div>
+            </template>
+            <template data-executive-slide="2">
+              <div class="executive-slide executive-connections" role="group" aria-roledescription="slide" aria-label="3 de 3" data-slide="2" aria-hidden="true">
+                <img src="/src/img/executive/connections-1600.webp" srcset="/src/img/executive/connections-640.webp 640w, /src/img/executive/connections-1024.webp 1024w, /src/img/executive/connections-1600.webp 1600w" sizes="100vw" alt="Ilustração de módulos conectados: automação e integração" width="1600" height="720" fetchpriority="low" decoding="async" />
+              </div>
+            </template>
+            <div class="executive-controls" hidden>
+              <button class="executive-playback" type="button" aria-label="Pausar apresentação automática"><span aria-hidden="true">Ⅱ</span></button>
+              <div class="executive-indicators" role="group" aria-label="Escolher imagem">
+                <button type="button" data-slide-to="0" aria-label="Mostrar imagem 1 de 3: transformação digital" aria-current="true"><span aria-hidden="true"></span></button>
+                <button type="button" data-slide-to="1" aria-label="Mostrar imagem 2 de 3: sistemas de gestão"><span aria-hidden="true"></span></button>
+                <button type="button" data-slide-to="2" aria-label="Mostrar imagem 3 de 3: automação e integração"><span aria-hidden="true"></span></button>
+              </div>
+            </div>
+            <figcaption>TECNOLOGIA A SERVIÇO DO SEU NEGÓCIO</figcaption>
           </figure>
         </div>
       </section>
 
       <!-- Serviços oferecidos pela Aquila Technology -->
-      <section id="servicos" class="section-light">
+      <section id="servicos" class="section-light" aria-labelledby="services-title">
         <div class="container">
           <div class="section-title">
-            <p class="eyebrow">Nossos serviços</p>
-            <h2>Soluções para os desafios<br />da sua empresa.</h2>
-            <p>Da presença digital à organização das rotinas de trabalho: tecnologia aplicada às necessidades do seu negócio.</p>
+            <h2 id="services-title">Nossos serviços.</h2>
+            <p>Soluções sob medida para organizar sua operação, transformar processos e impulsionar seu negócio.</p>
           </div>
-
           <div class="cards">
             <article class="card">
-              <div class="card-header">
-                <span class="service-number" aria-hidden="true">01</span>
-                <h3>Consultoria em TI</h3>
-              </div>
-              <ul>
-                <li>Diagnóstico de computadores</li>
-                <li>Organização de TI</li>
-                <li>Backup</li>
-                <li>Instalação de softwares</li>
-              </ul>
+              <span class="service-icon" aria-hidden="true"><svg class="bi" focusable="false"><use href="/src/img/icons.svg#gear"></use></svg></span>
+              <h3>Consultoria em TI</h3>
+              <p>Diagnóstico de computadores, organização de TI, backup e instalação de softwares para apoiar a rotina da sua empresa.</p>
             </article>
-
             <article class="card">
-              <div class="card-header">
-                <span class="service-number" aria-hidden="true">02</span>
-                <h3>Automação em Python</h3>
-              </div>
-              <ul>
-                <li>Automação de tarefas</li>
-                <li>Scripts personalizados</li>
-                <li>Tratamento de dados</li>
-                <li>Relatórios automatizados</li>
-              </ul>
+              <span class="service-icon" aria-hidden="true"><svg class="bi" focusable="false"><use href="/src/img/icons.svg#file-code"></use></svg></span>
+              <h3>Automação em Python</h3>
+              <p>Automação de tarefas, scripts personalizados, tratamento de dados e relatórios para simplificar processos.</p>
             </article>
-
             <article class="card">
-              <div class="card-header">
-                <span class="service-number" aria-hidden="true">03</span>
-                <h3>Soluções em Excel</h3>
-              </div>
-              <ul>
-                <li>Planilhas</li>
-                <li>Dashboards</li>
-                <li>Controle financeiro</li>
-                <li>Controle de estoque</li>
-              </ul>
+              <span class="service-icon" aria-hidden="true"><svg class="bi" focusable="false"><use href="/src/img/icons.svg#file-earmark-spreadsheet"></use></svg></span>
+              <h3>Soluções em Excel</h3>
+              <p>Planilhas, dashboards e controles financeiros e de estoque para organizar informações e apoiar decisões.</p>
             </article>
-
             <article class="card">
-              <div class="card-header">
-                <span class="service-number" aria-hidden="true">04</span>
-                <h3>Desenvolvimento</h3>
-              </div>
-              <ul>
-                <li>Landing Pages</li>
-                <li>Sites institucionais</li>
-                <li>Pequenos sistemas</li>
-                <li>Sistema PDV <span class="tag tag-success">Disponível</span></li>
-              </ul>
+              <span class="service-icon" aria-hidden="true"><svg class="bi" focusable="false"><use href="/src/img/icons.svg#layout-text-window-reverse"></use></svg></span>
+              <h3>Desenvolvimento</h3>
+              <p>Landing pages, sites institucionais, pequenos sistemas e o Aquila PDV para ampliar as possibilidades do seu negócio.</p>
             </article>
           </div>
         </div>
@@ -189,38 +177,79 @@
       </section>
 
       <!-- Portfólio de produtos e projetos -->
-      <section id="projetos">
+      <section id="projetos" aria-labelledby="showcase-title">
         <div class="container">
-          <div class="section-title">
-            <p class="eyebrow">Projetos</p>
-            <h2>Produtos, projetos e<br />novas possibilidades.</h2>
-            <p>Conheça nosso produto, soluções demonstrativas e iniciativas em desenvolvimento.</p>
+          <div class="section-title showcase-heading">
+            <p class="eyebrow">Produtos e projetos</p>
+            <h2 id="showcase-title">Tecnologia aplicada.<br />Possibilidades reais.</h2>
+            <p>Um produto disponível, projetos demonstrativos e novas iniciativas. Conheça o que a Aquila desenvolve para apoiar o seu negócio.</p>
           </div>
 
           <div class="project-grid">
-            <article class="project-card">
-              <svg class="project-icon bi bi-cart" aria-hidden="true" focusable="false"><use href="/src/img/icons.svg#cart"></use></svg>
-              <h3>Sistema PDV</h3>
-              <p><span class="tag tag-success">Disponível</span></p>
+            <article class="project-card project-featured" aria-labelledby="project-pdv-title">
+              <figure class="project-visual project-screen">
+                <img src="/src/img/thumbs/aquila-pdv-800.webp" srcset="/src/img/thumbs/aquila-pdv-480.webp 480w, /src/img/thumbs/aquila-pdv-800.webp 800w, /src/img/optimized/pdv-home.webp 1200w" sizes="(max-width: 767px) 90vw, (max-width: 1100px) 85vw, 55vw" width="1200" height="655" alt="Captura real da tela principal do Aquila PDV" loading="lazy" decoding="async" />
+                <figcaption>Captura real do Aquila PDV</figcaption>
+              </figure>
+              <div class="project-content">
+                <div class="project-meta"><span class="project-category">Sistema de gestão</span><span class="tag tag-success">Disponível</span></div>
+                <h3 id="project-pdv-title">Aquila PDV</h3>
+                <p>Vendas, estoque e caixa em uma solução para organizar a operação do ponto de venda.</p>
+                <a class="project-link" href="/pdv.html">Conhecer o Aquila PDV <span aria-hidden="true">↗</span></a>
+              </div>
             </article>
-            <article class="project-card">
-              <svg class="project-icon bi bi-chat-dots" aria-hidden="true" focusable="false"><use href="/src/img/icons.svg#chat-dots"></use></svg>
-              <h3>Chatbot Inteligente</h3>
-              <p>Em desenvolvimento</p>
+
+            <article class="project-card" aria-labelledby="project-chatbot-title">
+              <div class="project-visual project-concept project-concept-chat" aria-hidden="true">
+                <svg class="bi showcase-symbol" focusable="false"><use href="/src/img/icons.svg#chat-dots"></use></svg>
+                <span class="concept-label">Uma iniciativa Aquila</span>
+                <span class="concept-title">Novas formas<br />de conversar.</span>
+                <span class="concept-note">Pesquisa e desenvolvimento</span>
+              </div>
+              <div class="project-content">
+                <div class="project-meta"><span class="project-category">Inteligência conversacional</span><span class="project-status">Em desenvolvimento</span></div>
+                <h3 id="project-chatbot-title">Chatbot Inteligente</h3>
+                <p>Uma iniciativa para explorar a automação de conversas e do atendimento. A solução está em desenvolvimento e ainda não é um produto comercial disponível.</p>
+                <a class="project-link" href="#contato">Conversar sobre a iniciativa <span aria-hidden="true">↗</span></a>
+              </div>
             </article>
-            <article class="project-card">
-              <svg class="project-icon bi bi-layout-text-window-reverse" aria-hidden="true" focusable="false"><use href="/src/img/icons.svg#layout-text-window-reverse"></use></svg>
-              <h3>Landing Pages</h3>
-              <p>Desenvolvidas para captar clientes e apresentar serviços.</p>
+
+            <article class="project-card" aria-labelledby="project-web-title">
+              <figure class="project-visual project-screen project-web-screen">
+                <img src="/portfolio/img/thumbs/landing-padaria-800.webp" srcset="/portfolio/img/thumbs/landing-padaria-480.webp 480w, /portfolio/img/thumbs/landing-padaria-800.webp 800w, /portfolio/img/optimized/landing-padaria-1.webp 1075w" sizes="(max-width: 767px) 90vw, 45vw" width="1075" height="737" alt="Captura existente do modelo demonstrativo de landing page de padaria" loading="lazy" decoding="async" />
+                <figcaption>Modelo demonstrativo · Landing page de padaria</figcaption>
+              </figure>
+              <div class="project-content">
+                <div class="project-meta"><span class="project-category">Presença digital</span><span class="project-status">Modelo demonstrativo</span></div>
+                <h3 id="project-web-title">Landing Pages</h3>
+                <p>Páginas para apresentar marcas, produtos e serviços. Explore os modelos demonstrativos do portfólio e encontre uma direção para o seu projeto.</p>
+                <a class="project-link" href="/portfolio/">Ver modelos no portfólio <span aria-hidden="true">↗</span></a>
+              </div>
             </article>
-            <article class="project-card">
-              <svg class="project-icon bi bi-gear" aria-hidden="true" focusable="false"><use href="/src/img/icons.svg#gear"></use></svg>
-              <h3>Automações em Python</h3>
-              <p>Rotinas que aceleram processos e reduzem trabalho manual.</p>
+
+            <article class="project-card project-wide" aria-labelledby="project-python-title">
+              <div class="project-visual project-concept project-concept-python" aria-hidden="true">
+                <svg class="bi showcase-symbol" focusable="false"><use href="/src/img/icons.svg#gear"></use></svg>
+                <span class="concept-label">Automação sob medida</span>
+                <span class="concept-title">Menos repetição.<br />Mais organização.</span>
+                <span class="concept-note">Rotinas · Dados · Relatórios</span>
+              </div>
+              <div class="project-content">
+                <div class="project-meta"><span class="project-category">Eficiência operacional</span><span class="project-status">Serviço sob medida</span></div>
+                <h3 id="project-python-title">Automações em Python</h3>
+                <p>Scripts personalizados para automatizar tarefas, tratar dados e preparar relatórios de acordo com a rotina da sua empresa.</p>
+                <ul class="project-benefits"><li>Menos tarefas repetitivas</li><li>Dados organizados</li><li>Processos padronizados</li></ul>
+                <a class="project-link" href="#contato">Solicitar uma automação <span aria-hidden="true">↗</span></a>
+              </div>
             </article>
           </div>
-          <a class="text-link" href="/portfolio/">Explore o portfólio completo →</a>
+
+          <div class="showcase-cta" aria-labelledby="showcase-cta-title">
+            <div><p class="eyebrow">Vamos construir juntos</p><h3 id="showcase-cta-title">Sua empresa pode ser<br />nosso próximo projeto.</h3><p>Conheça nossas soluções e descubra como a tecnologia pode apoiar o crescimento do seu negócio.</p></div>
+            <div class="showcase-cta-actions"><a class="btn btn-primary" href="/portfolio/">Explorar portfólio <span aria-hidden="true">↗</span></a><a class="btn btn-secondary" href="#contato">Solicitar orçamento <span aria-hidden="true">→</span></a></div>
+          </div>
         </div>
+        <script src="/src/js/showcase.js" defer></script>
       </section>
 
       <!-- Tecnologias utilizadas nos projetos -->
@@ -350,6 +379,7 @@
 
     <script src="src/js/main.js" defer></script>
     <script src="/src/js/contact.js" defer></script>
+    <script src="/src/js/executive-slider.js" defer></script>
 
     <dialog id="cookie-banner" class="cookie-banner" aria-labelledby="cookie-title" aria-describedby="cookie-description" hidden>
       <h2 id="cookie-title">Sua privacidade importa</h2>
