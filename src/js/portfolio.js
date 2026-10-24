@@ -19,6 +19,9 @@
     detail.append(node('p', `${project.category} · ${project.status}`, 'eyebrow'));
     const title = node('h2', project.title); title.id = 'detail-title'; title.tabIndex = -1;
     detail.append(title, node('p', project.description));
+    if (!project.gallery.length) {
+      const image = node('img'); image.src = project.image; image.alt = project.imageAlt; image.loading = 'lazy'; image.width = 800; image.height = 450; image.className = 'portfolio-detail-image'; detail.append(image);
+    }
     if (project.gallery.length) {
       detail.append(node('h3', 'Galeria do projeto'));
       const gallery = node('div', '', 'portfolio-gallery');
@@ -45,14 +48,28 @@
       const unavailable = node('button', 'Demonstração indisponível', 'btn btn-secondary'); unavailable.disabled = true; actions.append(unavailable);
       detail.append(node('p', 'Este projeto não possui uma demonstração pública cadastrada.', 'portfolio-note'));
     }
+    const contact = node('a', 'Conversar sobre este projeto', 'btn btn-primary'); contact.href = '/index.html#contato'; actions.append(contact);
     detail.append(actions);
     list.querySelectorAll('button[data-project]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.project === selected)));
     if (focus) {
       title.focus();
-      if (window.matchMedia('(max-width: 900px)').matches) detail.scrollIntoView({block: 'start'});
+      detail.scrollIntoView({block: 'start'});
     }
   }
+  const motion = matchMedia('(prefers-reduced-motion: reduce)');
+  const entrance = 'IntersectionObserver' in window && Element.prototype.animate ? new IntersectionObserver(entries => {
+    for (const entry of entries) {
+      if (!entry.isIntersecting) continue;
+      entrance.unobserve(entry.target);
+      if (motion.matches || entry.target.matches(':focus-within')) continue;
+      entry.target.animate([{opacity:0,transform:'translateY(12px)'},{opacity:1,transform:'translateY(0)'}], {duration:500,easing:'ease-out'});
+    }
+  }, {threshold:.08}) : null;
+  document.querySelectorAll('.executive-showcase .project-card,.portfolio-pillar-grid article').forEach(item=>entrance?.observe(item));
+  document.getElementById('conteudo').addEventListener('focusin', event=>event.target.closest('article')?.getAnimations().forEach(animation=>animation.finish()));
+  motion.addEventListener('change', ()=>{if(motion.matches)document.getElementById('conteudo').getAnimations({subtree:true}).forEach(animation=>animation.finish());});
   function render() {
+    list.querySelectorAll('article').forEach(item=>entrance?.unobserve(item));
     const visible = filter(projects, category, search.value);
     list.replaceChildren();
     status.textContent = visible.length ? `${visible.length} projeto${visible.length === 1 ? '' : 's'} encontrado${visible.length === 1 ? '' : 's'}.` : 'Nenhum projeto encontrado. Tente outra busca ou categoria.';
@@ -61,18 +78,18 @@
       const image = node('img'); image.src = project.image; image.alt = project.imageAlt; image.width = 800; image.height = 450; image.loading = 'lazy';
       if (project.imageVariants.length) {
         image.srcset = project.imageVariants.map(item => `${item.src} ${item.width}w`).join(', ');
-        image.sizes = '(max-width: 480px) 92vw, (max-width: 900px) 44vw, 26vw';
+        image.sizes = '(max-width: 600px) 92vw, (max-width: 1100px) 44vw, 30vw';
       }
       image.addEventListener('error', () => { image.removeAttribute('srcset'); image.src = '/src/img/portfolio-placeholder.svg'; }, {once: true});
-      card.append(image, node('p', `${project.category} · ${project.status}`, 'eyebrow'), node('h3', project.title), node('p', project.summary), node('p', project.technologies.join(' · ') || 'Stack não divulgada', 'portfolio-note'));
+      card.append(image, node('p', `${project.category} · ${project.status}`, 'eyebrow'), node('h3', project.title), node('p', project.summary), node('p', project.technologies.join(' · ') || 'Tecnologias não divulgadas', 'portfolio-note'));
       const button = node('button', `Explorar ${project.title} →`, 'btn btn-secondary'); button.type = 'button'; button.dataset.project = project.id; button.setAttribute('aria-controls', 'project-detail');
-      button.addEventListener('click', () => showDetail(project, true)); card.append(button); list.append(card);
+      button.addEventListener('click', () => showDetail(project, true)); card.append(button); list.append(card); entrance?.observe(card);
     });
     if (!visible.length) { selected = null; detail.hidden = true; detail.replaceChildren(); }
     else showDetail(visible.find(p => p.id === selected) || visible[0]);
   }
   function renderCategories() {
-    const available = categories.filter(name => name === 'Todos' || projects.some(project => project.category === name));
+    const available = categories.filter(name => name === 'Todos' || projects.some(project => (name === 'Em desenvolvimento' ? project.status === name : project.category === name)));
     const filters = document.getElementById('filters');
     filters.replaceChildren();
     available.forEach(name => {

@@ -15,7 +15,7 @@ const base = process.env.SITE_BASE || 'http://127.0.0.1:4181';
    await page.getByRole('button',{name:'Fechar aviso de privacidade'}).click();
    const section = page.locator('#projetos');
    assert.equal(await section.locator('article').count(),4);
-   assert.match(await section.locator('#project-chatbot-title').locator('..').textContent(),/ainda não é um produto comercial disponível/);
+   assert.match(await section.locator('#project-chatbot-title').locator('..').textContent(),/Disponível/);
    assert.match(await section.locator('#project-web-title').locator('..').textContent(),/Modelo demonstrativo/);
    for(const card of await section.locator('article').all()) {
     await card.scrollIntoViewIfNeeded();

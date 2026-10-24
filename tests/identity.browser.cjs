@@ -54,7 +54,7 @@ const output=process.env.ARTIFACT_DIR||'docs/identidade-azul/evidencias';
  for(const id of ['nome','email','assunto','mensagem'])assert.equal(await page.locator('#'+id).getAttribute('aria-invalid'),'false');
  await page.evaluate(()=>{window.open=()=>{throw new Error('falha simulada')};});await page.locator('#contact-form button[type=submit]').click();assert.match(await page.locator('#form-status').textContent(),/Não foi possível/);
  await page.reload();a11y.push({route:'popup',violations:(await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze()).violations});
- await page.getByRole('button',{name:'Personalizar',exact:true}).click();a11y.push({route:'preferencias',violations:(await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze()).violations});
+ await page.getByRole('button',{name:'Exibir detalhes',exact:true}).click();a11y.push({route:'preferencias',violations:(await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze()).violations});
  fs.writeFileSync(output+'/matriz.json',JSON.stringify(matrix,null,2));fs.writeFileSync(output+'/acessibilidade.json',JSON.stringify(a11y,null,2));fs.writeFileSync(output+'/erros.json',JSON.stringify({errors,failed},null,2));
  assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);assert.deepEqual(a11y.flatMap(v=>v.violations).map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})),[]);
  console.log(`PASS: 72 combinações, 144 verificações de logos, ${screenshotCount} screenshots, fallback PNG, menus/Escape/foco, rotas atuais, imagens, formulário simulado, console/recursos e axe nas 8 páginas/2 diálogos.`);

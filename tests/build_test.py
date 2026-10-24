@@ -42,7 +42,7 @@ class BuildTest(unittest.TestCase):
         for name in ['index.html','portfolio/index.html','pdv.html','FAQ.html','blog.html','privacidade.html','termos.html','lgpd.html']:
             self.assertIn(name, manifest)
         projects=json.loads((output/'src/data/projects.json').read_text())
-        self.assertEqual(len(projects), 6)
+        self.assertEqual(len(projects), 8)
         self.assertEqual(projects,json.loads((self.root/'src/data/projects.json').read_text()))
 
     def test_content_hashes_cache_scope_and_repeatability(self):
@@ -70,6 +70,20 @@ class BuildTest(unittest.TestCase):
             with self.assertRaises(ValueError):build(self.root)
             self.assertEqual((self.root/'dist/index.html').read_bytes(),old)
         finally:source.write_bytes(original)
+
+    def test_static_catalog_rejects_unsafe_navigation(self):
+        catalog = self.root/'src/data/projects.json'
+        original = catalog.read_bytes()
+        try:
+            projects = json.loads(original)
+            projects[0]['caseStudyUrl'] = 'javascript:alert(1)'
+            catalog.write_text(json.dumps(projects))
+            build(self.root)
+            html = (self.root/'dist/portfolio/index.html').read_text()
+            self.assertNotIn('href="javascript:', html)
+            self.assertIn('Conversar sobre este projeto', html)
+        finally:
+            catalog.write_bytes(original)
 
     def test_css_minification_keeps_strings_and_math(self):
         css='/* comment */ .x { content: "a : b; /* literal */"; width: calc(100% - 2rem); --token: "a  b"; }'

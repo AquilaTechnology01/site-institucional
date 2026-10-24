@@ -1,6 +1,7 @@
 /* Funções puras compartilhadas entre a interface e os testes, sem dependências. */
 (function (root) {
-  const categories = ['Todos', 'Websites', 'Sistemas', 'Automações', 'Dados e IA'];
+  const projectCategories = ['Websites', 'Sistemas', 'Automações', 'Dados e IA'];
+  const categories = ['Todos', 'Sistemas', 'Websites', 'Automações', 'Em desenvolvimento'];
   const normalize = (value) => String(value ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   function safeUrl(value) {
     if (typeof value !== 'string' || !value.trim()) return null;
@@ -25,7 +26,7 @@
     const ids = new Set();
     return data.filter((p) => {
       if (!p || p.visibility !== 'public') return false;
-      if (!['id','slug','title','summary','description','status','problem','solution'].every((key) => typeof p[key] === 'string' && p[key].trim()) || !categories.slice(1).includes(p.category) || ids.has(p.id)) throw new Error('Projeto incompleto');
+      if (!['id','slug','title','summary','description','status','problem','solution'].every((key) => typeof p[key] === 'string' && p[key].trim()) || !projectCategories.includes(p.category) || ids.has(p.id)) throw new Error('Projeto incompleto');
       if (!Array.isArray(p.technologies) || !p.technologies.every(t => typeof t === 'string') || !Array.isArray(p.features) || !p.features.every(t => typeof t === 'string')) throw new Error('Projeto inválido');
       ids.add(p.id);
       return true;
@@ -33,7 +34,7 @@
   }
   function filter(projects, category, query) {
     const terms = normalize(query).trim().split(/\s+/).filter(Boolean);
-    return projects.filter(p => (category === 'Todos' || p.category === category) && terms.every(term => normalize([p.title,p.summary,p.description,...p.technologies].join(' ')).includes(term)));
+    return projects.filter(p => (category === 'Todos' || (category === 'Em desenvolvimento' ? p.status === 'Em desenvolvimento' : p.category === category)) && terms.every(term => normalize([p.title,p.summary,p.description,...p.technologies].join(' ')).includes(term)));
   }
   const api = {categories, safeUrl, validate, filter};
   if (typeof module !== 'undefined' && module.exports) module.exports = api;

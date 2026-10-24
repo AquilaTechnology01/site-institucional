@@ -397,5 +397,103 @@
         "width": 1075
       }
     ]
+  },
+  {
+    "id": "chatbot-inteligente",
+    "slug": "chatbot-inteligente",
+    "title": "Chatbot Inteligente",
+    "summary": "Chatbot disponível para automatizar o atendimento no WhatsApp.",
+    "description": "Solução de chatbot para atendimento no WhatsApp, já disponível. Entre em contato com a Aquila para conhecer os recursos e definir o escopo do seu projeto. As imagens são ilustrativas e não representam capturas verificadas da interface do produto.",
+    "category": "Dados e IA",
+    "technologies": [],
+    "image": "/portfolio/img/optimized/chatbot-whatsapp-1.webp",
+    "imageAlt": "Imagem ilustrativa de uma conversa com chatbot no WhatsApp",
+    "status": "Disponível",
+    "visibility": "public",
+    "demoUrl": null,
+    "repositoryUrl": null,
+    "caseStudyUrl": null,
+    "features": [
+      "Atendimento automatizado via WhatsApp"
+    ],
+    "problem": "Apoiar a organização das conversas e do atendimento pelo WhatsApp.",
+    "solution": "Chatbot disponível para projetos de atendimento no WhatsApp. Recursos, configuração e escopo podem ser consultados com a Aquila.",
+    "evidence": [
+      "index.html",
+      "portfolio/img/Chatbot/Chatbot-WhatsApp.jpg",
+      "portfolio/img/Chatbot/Chatbot.jpg"
+    ],
+    "imageVariants": [
+      {
+        "src": "/portfolio/img/thumbs/chatbot-whatsapp-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/portfolio/img/thumbs/chatbot-whatsapp-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/portfolio/img/optimized/chatbot-whatsapp-1.webp",
+        "width": 1408
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/portfolio/img/optimized/chatbot-whatsapp-1.webp",
+        "alt": "Imagem ilustrativa de chatbot no WhatsApp; não é captura verificada do produto",
+        "width": 1408,
+        "height": 768
+      },
+      {
+        "src": "/portfolio/img/optimized/chatbot-2.webp",
+        "alt": "Imagem ilustrativa de atendimento com assistente virtual; não é captura verificada do produto",
+        "width": 1024,
+        "height": 559
+      }
+    ]
+  },
+  {
+    "id": "automacoes-python",
+    "slug": "automacoes-python",
+    "title": "Automações em Python",
+    "summary": "Serviço sob medida para automatizar tarefas, tratar dados e preparar relatórios.",
+    "description": "Desenvolvimento de scripts personalizados conforme a rotina da empresa. Trata-se de uma oferta de serviço documentada na página inicial, sem apresentar um case de cliente ou resultados quantitativos. A imagem é conceitual.",
+    "category": "Automações",
+    "technologies": [
+      "Python"
+    ],
+    "image": "/portfolio/img/optimized/automacao-python.webp",
+    "imageAlt": "Imagem conceitual ilustrativa de automação de processos",
+    "status": "Serviço sob medida",
+    "visibility": "public",
+    "demoUrl": null,
+    "repositoryUrl": null,
+    "caseStudyUrl": null,
+    "features": [
+      "Automação de tarefas",
+      "Scripts personalizados",
+      "Tratamento de dados",
+      "Preparação de relatórios"
+    ],
+    "problem": "Organizar rotinas repetitivas e o tratamento de informações da empresa.",
+    "solution": "Scripts personalizados para os requisitos de cada rotina, com escopo definido durante o contato.",
+    "evidence": [
+      "index.html",
+      "portfolio/img/Automação/Automação.jpg"
+    ],
+    "imageVariants": [
+      {
+        "src": "/portfolio/img/thumbs/automacao-python-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/portfolio/img/thumbs/automacao-python-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/portfolio/img/optimized/automacao-python.webp",
+        "width": 1408
+      }
+    ]
   }
 ]

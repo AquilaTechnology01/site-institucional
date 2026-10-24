@@ -37,7 +37,7 @@ const fs=require('node:fs');
   const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze();accessibility.push({route,violations:result.violations});
  }
  await page.goto(SITE_BASE + '/');accessibility.push({route:'popup',violations:(await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze()).violations});
- await page.getByRole('button',{name:'Personalizar',exact:true}).click();accessibility.push({route:'preferencias',violations:(await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze()).violations});
+ await page.getByRole('button',{name:'Exibir detalhes',exact:true}).click();accessibility.push({route:'preferencias',violations:(await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze()).violations});
  fs.writeFileSync((process.env.ARTIFACT_DIR || 'docs/redesign/evidencias') + '/responsividade.json',JSON.stringify(rows,null,2));fs.writeFileSync((process.env.ARTIFACT_DIR || 'docs/redesign/evidencias') + '/acessibilidade.json',JSON.stringify(accessibility,null,2));
  assert.deepEqual(errors,[]);assert.deepEqual(badResources,[]);assert.equal(accessibility.flatMap(r=>r.violations).length,0,JSON.stringify(accessibility.map(r=>({route:r.route,violations:r.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)}))}))));
  console.log('PASS: 56 combinações; menus/submenus/Escape; popup sem salto; imagens/console/recursos; formulário simulado; axe em 8 páginas e 2 diálogos.');

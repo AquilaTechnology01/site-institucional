@@ -36,7 +36,7 @@ const output=process.env.ARTIFACT_DIR||'docs/otimizacao/evidencias';
  }
  // Fallback sem JavaScript e respeito ao movimento reduzido no CSS compilado.
  const noJS=await browser.newContext({javaScriptEnabled:false,reducedMotion:'reduce'});const fallback=await noJS.newPage({viewport:{width:390,height:844}});
- await fallback.goto(buildBase+'/portfolio/');assert.equal(await fallback.locator('.portfolio-card').count(),6);assert.equal(await fallback.locator('#main-navigation').isVisible(),true);
+ await fallback.goto(buildBase+'/portfolio/');assert.equal(await fallback.locator('.portfolio-card').count(),8);assert.equal(await fallback.locator('#main-navigation').isVisible(),true);
  await fallback.locator('#main-navigation summary').filter({hasText:'Soluções'}).click();assert.equal(await fallback.locator('#main-navigation a[href="/pdv.html"]').isVisible(),true);
  assert.equal(await fallback.evaluate(()=>getComputedStyle(document.documentElement).scrollBehavior),'auto');
  fs.mkdirSync(output,{recursive:true});fs.writeFileSync(output+'/equivalencia-css.json',JSON.stringify(comparisons,null,2));

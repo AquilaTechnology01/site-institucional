@@ -137,21 +137,21 @@
     <script src="src/js/main.js" defer></script>
 
     <dialog id="cookie-banner" class="cookie-banner" aria-labelledby="cookie-title" aria-describedby="cookie-description" hidden>
-      <h2 id="cookie-title">Sua privacidade importa</h2>
-      <p id="cookie-description">Saiba como seus dados são utilizados ao navegar pelo site da Aquila Technology.</p>
-      <ul class="cookie-data-details">
-        <li><strong>Suas preferências:</strong> guardamos sua decisão neste navegador para permitir que você consulte e gerencie suas escolhas.</li>
-        <li><strong>Solicitações de contato:</strong> ao usar o formulário, seu nome, e-mail e mensagem são incluídos no link do WhatsApp para você concluir o envio.</li>
-        <li><strong>Navegação:</strong> a hospedagem recebe informações técnicas da conexão para entregar as páginas. Fontes e ícones não solicitam serviços externos.</li>
-      </ul>
-      <p>Não há ferramentas de análise ou publicidade integradas ao código atual. Você pode revisar ou revogar sua decisão a qualquer momento pelo rodapé.</p>
-      <p>Este aviso é apresentado a cada abertura de página. Fechá-lo não altera suas preferências.</p>
-      <a href="/privacidade.html#cookies">Política de Privacidade e Cookies</a>
-      <button type="button" class="cookie-dismiss" data-cookie-dismiss autofocus aria-label="Fechar aviso de privacidade">×</button>
-      <div class="cookie-actions">
-        <button type="button" class="cookie-button" data-cookie-action="reject">Rejeitar opcionais</button>
-        <button type="button" class="cookie-button" data-cookie-open>Personalizar</button>
-        <button type="button" class="cookie-button" data-cookie-action="accept">Aceitar todos</button>
+      <div class="cookie-header">
+        <div class="cookie-brand"><img src="/src/img/optimized/logo-preto.webp" alt="" width="216" height="159" /><span>Aquila Technology<small>Privacidade e dados</small></span></div>
+        <button type="button" class="cookie-dismiss" data-cookie-dismiss autofocus aria-label="Fechar aviso de privacidade">×</button>
+      </div>
+      <div class="cookie-body">
+        <h2 id="cookie-title">Sua privacidade, suas escolhas.</h2>
+        <p id="cookie-description">Utilizamos apenas o armazenamento necessário para guardar sua preferência de privacidade neste navegador. O site não utiliza ferramentas de análise ou publicidade. Ao preencher o formulário de contato, seus dados são incluídos em um link para você concluir o envio pelo WhatsApp.</p>
+        <p class="cookie-policy-note">Você pode consultar e alterar sua decisão a qualquer momento nas preferências de cookies. <a href="/privacidade.html#cookies">Política de Privacidade e Cookies</a>.</p>
+      </div>
+      <div class="cookie-footer">
+        <div class="cookie-details-row"><button type="button" class="cookie-details-link" data-cookie-open>Exibir detalhes <span aria-hidden="true">›</span></button></div>
+        <div class="cookie-actions">
+          <button type="button" class="cookie-button" data-cookie-action="reject">Rejeitar opcionais</button>
+          <button type="button" class="cookie-button" data-cookie-action="accept">Aceitar todos</button>
+        </div>
       </div>
     </dialog>
     <dialog id="cookie-preferences" class="cookie-dialog" aria-labelledby="cookie-preferences-title" aria-describedby="cookie-current">

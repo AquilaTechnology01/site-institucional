@@ -9,7 +9,7 @@ const assert = require('node:assert/strict');
  await page.getByRole('button',{name:'Rejeitar opcionais',exact:true}).click();
  await page.getByRole('button',{name:'Explorar Aquila PDV'}).waitFor();
  assert.ok(page.url().endsWith('/portfolio/'));
- assert.equal(await page.locator('.portfolio-card').count(),6);
+ assert.equal(await page.locator('.portfolio-card').count(),8);
  await page.getByRole('button',{name:'Websites',exact:true}).click();
  await page.getByRole('searchbox').fill('javascript whatsapp');
  assert.equal(await page.locator('.portfolio-card').count(),1);

@@ -59,20 +59,20 @@ const assert = require('node:assert/strict');
    assert.ok(Math.abs(rect.x + rect.width / 2 - width / 2) < 2);
    assert.ok(Math.abs(rect.y + rect.height / 2 - 740 / 2) < 2);
    for(let i=0;i<6;i++){await page.keyboard.press('Tab');assert.equal(await banner.evaluate(e=>e.contains(document.activeElement)),true);}
-   await page.getByRole('button',{name:'Personalizar',exact:true}).click();
+   await page.getByRole('button',{name:'Exibir detalhes',exact:true}).click();
    assert.equal(await dialog.evaluate(e=>e.scrollWidth<=e.clientWidth),true,`dialog overflow ${width}`);
    // Native modal traps focus in both directions.
    for(let i=0;i<7;i++){await page.keyboard.press('Tab');assert.equal(await dialog.evaluate(e=>e.contains(document.activeElement)),true);}
    await page.keyboard.press('Shift+Tab');assert.equal(await dialog.evaluate(e=>e.contains(document.activeElement)),true);
    await page.keyboard.press('Escape');
-   assert.equal(await page.getByRole('button',{name:'Personalizar',exact:true}).evaluate(e=>e===document.activeElement),true);
+   assert.equal(await page.getByRole('button',{name:'Exibir detalhes',exact:true}).evaluate(e=>e===document.activeElement),true);
   }
   // Rejecting does not break the actual catalog.
   await page.getByRole('button',{name:'Rejeitar opcionais',exact:true}).click();
   await page.goto(SITE_BASE + '/portfolio/');
   await page.getByRole('button',{name:'Fechar aviso de privacidade'}).click();
   await page.getByRole('button',{name:'Explorar Aquila PDV'}).waitFor();
-  assert.equal(await page.locator('.portfolio-card').count(),6);
+  assert.equal(await page.locator('.portfolio-card').count(),8);
   assert.deepEqual(optionalRequests,[]);assert.deepEqual(errors,[]);
   // Blocked storage must not throw or pretend the decision was persisted.
   const blocked=await browser.newContext();await blocked.addInitScript(()=>{Storage.prototype.setItem=()=>{throw new Error('blocked')};Storage.prototype.getItem=()=>{throw new Error('blocked')};});
