@@ -1,0 +1,11 @@
+{
+  "command": "python3 scripts/build.py",
+  "isolatedCopy": true,
+  "exitCode": 0,
+  "seconds": 0.073,
+  "output": "Arquivos p\u00fablicos preparados em dist/. Nenhum deploy executado.\n",
+  "error": "",
+  "outputFiles": 53,
+  "outputBytes": 5927704,
+  "excludedPrivateDirectories": true
+}

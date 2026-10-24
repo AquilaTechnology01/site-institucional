@@ -24,6 +24,7 @@
     <meta property="og:image" content="https://www.aquilatechnology.com.br/src/img/logo/logo-branco.png" />
     <link rel="canonical" href="https://www.aquilatechnology.com.br/lgpd.html" />
     <meta property="og:url" content="https://www.aquilatechnology.com.br/lgpd.html" />
+    <link rel="stylesheet" href="/src/consent.css" />
   </head>
   <body>
     <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -112,8 +113,48 @@
     <footer>
       <div class="container footer-content">
         <p>© 2026 Aquila Tecnology. Todos os direitos reservados.</p>
+        <nav class="footer-links" aria-label="Privacidade">
+          <button type="button" class="cookie-settings" data-cookie-open>Preferências de cookies</button>
+        </nav>
       </div>
+      <div class="container"><noscript><p>O gerenciamento de preferências requer JavaScript. Nenhum script opcional está integrado. <a href="/privacidade.html#cookies">Política de Cookies</a>.</p></noscript></div>
     </footer>
     <script src="src/js/main.js" defer></script>
+
+    <dialog id="cookie-banner" class="cookie-banner" aria-labelledby="cookie-title" aria-describedby="cookie-description" hidden>
+      <h2 id="cookie-title">Sua privacidade importa</h2>
+      <p id="cookie-description">Saiba como seus dados são utilizados ao navegar pelo site da Aquila Technology.</p>
+      <ul class="cookie-data-details">
+        <li><strong>Suas preferências:</strong> guardamos sua decisão neste navegador para permitir que você consulte e gerencie suas escolhas.</li>
+        <li><strong>Solicitações de contato:</strong> ao usar o formulário, seu nome, e-mail e mensagem são incluídos no link do WhatsApp para você concluir o envio.</li>
+        <li><strong>Serviços externos:</strong> fontes e ícones são carregados pelo Google Fonts e jsDelivr, que recebem informações técnicas da conexão.</li>
+      </ul>
+      <p>Não há ferramentas de análise ou publicidade integradas ao código atual. Você pode revisar ou revogar sua decisão a qualquer momento pelo rodapé.</p>
+      <p>Este aviso é apresentado a cada abertura de página. Fechá-lo não altera suas preferências.</p>
+      <a href="/privacidade.html#cookies">Política de Privacidade e Cookies</a>
+      <button type="button" class="cookie-dismiss" data-cookie-dismiss aria-label="Fechar aviso de privacidade">×</button>
+      <div class="cookie-actions">
+        <button type="button" class="cookie-button" data-cookie-action="reject">Rejeitar opcionais</button>
+        <button type="button" class="cookie-button" data-cookie-open>Personalizar</button>
+        <button type="button" class="cookie-button" data-cookie-action="accept">Aceitar todos</button>
+      </div>
+    </dialog>
+    <dialog id="cookie-preferences" class="cookie-dialog" aria-labelledby="cookie-preferences-title" aria-describedby="cookie-current">
+      <h2 id="cookie-preferences-title">Preferências de cookies</h2>
+      <p id="cookie-current"></p>
+      <div class="cookie-category">
+        <strong>Necessários <span>· Sempre ativos</span></strong>
+        <p>Armazenamento da sua decisão para respeitar sua escolha entre páginas. Nenhum cookie próprio foi identificado no código atual.</p>
+      </div>
+      <p>Não há categorias de análise, funcionais ou marketing em uso no código atual. Aceitar todos, rejeitar opcionais e salvar preferências mantêm apenas o armazenamento necessário.</p>
+      <p><a href="/privacidade.html#cookies">Consulte finalidades, duração e fornecedores</a>.</p>
+      <div class="cookie-actions">
+        <button type="button" class="cookie-button" data-cookie-action="custom">Salvar preferências</button>
+        <button type="button" class="cookie-button" data-cookie-revoke>Revogar e apagar decisão</button>
+        <button type="button" class="cookie-button" data-cookie-close autofocus>Fechar</button>
+      </div>
+    </dialog>
+    <p id="cookie-notice" class="cookie-notice" role="status" aria-live="polite"></p>
+    <script src="/src/js/consent.js" defer></script>
   </body>
 </html>

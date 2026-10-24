@@ -5,6 +5,7 @@ const assert = require('node:assert/strict');
  const page = await browser.newPage({viewport:{width:1440,height:1000}});
  const errors=[]; page.on('pageerror',e=>errors.push(e.message));
  await page.goto('http://127.0.0.1:4173/portfolio');
+ await page.getByRole('button',{name:'Rejeitar opcionais',exact:true}).click();
  await page.getByRole('button',{name:'Explorar Aquila PDV'}).waitFor();
  assert.ok(page.url().endsWith('/portfolio/'));
  assert.equal(await page.locator('.portfolio-card').count(),6);
@@ -21,7 +22,7 @@ const assert = require('node:assert/strict');
  assert.equal(await page.locator('#project-detail').isVisible(),false);
  await page.getByRole('searchbox').fill('');
  await page.getByRole('button',{name:'Todos',exact:true}).click();
- await page.reload(); await page.getByRole('button',{name:'Explorar Aquila PDV'}).waitFor();
+ await page.reload(); await page.getByRole('button',{name:'Fechar aviso de privacidade'}).click(); await page.getByRole('button',{name:'Explorar Aquila PDV'}).waitFor();
 
  for(const width of [360,390,768,1024,1440]) {
   await page.setViewportSize({width,height:900});
@@ -34,12 +35,12 @@ const assert = require('node:assert/strict');
  assert.equal(await page.getByRole('button',{name:'Abrir menu',exact:true}).getAttribute('aria-expanded'),'false');
 
  await page.route('**/src/data/projects.json',route=>route.fulfill({status:503,body:'unavailable'}));
- await page.reload(); await page.getByRole('button',{name:'Tentar novamente'}).waitFor();
+ await page.reload(); await page.getByRole('button',{name:'Fechar aviso de privacidade'}).click(); await page.getByRole('button',{name:'Tentar novamente'}).waitFor();
  await page.unroute('**/src/data/projects.json');
  await page.getByRole('button',{name:'Tentar novamente'}).click();
  await page.getByRole('button',{name:'Explorar Aquila PDV'}).waitFor();
  await page.route('**/src/data/projects.json',route=>route.fulfill({contentType:'application/json',body:'[{"visibility":"public"}]'}));
- await page.reload(); await page.getByRole('button',{name:'Tentar novamente'}).waitFor();
+ await page.reload(); await page.getByRole('button',{name:'Fechar aviso de privacidade'}).click(); await page.getByRole('button',{name:'Tentar novamente'}).waitFor();
  await page.unroute('**/src/data/projects.json');
  for(const path of ['/index.html','/pdv.html','/FAQ.html','/blog.html','/privacidade.html','/termos.html','/lgpd.html']) {
   const response=await page.goto('http://127.0.0.1:4173'+path); assert.equal(response.status(),200);

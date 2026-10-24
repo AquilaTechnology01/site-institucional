@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 24 Oct 2026 00:43:03 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Location: https://www.aquilatechnology.com.br/
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=1JsWbFpPwTPpFPWAbIvf%2FNq%2BGW%2BDtgH%2By4tjVP62L5rA1lVDys7dFK3pNAD9%2FQCI88Zlpbq6jxfvAXIT4o0CzeN6x8i4MQIHfDQ5NDBIR00YDaVVUf0vhzR4h%2Ftz66bZqr17WtmcueN5cEhsyk0%3D"}]}
+Server: cloudflare
+cf-cache-status: DYNAMIC
+CF-RAY: a4f4f1f05d2af2b4-GRU
+alt-svc: h3=":443"; ma=86400
+
