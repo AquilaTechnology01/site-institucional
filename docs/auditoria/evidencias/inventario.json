@@ -1,0 +1,208 @@
+{
+  "trackedFiles": 67,
+  "trackedBytes": 5959826,
+  "pages": [
+    {
+      "file": "FAQ.html",
+      "bytes": 8131,
+      "resources": [
+        "src/img/logo/favicon.png",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "styles.css",
+        "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css",
+        "https://www.aquilatechnology.com.br/FAQ.html",
+        "src/img/logo/logo-branco.png",
+        "src/js/main.js"
+      ],
+      "imagesMissingDimensions": 1
+    },
+    {
+      "file": "blog.html",
+      "bytes": 3740,
+      "resources": [
+        "src/img/logo/favicon.png",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "styles.css",
+        "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css",
+        "https://www.aquilatechnology.com.br/blog.html",
+        "src/img/logo/logo-branco.png",
+        "src/js/main.js"
+      ],
+      "imagesMissingDimensions": 1
+    },
+    {
+      "file": "index.html",
+      "bytes": 16238,
+      "resources": [
+        null,
+        "src/img/logo/favicon.png",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "styles.css",
+        "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css",
+        "https://www.aquilatechnology.com.br/",
+        "src/img/logo/logo-branco.png",
+        "src/img/PDV/home",
+        "src/img/PDV/login",
+        "src/js/main.js"
+      ],
+      "imagesMissingDimensions": 3
+    },
+    {
+      "file": "lgpd.html",
+      "bytes": 5372,
+      "resources": [
+        "src/img/logo/favicon.png",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "styles.css",
+        "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css",
+        "https://www.aquilatechnology.com.br/lgpd.html",
+        "src/img/logo/logo-branco.png",
+        "src/js/main.js"
+      ],
+      "imagesMissingDimensions": 1
+    },
+    {
+      "file": "pdv.html",
+      "bytes": 9493,
+      "resources": [
+        "src/img/logo/favicon.png",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "styles.css",
+        "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css",
+        "https://www.aquilatechnology.com.br/pdv.html",
+        "src/img/logo/logo-branco.png",
+        "src/img/PDV/home",
+        "src/img/PDV/login",
+        "src/img/PDV/confi-empresa.png",
+        "src/img/PDV/Venda-PDV.png",
+        "src/img/PDV/Controle-de-estoque.png",
+        "src/img/PDV/controle-caixa.png",
+        "src/img/PDV/fechamento-diario.png",
+        "src/img/PDV/relatorio-de-vendas.png",
+        "src/img/PDV/contabilidade.png",
+        "src/img/PDV/perfil-config.png",
+        "src/img/PDV/backup.png",
+        "src/js/main.js"
+      ],
+      "imagesMissingDimensions": 1
+    },
+    {
+      "file": "portfolio/index.html",
+      "bytes": 8643,
+      "resources": [
+        "/src/img/logo/favicon.png",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "/styles.css",
+        "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css",
+        "/src/portfolio.css",
+        "https://www.aquilatechnology.com.br/portfolio/",
+        "/src/img/logo/logo-branco.png",
+        "/src/img/portfolio-placeholder.svg",
+        "/src/img/portfolio-placeholder.svg",
+        "/portfolio/img/Site%20Institucional/Captura%20de%20tela%20de%202026-10-22%2022-46-23.png",
+        "/portfolio/img/Cardapio%20digital/Captura%20de%20tela%20de%202026-10-22%2022-35-24.png",
+        "/portfolio/img/landing-page/Advocacia/Captura%20de%20tela%20de%202026-10-22%2022-19-03.png",
+        "/portfolio/img/landing-page/Padaria/Captura%20de%20tela%20de%202026-10-22%2022-22-19.png",
+        "/src/js/main.js",
+        "/src/js/portfolio-core.js",
+        "/src/js/portfolio.js"
+      ],
+      "imagesMissingDimensions": 1
+    },
+    {
+      "file": "privacidade.html",
+      "bytes": 6226,
+      "resources": [
+        "src/img/logo/favicon.png",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "styles.css",
+        "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css",
+        "https://www.aquilatechnology.com.br/privacidade.html",
+        "src/img/logo/logo-branco.png",
+        "src/js/main.js"
+      ],
+      "imagesMissingDimensions": 1
+    },
+    {
+      "file": "termos.html",
+      "bytes": 5517,
+      "resources": [
+        "src/img/logo/favicon.png",
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+        "styles.css",
+        "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css",
+        "https://www.aquilatechnology.com.br/termos.html",
+        "src/img/logo/logo-branco.png",
+        "src/js/main.js"
+      ],
+      "imagesMissingDimensions": 1
+    }
+  ],
+  "brokenLocalTargets": [],
+  "largestFiles": [
+    {
+      "file": "src/img/backgraund-img/Futuristic Data Display.png",
+      "bytes": 1376848
+    },
+    {
+      "file": "portfolio/img/landing-page/Padaria/Captura de tela de 2026-10-22 22-22-19.png",
+      "bytes": 626088
+    },
+    {
+      "file": "portfolio/img/landing-page/Padaria/Captura de tela de 2026-10-22 22-27-19.png",
+      "bytes": 560414
+    },
+    {
+      "file": "src/img/logo/logo-preto.png",
+      "bytes": 466215
+    },
+    {
+      "file": "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-35-24.png",
+      "bytes": 333220
+    },
+    {
+      "file": "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-46-41.png",
+      "bytes": 187407
+    },
+    {
+      "file": "portfolio/img/landing-page/Advocacia/Captura de tela de 2026-10-22 22-19-03.png",
+      "bytes": 183940
+    },
+    {
+      "file": "src/img/PDV/contabilidade.png",
+      "bytes": 139795
+    },
+    {
+      "file": "src/img/PDV/home",
+      "bytes": 131145
+    },
+    {
+      "file": "src/img/PDV/relatorio-de-vendas.png",
+      "bytes": 122812
+    },
+    {
+      "file": "src/img/PDV/Controle-de-estoque.png",
+      "bytes": 115771
+    },
+    {
+      "file": "src/img/PDV/confi-empresa.png",
+      "bytes": 94283
+    }
+  ]
+}

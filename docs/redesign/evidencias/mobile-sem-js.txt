@@ -1,0 +1,1 @@
+PASS: capturas mobile; navegação e submenu sem JS.

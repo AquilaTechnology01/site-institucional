@@ -19,13 +19,16 @@
     detail.append(node('p', `${project.category} · ${project.status}`, 'eyebrow'));
     const title = node('h2', project.title); title.id = 'detail-title'; title.tabIndex = -1;
     detail.append(title, node('p', project.description));
+    if (!project.gallery.length) {
+      const image = node('img'); image.src = project.image; image.alt = project.imageAlt; image.loading = 'lazy'; image.width = 800; image.height = 450; image.className = 'portfolio-detail-image'; detail.append(image);
+    }
     if (project.gallery.length) {
       detail.append(node('h3', 'Galeria do projeto'));
       const gallery = node('div', '', 'portfolio-gallery');
       project.gallery.forEach(item => {
         const link = node('a'); link.href = item.src; link.target = '_blank'; link.rel = 'noopener noreferrer';
         link.setAttribute('aria-label', `Ampliar: ${item.alt} (abre em nova aba)`);
-        const image = node('img'); image.src = item.src; image.alt = item.alt; image.loading = 'lazy';
+        const image = node('img'); image.src = item.src; image.alt = item.alt; image.loading = 'lazy'; image.width = item.width || 1200; image.height = item.height || 750;
         link.append(image); gallery.append(link);
       });
       detail.append(gallery);
@@ -45,30 +48,62 @@
       const unavailable = node('button', 'Demonstração indisponível', 'btn btn-secondary'); unavailable.disabled = true; actions.append(unavailable);
       detail.append(node('p', 'Este projeto não possui uma demonstração pública cadastrada.', 'portfolio-note'));
     }
+    const contact = node('a', 'Conversar sobre este projeto', 'btn btn-primary'); contact.href = '/index.html#contato'; actions.append(contact);
     detail.append(actions);
     list.querySelectorAll('button[data-project]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.project === selected)));
-    if (focus) title.focus();
+    if (focus) {
+      title.focus();
+      detail.scrollIntoView({block: 'start'});
+    }
   }
+  const motion = matchMedia('(prefers-reduced-motion: reduce)');
+  const entrance = 'IntersectionObserver' in window && Element.prototype.animate ? new IntersectionObserver(entries => {
+    for (const entry of entries) {
+      if (!entry.isIntersecting) continue;
+      entrance.unobserve(entry.target);
+      if (motion.matches || entry.target.matches(':focus-within')) continue;
+      entry.target.animate([{opacity:0,transform:'translateY(12px)'},{opacity:1,transform:'translateY(0)'}], {duration:500,easing:'ease-out'});
+    }
+  }, {threshold:.08}) : null;
+  document.querySelectorAll('.executive-showcase .project-card,.portfolio-pillar-grid article').forEach(item=>entrance?.observe(item));
+  document.getElementById('conteudo').addEventListener('focusin', event=>event.target.closest('article')?.getAnimations().forEach(animation=>animation.finish()));
+  motion.addEventListener('change', ()=>{if(motion.matches)document.getElementById('conteudo').getAnimations({subtree:true}).forEach(animation=>animation.finish());});
   function render() {
+    list.querySelectorAll('article').forEach(item=>entrance?.unobserve(item));
     const visible = filter(projects, category, search.value);
     list.replaceChildren();
     status.textContent = visible.length ? `${visible.length} projeto${visible.length === 1 ? '' : 's'} encontrado${visible.length === 1 ? '' : 's'}.` : 'Nenhum projeto encontrado. Tente outra busca ou categoria.';
     visible.forEach(project => {
       const card = node('article', '', 'portfolio-card');
       const image = node('img'); image.src = project.image; image.alt = project.imageAlt; image.width = 800; image.height = 450; image.loading = 'lazy';
-      image.addEventListener('error', () => { image.onerror = null; image.src = '/src/img/portfolio-placeholder.svg'; }, {once: true});
-      card.append(image, node('p', `${project.category} · ${project.status}`, 'eyebrow'), node('h3', project.title), node('p', project.summary), node('p', project.technologies.join(' · ') || 'Stack não divulgada', 'portfolio-note'));
+      if (project.imageVariants.length) {
+        image.srcset = project.imageVariants.map(item => `${item.src} ${item.width}w`).join(', ');
+        image.sizes = '(max-width: 600px) 92vw, (max-width: 1100px) 44vw, 30vw';
+      }
+      image.addEventListener('error', () => { image.removeAttribute('srcset'); image.src = '/src/img/portfolio-placeholder.svg'; }, {once: true});
+      card.append(image, node('p', `${project.category} · ${project.status}`, 'eyebrow'), node('h3', project.title), node('p', project.summary), node('p', project.technologies.join(' · ') || 'Tecnologias não divulgadas', 'portfolio-note'));
       const button = node('button', `Explorar ${project.title} →`, 'btn btn-secondary'); button.type = 'button'; button.dataset.project = project.id; button.setAttribute('aria-controls', 'project-detail');
-      button.addEventListener('click', () => showDetail(project, true)); card.append(button); list.append(card);
+      button.addEventListener('click', () => showDetail(project, true)); card.append(button); list.append(card); entrance?.observe(card);
     });
     if (!visible.length) { selected = null; detail.hidden = true; detail.replaceChildren(); }
     else showDetail(visible.find(p => p.id === selected) || visible[0]);
   }
-  categories.forEach(name => {
-    const button = node('button', name); button.type = 'button'; button.setAttribute('aria-pressed', String(name === category));
-    button.addEventListener('click', () => { category = name; document.querySelectorAll('#filters button').forEach(b => b.setAttribute('aria-pressed', String(b === button))); render(); });
-    document.getElementById('filters').append(button);
-  });
+  function renderCategories() {
+    const available = categories.filter(name => name === 'Todos' || projects.some(project => (name === 'Em desenvolvimento' ? project.status === name : project.category === name)));
+    const filters = document.getElementById('filters');
+    filters.replaceChildren();
+    available.forEach(name => {
+      const button = node('button', name);
+      button.type = 'button';
+      button.setAttribute('aria-pressed', String(name === category));
+      button.addEventListener('click', () => {
+        category = name;
+        filters.querySelectorAll('button').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+        render();
+      });
+      filters.append(button);
+    });
+  }
   search.addEventListener('input', render);
   async function load() {
     retry.hidden = true; status.textContent = 'Carregando projetos…';
@@ -76,6 +111,7 @@
       const response = await fetch('/src/data/projects.json', {credentials: 'omit'});
       if (!response.ok) throw new Error('Falha no catálogo');
       projects = validate(await response.json());
+      renderCategories();
       document.getElementById('portfolio-tools').hidden = false; render();
     } catch {
       list.replaceChildren(); detail.hidden = true; document.getElementById('portfolio-tools').hidden = true;

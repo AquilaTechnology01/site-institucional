@@ -1,0 +1,1 @@
+PASS: primeira visita; três decisões; recarga; oito rotas; revogação; versão/data/expiração; seis larguras; modal/foco/teclado; rejeição preserva catálogo; zero requests de rastreadores conhecidos; cookies locais ausentes; armazenamento bloqueado.

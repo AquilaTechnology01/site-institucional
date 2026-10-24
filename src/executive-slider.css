@@ -1,0 +1,65 @@
+/* Aquila Executive: banner panorâmico com composição original em azul profundo. */
+.home-hero { background: #061e41; color: #fff; overflow: hidden; }
+.home-hero .hero-grid { position: relative; width: 100%; min-height: clamp(600px, 43vw, 740px); display: grid; grid-template-columns: 1fr; isolation: isolate; }
+.home-hero .hero-copy { position: relative; z-index: 5; width: min(640px, 48%); margin-left: max(calc((100vw - 1280px) / 2), clamp(1rem, 4vw, 4rem)); padding: 4.5rem 1.5rem 6rem 0; gap: 1.5rem; }
+/* A área vazia da coluna não intercepta os controles sobrepostos ao fundo. */
+.home-hero .hero-copy { pointer-events: none; }
+.home-hero .hero-copy > * { pointer-events: auto; }
+.home-hero .eyebrow { color: #a7ccff; letter-spacing: .2em; }
+.home-hero h1 { font-size: clamp(3rem, 5vw, 5rem); line-height: 1.04; font-weight: 500; }
+.home-hero h1 em { color: #77bcff; }
+.home-hero .hero-copy > p { color: #c5d5e9; max-width: 490px; font-size: 1rem; }
+.home-hero .hero-actions { gap: 1rem; }
+.home-hero .btn-primary { background: #fff; border-color: #fff; color: #07336c; }
+.home-hero .btn-primary:hover { background: #dcecff; border-color: #dcecff; }
+.home-hero .text-link { color: #fff; }
+.home-hero .hero-index { color: #afc5df; font-size: .62rem; letter-spacing: .14em; }
+.home-hero .hero-index::before { background: #e7ac3d; width: 32px; }
+.home-hero .hero-copy :focus-visible { outline-color: #a7ccff; }
+.home-hero .executive-slider { position: absolute; inset: 0; margin: 0; height: 100%; min-width: 0; overflow: hidden; isolation: isolate; }
+.executive-slide { position: absolute; inset: 0; opacity: 0; z-index: 0; background: #061e41; }
+.executive-slide.is-current { opacity: 1; z-index: 1; }
+/* A camada anterior permanece opaca sob o crossfade. */
+.executive-slide.is-entering { z-index: 2; animation: executive-fade 900ms ease-in-out both; }
+.executive-slider .executive-slide img { width: 100%; height: 100%; object-fit: cover; object-position: center; animation: executive-drift 16s ease-in-out alternate infinite; animation-play-state: paused; }
+.executive-slider.is-running .is-current img { animation-play-state: running; }
+.executive-slider::after { content: ''; position: absolute; inset: 0; z-index: 3; background: linear-gradient(90deg, #061e41 10%, rgb(6 30 65 / .96) 30%, rgb(6 30 65 / .35) 53%, transparent 68%); pointer-events: none; }
+.executive-controls { position: absolute; right: clamp(1rem, 4vw, 4rem); bottom: 1.5rem; z-index: 4; display: flex; align-items: center; padding: 0 .5rem; background: rgb(177 208 255 / .15); border-radius: 28px; }
+.executive-controls button { display: grid; place-items: center; width: 48px; height: 44px; border: 0; background: transparent; color: #fff; padding: 0; }
+.executive-controls button:focus-visible { outline: 2px solid #a7ccff; outline-offset: -2px; border-radius: 4px; }
+.executive-playback { font-size: .8rem; }
+.executive-playback:disabled { opacity: .45; cursor: default; }
+.executive-indicators { display: flex; align-items: center; gap: 3px; }
+.executive-indicators button { width: 48px; transition: width 250ms ease; }
+.executive-indicators button > span { position: relative; display: block; width: 30px; height: 7px; border-radius: 8px; overflow: hidden; background: rgb(255 255 255 / .6); }
+.executive-indicators button[aria-current=true] { width: 88px; }
+.executive-indicators [aria-current=true] > span { width: 70px; background: rgb(255 255 255 / .35); }
+.executive-indicators [aria-current=true] > span::after { content: ''; position: absolute; inset: 0; background: #fff; border-radius: inherit; transform-origin: left; animation: executive-progress 7000ms linear both; animation-play-state: paused; }
+.executive-slider.is-running .executive-indicators [aria-current=true] > span::after { animation-play-state: running; }
+.executive-slider figcaption { z-index: 4; left: auto; right: clamp(1rem, 4vw, 4rem); bottom: 5rem; padding: 0; color: #a2bcdf; background: none; font-size: .57rem; letter-spacing: .18em; }
+@keyframes executive-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes executive-drift { from { transform: scale(1); } to { transform: scale(1.025); } }
+@keyframes executive-progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@media (min-width: 768px) and (max-width: 1100px) {
+ .home-hero .hero-copy { width: 55%; }
+ .home-hero h1 { font-size: clamp(3rem, 5.5vw, 4rem); }
+ .executive-slider .executive-slide img { object-position: 59% center; }
+}
+@media (max-width: 767px) {
+ .home-hero .hero-grid { min-height: 850px; gap: 0; }
+ .home-hero .hero-copy { width: calc(100% - 2rem); margin-inline: 1rem; padding: 3rem 0 21rem; gap: 1.3rem; }
+ .home-hero h1 { max-width: 560px; font-size: clamp(2.65rem, 9vw, 4.2rem); }
+ .home-hero .hero-copy > p { font-size: .95rem; max-width: 480px; }
+ .home-hero .hero-actions { max-width: 480px; }
+ .home-hero .hero-index { font-size: .54rem; letter-spacing: .08em; margin-top: .5rem; }
+ .executive-slider .executive-slide img { position: absolute; bottom: 0; height: 340px; object-position: 81% center; }
+ .executive-slider::after { background: linear-gradient(180deg, #061e41 0%, #061e41 calc(100% - 335px), transparent calc(100% - 235px)); }
+ .executive-controls { bottom: 1rem; right: 1rem; }
+ .executive-slider figcaption { right: auto; left: 1rem; bottom: 4.8rem; font-size: .5rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+ .executive-slide.is-entering, .executive-slide img, .executive-indicators [aria-current=true] > span::after { animation: none; }
+ .executive-slider .executive-slide img { animation: none; transform: none; }
+ .executive-indicators button { transition: none; }
+ .executive-indicators [aria-current=true] > span::after { transform: scaleX(1); }
+}

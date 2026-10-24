@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' ; style-src 'self' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' ; style-src 'self'; font-src 'self'; img-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Informações sobre LGPD e tratamento de dados pela Aquila Tecnology."
+      content="Informações sobre LGPD e tratamento de dados pela Aquila Technology."
     />
-    <title>Aquila Tecnology | LGPD</title>
-    <meta name="theme-color" content="#081123" />
-    <link rel="icon" type="image/png" href="src/img/logo/favicon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Aquila Technology | LGPD</title>
+    <meta name="theme-color" content="#0057B8" />
+    <link rel="icon" type="image/png" sizes="64x64" href="/src/img/optimized/favicon-preto.png" />
+    <link rel="icon" type="image/png" sizes="64x64" href="/src/img/optimized/favicon-branco.png" media="(prefers-color-scheme: dark)" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
-    <meta property="og:title" content="Aquila Tecnology | LGPD" />
-    <meta property="og:description" content="Informações sobre LGPD e tratamento de dados pela Aquila Tecnology." />
+    <meta property="og:title" content="Aquila Technology | LGPD" />
+    <meta property="og:description" content="Informações sobre LGPD e tratamento de dados pela Aquila Technology." />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:image" content="https://www.aquilatechnology.com.br/src/img/logo/logo-branco.png" />
     <link rel="canonical" href="https://www.aquilatechnology.com.br/lgpd.html" />
     <meta property="og:url" content="https://www.aquilatechnology.com.br/lgpd.html" />
+    <link rel="stylesheet" href="/src/consent.css" />
   </head>
   <body>
     <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
     <header>
       <div class="navbar container">
-        <a class="brand" href="index.html">
-          <img src="src/img/logo/logo-branco.png" alt="Logo Aquila Tecnology" />
-          <span>Aquila Tecnology</span>
+        <a class="brand" href="/index.html" aria-label="Aquila Technology — início">
+          <picture class="brand-symbol"><source srcset="/src/img/optimized/logo-preto.webp" type="image/webp" /><img src="/src/img/optimized/logo-preto.png" alt="Símbolo Aquila Technology" width="216" height="159" fetchpriority="high" /></picture>
+          <span>Aquila Technology<small>Tecnologia para negócios</small></span>
         </a>
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Abrir menu">
-          <i class="bi bi-list" aria-hidden="true"></i>
-        </button>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Abrir menu"></button>
         <nav id="main-navigation" class="nav-links" aria-label="Navegação principal">
+          <a href="/index.html">Início</a>
+          <details><summary>Soluções</summary><div class="nav-submenu">
+            <a href="/index.html#servicos">Serviços de tecnologia</a>
+            <a href="/pdv.html">Sistema Aquila PDV</a>
+            <a href="/index.html#projetos">Projetos e iniciativas</a>
+          </div></details>
           <a href="/portfolio/">Portfólio</a>
-          <a href="index.html#servicos">Serviços</a>
-          <a href="pdv.html">Sistema PDV</a>
-          <a href="index.html#projetos">Projetos</a>
-          <a href="index.html#tecnologias">Tecnologias</a>
-          <a href="index.html#sobre">Sobre</a>
-          <a href="index.html#contato">Contato</a>
+          <details><summary>Institucional</summary><div class="nav-submenu">
+            <a href="/index.html#sobre">Sobre a Aquila</a>
+            <a href="/index.html#tecnologias">Tecnologias</a>
+            <a href="/FAQ.html">Perguntas frequentes</a>
+            <a href="/blog.html">Blog</a>
+            <a href="/privacidade.html">Privacidade</a>
+            <a href="/termos.html">Termos de Uso</a>
+            <a href="/lgpd.html" aria-current="page">LGPD</a>
+          </div></details>
+          <a class="nav-contact" href="/index.html#contato">Fale com a Aquila <span aria-hidden="true">↗</span></a>
         </nav>
       </div>
     </header>
@@ -53,7 +59,7 @@
         <div class="hero-copy container">
           <span class="eyebrow">LGPD</span>
           <h1>Lei Geral de Proteção de Dados</h1>
-          <p>Entenda como tratamos e protegemos os dados pessoais na Aquila Tecnology.</p>
+          <p>Entenda como tratamos e protegemos os dados pessoais na Aquila Technology.</p>
         </div>
       </section>
 
@@ -66,7 +72,7 @@
 
           <div class="faq-item">
             <h3>Lei Geral de Proteção de Dados</h3>
-            <p>A Aquila Tecnology realiza o tratamento de dados pessoais em conformidade com a Lei nº 13.709/2018.</p>
+            <p>A Aquila Technology realiza o tratamento de dados pessoais em conformidade com a Lei nº 13.709/2018.</p>
           </div>
 
           <div class="faq-item">
@@ -98,7 +104,7 @@
 
           <div class="faq-item">
             <h3>Segurança</h3>
-            <p>A Aquila Tecnology adota boas práticas de segurança para proteger as informações tratadas.</p>
+            <p>A Aquila Technology adota boas práticas de segurança para proteger as informações tratadas.</p>
           </div>
 
           <div class="faq-item">
@@ -110,10 +116,60 @@
     </main>
 
     <footer>
-      <div class="container footer-content">
-        <p>© 2026 Aquila Tecnology. Todos os direitos reservados.</p>
+      <div class="container footer-main">
+        <div class="footer-brand">
+          <a class="brand" href="/index.html"><picture class="brand-symbol"><source srcset="/src/img/optimized/logo-branco.webp" type="image/webp" /><img src="/src/img/optimized/logo-branco.png" alt="Símbolo Aquila Technology" width="216" height="160" loading="lazy" /></picture><span>Aquila Technology<small>Tecnologia para negócios</small></span></a>
+          <p>Desenvolvimento, automação e consultoria em TI para pequenas e médias empresas.</p>
+        </div>
+        <div><h2>Soluções</h2><a href="/index.html#servicos">Desenvolvimento web</a><a href="/index.html#servicos">Automação de processos</a><a href="/index.html#servicos">Soluções em Excel</a><a href="/index.html#servicos">Consultoria em TI</a><a href="/pdv.html">Aquila PDV</a></div>
+        <div><h2>Conheça a Aquila</h2><a href="/index.html#sobre">Sobre nós</a><a href="/portfolio/">Portfólio</a><a href="/index.html#projetos">Projetos e iniciativas</a><a href="/index.html#tecnologias">Tecnologias</a><a href="/index.html#contato">Solicitar orçamento</a></div>
+        <div><h2>Vamos conversar</h2><a href="mailto:AquilaTechnology@proton.me">AquilaTechnology@proton.me</a><a href="https://wa.me/5511996810827" target="_blank" rel="noopener noreferrer">WhatsApp · +55 11 99681-0827</a><a href="https://www.linkedin.com/company/aquila-technology-brasil" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/AquilaTechnology01" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
       </div>
+      <div class="container footer-content">
+        <p>© <span data-current-year>2026</span> Aquila Technology. Todos os direitos reservados.</p>
+        <nav class="footer-links" aria-label="Informações legais e recursos">
+          <a href="/FAQ.html">FAQ</a><a href="/blog.html">Blog</a><a href="/privacidade.html">Política de Privacidade</a><a href="/termos.html">Termos de Uso</a><a href="/lgpd.html">LGPD</a>
+          <button type="button" class="cookie-settings" data-cookie-open>Preferências de cookies</button>
+        </nav>
+      </div>
+      <div class="container"><noscript><p>O gerenciamento de preferências requer JavaScript. Nenhum script opcional está integrado. <a href="/privacidade.html#cookies">Política de Cookies</a>.</p></noscript></div>
     </footer>
     <script src="src/js/main.js" defer></script>
+
+    <dialog id="cookie-banner" class="cookie-banner" aria-labelledby="cookie-title" aria-describedby="cookie-description" hidden>
+      <div class="cookie-header">
+        <div class="cookie-brand"><img src="/src/img/optimized/logo-preto.webp" alt="" width="216" height="159" /><span>Aquila Technology<small>Privacidade e dados</small></span></div>
+        <button type="button" class="cookie-dismiss" data-cookie-dismiss autofocus aria-label="Fechar aviso de privacidade">×</button>
+      </div>
+      <div class="cookie-body">
+        <h2 id="cookie-title">Sua privacidade, suas escolhas.</h2>
+        <p id="cookie-description">Utilizamos apenas o armazenamento necessário para guardar sua preferência de privacidade neste navegador. O site não utiliza ferramentas de análise ou publicidade. Ao preencher o formulário de contato, seus dados são incluídos em um link para você concluir o envio pelo WhatsApp.</p>
+        <p class="cookie-policy-note">Você pode consultar e alterar sua decisão a qualquer momento nas preferências de cookies. <a href="/privacidade.html#cookies">Política de Privacidade e Cookies</a>.</p>
+      </div>
+      <div class="cookie-footer">
+        <div class="cookie-details-row"><button type="button" class="cookie-details-link" data-cookie-open>Exibir detalhes <span aria-hidden="true">›</span></button></div>
+        <div class="cookie-actions">
+          <button type="button" class="cookie-button" data-cookie-action="reject">Rejeitar opcionais</button>
+          <button type="button" class="cookie-button" data-cookie-action="accept">Aceitar todos</button>
+        </div>
+      </div>
+    </dialog>
+    <dialog id="cookie-preferences" class="cookie-dialog" aria-labelledby="cookie-preferences-title" aria-describedby="cookie-current">
+      <h2 id="cookie-preferences-title">Preferências de cookies</h2>
+      <p id="cookie-current"></p>
+      <div class="cookie-category">
+        <strong>Necessários <span>· Sempre ativos</span></strong>
+        <p>Armazenamento da sua decisão para respeitar sua escolha entre páginas. Nenhum cookie próprio foi identificado no código atual.</p>
+      </div>
+      <p>Não há categorias de análise, funcionais ou marketing em uso no código atual. Aceitar todos, rejeitar opcionais e salvar preferências mantêm apenas o armazenamento necessário.</p>
+      <p><a href="/privacidade.html#cookies">Consulte finalidades, duração e fornecedores</a>.</p>
+      <div class="cookie-actions">
+        <button type="button" class="cookie-button" data-cookie-action="custom">Salvar preferências</button>
+        <button type="button" class="cookie-button" data-cookie-revoke>Revogar e apagar decisão</button>
+        <button type="button" class="cookie-button" data-cookie-close autofocus>Fechar</button>
+      </div>
+    </dialog>
+    <p id="cookie-notice" class="cookie-notice" role="status" aria-live="polite"></p>
+    <script src="/src/js/consent.js" defer></script>
   </body>
 </html>

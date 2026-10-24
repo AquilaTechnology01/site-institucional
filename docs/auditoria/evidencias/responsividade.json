@@ -1,0 +1,506 @@
+[
+  {
+    "path": "/",
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/",
+    "width": 360,
+    "scrollWidth": 360,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/",
+    "width": 390,
+    "scrollWidth": 390,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/",
+    "width": 430,
+    "scrollWidth": 430,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/",
+    "width": 768,
+    "scrollWidth": 768,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/",
+    "width": 1024,
+    "scrollWidth": 1024,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/",
+    "width": 1920,
+    "scrollWidth": 1920,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/portfolio/",
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/portfolio/",
+    "width": 360,
+    "scrollWidth": 360,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/portfolio/",
+    "width": 390,
+    "scrollWidth": 390,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/portfolio/",
+    "width": 430,
+    "scrollWidth": 430,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/portfolio/",
+    "width": 768,
+    "scrollWidth": 768,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/portfolio/",
+    "width": 1024,
+    "scrollWidth": 1024,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/portfolio/",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/portfolio/",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/portfolio/",
+    "width": 1920,
+    "scrollWidth": 1920,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/pdv.html",
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/pdv.html",
+    "width": 360,
+    "scrollWidth": 360,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/pdv.html",
+    "width": 390,
+    "scrollWidth": 390,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/pdv.html",
+    "width": 430,
+    "scrollWidth": 430,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/pdv.html",
+    "width": 768,
+    "scrollWidth": 768,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/pdv.html",
+    "width": 1024,
+    "scrollWidth": 1024,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/pdv.html",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/pdv.html",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/pdv.html",
+    "width": 1920,
+    "scrollWidth": 1920,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/FAQ.html",
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/FAQ.html",
+    "width": 360,
+    "scrollWidth": 360,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/FAQ.html",
+    "width": 390,
+    "scrollWidth": 390,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/FAQ.html",
+    "width": 430,
+    "scrollWidth": 430,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/FAQ.html",
+    "width": 768,
+    "scrollWidth": 768,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/FAQ.html",
+    "width": 1024,
+    "scrollWidth": 1024,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/FAQ.html",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/FAQ.html",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/FAQ.html",
+    "width": 1920,
+    "scrollWidth": 1920,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/blog.html",
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/blog.html",
+    "width": 360,
+    "scrollWidth": 360,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/blog.html",
+    "width": 390,
+    "scrollWidth": 390,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/blog.html",
+    "width": 430,
+    "scrollWidth": 430,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/blog.html",
+    "width": 768,
+    "scrollWidth": 768,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/blog.html",
+    "width": 1024,
+    "scrollWidth": 1024,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/blog.html",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/blog.html",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/blog.html",
+    "width": 1920,
+    "scrollWidth": 1920,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/privacidade.html",
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/privacidade.html",
+    "width": 360,
+    "scrollWidth": 360,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/privacidade.html",
+    "width": 390,
+    "scrollWidth": 390,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/privacidade.html",
+    "width": 430,
+    "scrollWidth": 430,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/privacidade.html",
+    "width": 768,
+    "scrollWidth": 768,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/privacidade.html",
+    "width": 1024,
+    "scrollWidth": 1024,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/privacidade.html",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/privacidade.html",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/privacidade.html",
+    "width": 1920,
+    "scrollWidth": 1920,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/termos.html",
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/termos.html",
+    "width": 360,
+    "scrollWidth": 360,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/termos.html",
+    "width": 390,
+    "scrollWidth": 390,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/termos.html",
+    "width": 430,
+    "scrollWidth": 430,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/termos.html",
+    "width": 768,
+    "scrollWidth": 768,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/termos.html",
+    "width": 1024,
+    "scrollWidth": 1024,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/termos.html",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/termos.html",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/termos.html",
+    "width": 1920,
+    "scrollWidth": 1920,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/lgpd.html",
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/lgpd.html",
+    "width": 360,
+    "scrollWidth": 360,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/lgpd.html",
+    "width": 390,
+    "scrollWidth": 390,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/lgpd.html",
+    "width": 430,
+    "scrollWidth": 430,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/lgpd.html",
+    "width": 768,
+    "scrollWidth": 768,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/lgpd.html",
+    "width": 1024,
+    "scrollWidth": 1024,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/lgpd.html",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/lgpd.html",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "path": "/lgpd.html",
+    "width": 1920,
+    "scrollWidth": 1920,
+    "overflow": false,
+    "brokenImages": []
+  }
+]

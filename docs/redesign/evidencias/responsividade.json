@@ -1,0 +1,338 @@
+[
+  {
+    "route": "/",
+    "width": 320,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/",
+    "width": 375,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/",
+    "width": 1024,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/",
+    "width": 1920,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/portfolio/",
+    "width": 320,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/portfolio/",
+    "width": 375,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/portfolio/",
+    "width": 390,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/portfolio/",
+    "width": 768,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/portfolio/",
+    "width": 1024,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/portfolio/",
+    "width": 1440,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/portfolio/",
+    "width": 1920,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/pdv.html",
+    "width": 320,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/pdv.html",
+    "width": 375,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/pdv.html",
+    "width": 390,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/pdv.html",
+    "width": 768,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/pdv.html",
+    "width": 1024,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/pdv.html",
+    "width": 1440,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/pdv.html",
+    "width": 1920,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/FAQ.html",
+    "width": 320,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/FAQ.html",
+    "width": 375,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/FAQ.html",
+    "width": 390,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/FAQ.html",
+    "width": 768,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/FAQ.html",
+    "width": 1024,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/FAQ.html",
+    "width": 1440,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/FAQ.html",
+    "width": 1920,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/blog.html",
+    "width": 320,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/blog.html",
+    "width": 375,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/blog.html",
+    "width": 390,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/blog.html",
+    "width": 768,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/blog.html",
+    "width": 1024,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/blog.html",
+    "width": 1440,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/blog.html",
+    "width": 1920,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/privacidade.html",
+    "width": 320,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/privacidade.html",
+    "width": 375,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/privacidade.html",
+    "width": 390,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/privacidade.html",
+    "width": 768,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/privacidade.html",
+    "width": 1024,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/privacidade.html",
+    "width": 1440,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/privacidade.html",
+    "width": 1920,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/termos.html",
+    "width": 320,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/termos.html",
+    "width": 375,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/termos.html",
+    "width": 390,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/termos.html",
+    "width": 768,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/termos.html",
+    "width": 1024,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/termos.html",
+    "width": 1440,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/termos.html",
+    "width": 1920,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/lgpd.html",
+    "width": 320,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/lgpd.html",
+    "width": 375,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/lgpd.html",
+    "width": 390,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/lgpd.html",
+    "width": 768,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/lgpd.html",
+    "width": 1024,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/lgpd.html",
+    "width": 1440,
+    "overflow": false,
+    "brokenImages": []
+  },
+  {
+    "route": "/lgpd.html",
+    "width": 1920,
+    "overflow": false,
+    "brokenImages": []
+  }
+]

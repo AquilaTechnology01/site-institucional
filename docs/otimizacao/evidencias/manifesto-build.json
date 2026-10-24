@@ -1,0 +1,474 @@
+{
+  "FAQ.html": {
+    "bytes": 13947,
+    "sha256": "3ce614ffb338cdc6e64adc9b62972eb9a5dd4dec78fd4c8e9f85b34e8ce3c36a"
+  },
+  "blog.html": {
+    "bytes": 9553,
+    "sha256": "9270cb0017a50f9649fee1144bfb01f065f40b6b252d2dd1ea666a8535628a59"
+  },
+  "index.html": {
+    "bytes": 24876,
+    "sha256": "42c54650c9f33daf8ac35741e83af2829761afecbbb960ebc2f35cfb3babc181"
+  },
+  "lgpd.html": {
+    "bytes": 11188,
+    "sha256": "2ecb60aefc02f65d0047b01d205ea4aaf4b299cda8bad251e69801d9c2a20a4f"
+  },
+  "pdv.html": {
+    "bytes": 15544,
+    "sha256": "ea2ffafa79e4db1df67ce52b4194ee75d39b22a15e0c252a880bf0ae3dad37b9"
+  },
+  "privacidade.html": {
+    "bytes": 14842,
+    "sha256": "01c331141884d90fafccc8867d6618fad240d8fcfeed84678034f74d3a936d25"
+  },
+  "termos.html": {
+    "bytes": 11334,
+    "sha256": "33a9e4b2fbffa5550cee6bdcf5605e92102d00f56f707d5a7c73644f0c189db7"
+  },
+  "styles.css": {
+    "bytes": 19182,
+    "sha256": "17250e7a52a25dd656bc46305a6e69056a4b1b9e3b2d720dda277fdfe492f0a6"
+  },
+  "robots.txt": {
+    "bytes": 81,
+    "sha256": "10b2083cd00684b940a52cfee72c6f6ecc7ce74ed8235903734438311406c69a"
+  },
+  "sitemap.xml": {
+    "bytes": 669,
+    "sha256": "06555f7267377c71b7b2ab425230146f0cb30bd158fb690dd970f397b953dcfe"
+  },
+  "_headers": {
+    "bytes": 159,
+    "sha256": "163e563319a95708a505dec4f36c4168d7b417150589d4e4e74ce09b3c2cfe31"
+  },
+  "src/portfolio.css": {
+    "bytes": 3794,
+    "sha256": "4366ebd3339f3295da2f9ba0d1bdce1754d3c40791e19411ea6e236aa8a78389"
+  },
+  "src/consent.css": {
+    "bytes": 2671,
+    "sha256": "c1621c3b4b1e7ef1fbad6858cfe022f68f58f2cdf740ba71d77257df4166a68d"
+  },
+  "portfolio/index.html": {
+    "bytes": 14840,
+    "sha256": "614d807cb6fd6b20294d79b7d21bf5740e9123a61f4f6db77031aa0556405f1d"
+  },
+  "assets/runtime/site.bedc590d8f6e2bf3.css": {
+    "bytes": 18472,
+    "sha256": "bedc590d8f6e2bf3d2fd3eaf08f7a7705173e556e20ee5fde0bbddb9ff0aa02a"
+  },
+  "assets/runtime/portfolio.5675a9d4d0cbefcd.css": {
+    "bytes": 3288,
+    "sha256": "5675a9d4d0cbefcd9c9982abdee908fc0a0eb198d38a763e66225de826399bd7"
+  },
+  "assets/runtime/site.c0e676cd5507280e.js": {
+    "bytes": 6094,
+    "sha256": "c0e676cd5507280ee16fc7d2ecc39e5e3281a1cf5ddfdc3276999d5fcca51589"
+  },
+  "assets/runtime/contact.622b6a3051dddf2a.js": {
+    "bytes": 2240,
+    "sha256": "622b6a3051dddf2a652c7c891719c60d05dc3fbf35613ecb7bca21e659520f4f"
+  },
+  "assets/runtime/portfolio.28b40450b19d79f7.js": {
+    "bytes": 9801,
+    "sha256": "28b40450b19d79f77c98611d01186da671a310706af8ce7fce05bbc1fc52e2c6"
+  },
+  "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-35-24.png": {
+    "bytes": 285042,
+    "sha256": "e1bf6003ccc16971545e1ae197ab1dd3745bdfca75288aa92723c57fbee0a9d1"
+  },
+  "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-35-41.png": {
+    "bytes": 53417,
+    "sha256": "d212253ba7f35b98d6394c2f90c1817bb9aa0e962f8603523f3fb681d79528dd"
+  },
+  "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-36-04.png": {
+    "bytes": 78165,
+    "sha256": "d30684e3a352b28740c02c45713c7cc6e8b8a231872dff1fced8f972f692deb7"
+  },
+  "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-36-22.png": {
+    "bytes": 65178,
+    "sha256": "df3bc639a855b76fbf0da71b0d879b82d7b2fb7058b845d6ca4b9b3f12ff9d5a"
+  },
+  "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-36-39.png": {
+    "bytes": 72753,
+    "sha256": "9fc046581fa7aaa10a26ebb8393e9b769bc39d6f2d30dd888529c763698cdc66"
+  },
+  "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-36-53.png": {
+    "bytes": 80502,
+    "sha256": "7bd85069c6c7324746a877154683dac40253b0249801bca0745f9d2c6b832ff0"
+  },
+  "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-37-16.png": {
+    "bytes": 17188,
+    "sha256": "a7c63761d0ebf1742d7c491f061c550c67a4fe46d7ade9dd72e1b02e5bc9b260"
+  },
+  "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-46-23.png": {
+    "bytes": 63690,
+    "sha256": "11c8102b231a261676ecd51e35b8283e5c781c1c7be8ed08b6d25899f395efb5"
+  },
+  "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-46-41.png": {
+    "bytes": 161051,
+    "sha256": "ee67dafcf14da44bde46a5684f8402d05e8c0413c62c7a675bf98210913f0e9a"
+  },
+  "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-47-19.png": {
+    "bytes": 72724,
+    "sha256": "5b0927153bfd170e57de67bfe616d076406a8140101adc7c8fa2050b9516f333"
+  },
+  "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-48-32.png": {
+    "bytes": 88089,
+    "sha256": "efae229f51725e9b922ab35f99608bf76c6f3672bf7ee5cd2b797da9e1c3b3e9"
+  },
+  "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-48-44.png": {
+    "bytes": 80277,
+    "sha256": "3b0ab2cff352486d5851174cd498738f0b49b86da2ac31bebbcccd6f334a820c"
+  },
+  "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-49-49.png": {
+    "bytes": 77696,
+    "sha256": "c4c81f62f731555ae00b2c4c546daa4b044c2b8f32db68b2da3218dffb72787e"
+  },
+  "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-50-18.png": {
+    "bytes": 10632,
+    "sha256": "eeaf1a30603ae727106e94b6d7beb83184c2ab205f9037b36f11a08fad0709f3"
+  },
+  "portfolio/img/optimized/modelo-institucional-1.webp": {
+    "bytes": 26828,
+    "sha256": "6fe5dad0705ceb621e0c0191a35b336bf36fa4099260376e5703ded5f5c0a0f7"
+  },
+  "portfolio/img/optimized/modelo-institucional-2.webp": {
+    "bytes": 12032,
+    "sha256": "575a36241fb61b00a132ab6970ff6538fb360f22f2ff632bf2ef910f5548ca80"
+  },
+  "portfolio/img/optimized/modelo-institucional-3.webp": {
+    "bytes": 30634,
+    "sha256": "eb363800f52324e6eaf0b51d725936658209825d501e286ba083097c37ad3fde"
+  },
+  "portfolio/img/optimized/modelo-institucional-4.webp": {
+    "bytes": 31298,
+    "sha256": "771676c1960622d16c3fa446a7e615854b87a169cb9ea9705d100e983b8c79f5"
+  },
+  "portfolio/img/optimized/modelo-institucional-5.webp": {
+    "bytes": 31180,
+    "sha256": "50a8a2fee60893c53f04edf2a5fc481b63c0db717e0248dac486be9bc1d4143f"
+  },
+  "portfolio/img/optimized/modelo-institucional-6.webp": {
+    "bytes": 20572,
+    "sha256": "b5ecde98e703b2af745c73f2fc4032d925f2c035fe483a3cae042ff06c860fc5"
+  },
+  "portfolio/img/optimized/modelo-institucional-7.webp": {
+    "bytes": 1888,
+    "sha256": "4e83ce7a26aa20ac1e43dab3078669df5981f407dc588e7936953f808ff2f655"
+  },
+  "portfolio/img/optimized/cardapio-digital-1.webp": {
+    "bytes": 33838,
+    "sha256": "f05afde0c446b3769f7c5b9a261375c36b1419bcb948f1c996e5378bc549a7d0"
+  },
+  "portfolio/img/optimized/cardapio-digital-2.webp": {
+    "bytes": 26566,
+    "sha256": "9207509cb15d06ded52d5a8677dd2dd255e0da1bab12296902033264ea2c7cd3"
+  },
+  "portfolio/img/optimized/cardapio-digital-3.webp": {
+    "bytes": 35118,
+    "sha256": "22355219beb092e16bee0f49d2b0735b3a5236a46893bdc9f339bbc65ff9bdf6"
+  },
+  "portfolio/img/optimized/cardapio-digital-4.webp": {
+    "bytes": 29292,
+    "sha256": "240a984b0f012b5696f6c7e84f5455ef8a0967e59fbc53928aff54c9f20fa233"
+  },
+  "portfolio/img/optimized/cardapio-digital-5.webp": {
+    "bytes": 29798,
+    "sha256": "803f9af7fc3f24fa4eced16e9317f0c05ea3aed10675819f9bc70d06e45d6da6"
+  },
+  "portfolio/img/optimized/cardapio-digital-6.webp": {
+    "bytes": 34902,
+    "sha256": "b761dbd152e3d7be26e2036869bf72a788eba18f7c69e8103ac09eb77f5a50af"
+  },
+  "portfolio/img/optimized/cardapio-digital-7.webp": {
+    "bytes": 8546,
+    "sha256": "917a4cfcb00736fcb76f978e9ac29fa3ffdfc8819f8b7d990ee8ef680b875f04"
+  },
+  "portfolio/img/optimized/landing-advocacia-1.webp": {
+    "bytes": 41820,
+    "sha256": "beb277f830a044db05fb113fc8944a60261da71e706324f277aabfc2fda745a4"
+  },
+  "portfolio/img/optimized/landing-advocacia-2.webp": {
+    "bytes": 37702,
+    "sha256": "3bd868758672a9d116444711d129f7142aef0084f9d0234fe9cfc82e5a9b33d4"
+  },
+  "portfolio/img/optimized/landing-advocacia-3.webp": {
+    "bytes": 22502,
+    "sha256": "59f45b8b96b6b94c1eb95baeb77d40f600380563b9a6eb3f788d2200245d50d0"
+  },
+  "portfolio/img/optimized/landing-advocacia-4.webp": {
+    "bytes": 26844,
+    "sha256": "8c0897f1cfc901e62d0bbd5c59edb99b0f424095994ebc86f96f49a3283c64da"
+  },
+  "portfolio/img/optimized/landing-padaria-1.webp": {
+    "bytes": 91948,
+    "sha256": "232ecdeb0b2b2bb3e4780b39221ec8a90a0f769f883d585080f0c39b79a94a4b"
+  },
+  "portfolio/img/optimized/landing-padaria-2.webp": {
+    "bytes": 87416,
+    "sha256": "23760c1cc14c1a2cda35600363d4a5813c367560ac3c9e44087cf20ea1ccf44d"
+  },
+  "portfolio/img/optimized/landing-padaria-3.webp": {
+    "bytes": 17340,
+    "sha256": "456b071bd933b4610c624e6a341af2efea7fa539ba60c4db6f7bf4d89be5af19"
+  },
+  "portfolio/img/thumbs/modelo-institucional-480.webp": {
+    "bytes": 9310,
+    "sha256": "0fbae9e45c5c5cdf7e1fd469cc8c287bad9db22705e0c265d5aa620ccf543e83"
+  },
+  "portfolio/img/thumbs/modelo-institucional-800.webp": {
+    "bytes": 18474,
+    "sha256": "4e0765750275350ee9575c02689afdd53ca18a8fb6a5692ea578f374b9ad089b"
+  },
+  "portfolio/img/thumbs/cardapio-digital-480.webp": {
+    "bytes": 12426,
+    "sha256": "e0d206150920772f6c30893cf694e0b5a7a84b268db0863a4f9514a5e8011c61"
+  },
+  "portfolio/img/thumbs/cardapio-digital-800.webp": {
+    "bytes": 23478,
+    "sha256": "7e091a663b1862510cff4c25cdf1bd7aa198fff6489c355050167881b591e127"
+  },
+  "portfolio/img/thumbs/landing-advocacia-480.webp": {
+    "bytes": 12508,
+    "sha256": "3d8fdc74e337fe3c64081c3a43299da60000a52074caf623c5600bef6a539b2b"
+  },
+  "portfolio/img/thumbs/landing-advocacia-800.webp": {
+    "bytes": 26330,
+    "sha256": "2c77c8a01755c43895c34328fa305214e0ba73b6c212b1e0bc9bf92bbea89749"
+  },
+  "portfolio/img/thumbs/landing-padaria-480.webp": {
+    "bytes": 22104,
+    "sha256": "2b508ef85fc31522a52fb74259c587e38592e370b96dd0bb5626e8fba27edf88"
+  },
+  "portfolio/img/thumbs/landing-padaria-800.webp": {
+    "bytes": 51688,
+    "sha256": "fa22e416780e28a8ebd4ad8b868545ae9f4296160aa37e760ca2806e7989700a"
+  },
+  "portfolio/img/landing-page/Padaria/Captura de tela de 2026-10-22 22-22-19.png": {
+    "bytes": 626088,
+    "sha256": "3554cc926683b11f550ae6333fcc6eed486a995a351ea448f1d1db0ef360a0a1"
+  },
+  "portfolio/img/landing-page/Padaria/Captura de tela de 2026-10-22 22-27-19.png": {
+    "bytes": 554694,
+    "sha256": "06bd38a7cdb8f0a34f1f929b6333e097c810bd78ef948cbbfb747966f43703cd"
+  },
+  "portfolio/img/landing-page/Padaria/Captura de tela de 2026-10-22 22-27-42.png": {
+    "bytes": 47010,
+    "sha256": "7bbb5bd66a824dfdafd1da940eb80fdffaf49c3e31f8e8fc44a59db7fe60e22a"
+  },
+  "portfolio/img/landing-page/Advocacia/Captura de tela de 2026-10-22 22-19-03.png": {
+    "bytes": 173089,
+    "sha256": "27f0e8bf26956f014c56be80ef14b5386b5a966cf3e5a232519a2539dca2c300"
+  },
+  "portfolio/img/landing-page/Advocacia/Captura de tela de 2026-10-22 22-19-45.png": {
+    "bytes": 90154,
+    "sha256": "5bfadcecd1b66504370f4bf63b868e0eaf88248f4731ac9173c216e90ab5bbaa"
+  },
+  "portfolio/img/landing-page/Advocacia/Captura de tela de 2026-10-22 22-20-04.png": {
+    "bytes": 62524,
+    "sha256": "d1e8cbc192f88ea351a0d2501c5af075697f334bd633b2f50275d20288486130"
+  },
+  "portfolio/img/landing-page/Advocacia/Captura de tela de 2026-10-22 22-20-22.png": {
+    "bytes": 71351,
+    "sha256": "e6b687e2d673ce28c8462b2b4a3676f194b46f9618ad5623f74e06286bad19ad"
+  },
+  "src/img/portfolio-placeholder.svg": {
+    "bytes": 475,
+    "sha256": "415b7ea512341783846ae783aac7f3cbeb390ae05547d5246d85ae16277b07fc"
+  },
+  "src/img/icons.svg": {
+    "bytes": 17284,
+    "sha256": "afc00a22d4cad0ec4f6c8a11e535a1bcfa3f289c688d91e5710f474a3e85ca48"
+  },
+  "src/js/main.js": {
+    "bytes": 1890,
+    "sha256": "abb1a4e0d9e82f98335f7702eb0aff20902c9790d71d3f11ba5047fb59536f42"
+  },
+  "src/js/portfolio-core.js": {
+    "bytes": 3386,
+    "sha256": "0d0dec7b85a9c3ce3da6561024aa96faccb9d862aa0aca47fe558f7db756b31d"
+  },
+  "src/js/portfolio.js": {
+    "bytes": 6412,
+    "sha256": "0c871054b5d53d9e15a751b851b414a1b2e19d680b3374ea8b30731218254c07"
+  },
+  "src/js/consent.js": {
+    "bytes": 4201,
+    "sha256": "c134056a61961ecf32dc30889bd2b1d86f83cb13d472c7992a220f0a7d79d8fd"
+  },
+  "src/js/contact.js": {
+    "bytes": 2240,
+    "sha256": "622b6a3051dddf2a652c7c891719c60d05dc3fbf35613ecb7bca21e659520f4f"
+  },
+  "src/data/projects.json": {
+    "bytes": 10896,
+    "sha256": "229940dabc9a1297b29e297df9a82a7025da6c361e08ec6756520ba1a8d075a7"
+  },
+  "src/img/PDV/Controle-de-estoque.png": {
+    "bytes": 113016,
+    "sha256": "8266fa175d07393ff23f5cd85d199b55c50e4ae770fc0481ce776c62626eceac"
+  },
+  "src/img/PDV/Venda-PDV.png": {
+    "bytes": 45679,
+    "sha256": "f36bb680379bb6f72ce79aa1f41078f80e16a4ee368c2ebe6bd39b95f3abbeaf"
+  },
+  "src/img/PDV/backup.png": {
+    "bytes": 37053,
+    "sha256": "bb39a671970e3d7b4f6c5391133907b9faca4122345e0678c306a2fdc8ef874a"
+  },
+  "src/img/PDV/confi-empresa.png": {
+    "bytes": 92050,
+    "sha256": "c7cd8305d1e00fb28a462366ef0b92d810327d5e97f0e668847fff245e86dec6"
+  },
+  "src/img/PDV/contabilidade.png": {
+    "bytes": 136037,
+    "sha256": "af420a249845478a28fb63dd301dc135002f1f5ec33f92d99fa8c401d54acefd"
+  },
+  "src/img/PDV/controle-caixa.png": {
+    "bytes": 64946,
+    "sha256": "f01df60dca1b88b0a105c33b20b0fd9078c008ce7e5e6c0d1e2f1b1dea0555ec"
+  },
+  "src/img/PDV/fechamento-diario.png": {
+    "bytes": 49830,
+    "sha256": "ddda429038a2b5854b6c95617f10559236bff72e162d83e7677602d0b297cb1a"
+  },
+  "src/img/PDV/home": {
+    "bytes": 131145,
+    "sha256": "0078c8a8995f408b69c1d80e3c66b713e0205af1f78e8fa996ff6f2196e58c71"
+  },
+  "src/img/PDV/login": {
+    "bytes": 35648,
+    "sha256": "8e5e88e3a9d692e5626c9ce76d9040edc4312249c814f6ed1838db691b2f454d"
+  },
+  "src/img/PDV/perfil-config.png": {
+    "bytes": 31574,
+    "sha256": "3731f3afc50937d5c5b86bb15cc30ab8d1b0bbb4006dbbd071a7919cb1c0f854"
+  },
+  "src/img/PDV/relatorio-de-vendas.png": {
+    "bytes": 119786,
+    "sha256": "e36205ada3b2e4240284af1ac40ea7bc1d7e1b5d8913a2880cb724fc966586ca"
+  },
+  "src/img/backgraund-img/Futuristic Data Display.png": {
+    "bytes": 1284381,
+    "sha256": "7cd114dce5a7e977f7595d04b552927332d7a8882e534238310d66b9951e3816"
+  },
+  "src/img/logo/favicon.png": {
+    "bytes": 68589,
+    "sha256": "1093075b943c43adbdcd8e70c526f50606caa0971b5b8de1354b2d701320ccc1"
+  },
+  "src/img/logo/logo-branco.png": {
+    "bytes": 68589,
+    "sha256": "1093075b943c43adbdcd8e70c526f50606caa0971b5b8de1354b2d701320ccc1"
+  },
+  "src/img/logo/logo-preto.png": {
+    "bytes": 290535,
+    "sha256": "20396ed24d8cef43bad2a15a858976be625585160b0fd26cab7c85e508c0561c"
+  },
+  "src/img/optimized/logo-preto.webp": {
+    "bytes": 12952,
+    "sha256": "78a69125a4d279f188262748fde88086fc6082f2776cfb433e2347c575aab1bc"
+  },
+  "src/img/optimized/logo-branco.webp": {
+    "bytes": 12058,
+    "sha256": "bbc3a5bd88cc947ad0a99c6e33911286f04d065ed4fe84e7ec56d1316927d580"
+  },
+  "src/img/optimized/office-640.webp": {
+    "bytes": 20118,
+    "sha256": "2970cab68222d672ced9f54d7a5c26310c90a11c68d2c8638737dae73de91807"
+  },
+  "src/img/optimized/office-1024.webp": {
+    "bytes": 36402,
+    "sha256": "5e4a5d7fed90fa6b3d2c6f40947919f9dc64b0fdc95bc2adbcaddf30a7c5fbbc"
+  },
+  "src/img/optimized/office-1600.webp": {
+    "bytes": 71370,
+    "sha256": "b4191121050b5085c9fb376586d442ded879633a811099caa3737af692733ff5"
+  },
+  "src/img/optimized/aquila-pdv-1.webp": {
+    "bytes": 36374,
+    "sha256": "225d8a109199cb4d0dce2fb4e769b5f71916422f5d28db965c663a0bee2cb732"
+  },
+  "src/img/optimized/site-aquila.webp": {
+    "bytes": 58982,
+    "sha256": "8695adcae6e469503567728ea10724fdf4f9c1e956b8bd1854d5c8f7ae273062"
+  },
+  "src/img/optimized/pdv-home.webp": {
+    "bytes": 36374,
+    "sha256": "225d8a109199cb4d0dce2fb4e769b5f71916422f5d28db965c663a0bee2cb732"
+  },
+  "src/img/optimized/pdv-login.webp": {
+    "bytes": 15092,
+    "sha256": "7420458908f93cb979a0a49b574c06ff18f13223b4166745360c363d4ead5ee6"
+  },
+  "src/img/optimized/pdv-Controle-de-estoque.webp": {
+    "bytes": 32528,
+    "sha256": "37c468771bff4fc1420263079f147d99a9d1b2949ae44adcfe89fe5e30508658"
+  },
+  "src/img/optimized/pdv-backup.webp": {
+    "bytes": 21210,
+    "sha256": "b56afa3add47b03aa3685292a2c2d675e740cf9872d5232891e72d85cff97623"
+  },
+  "src/img/optimized/pdv-Venda-PDV.webp": {
+    "bytes": 24266,
+    "sha256": "d4b894896a7b7a8a420127fd3c1df5345f0dc2504515a08e7d827b43f5168e89"
+  },
+  "src/img/optimized/pdv-confi-empresa.webp": {
+    "bytes": 20060,
+    "sha256": "38cb1bc27c00bfd0ddb3167442383a6bf2948a5f48efd24a018e92e9a2bf205d"
+  },
+  "src/img/optimized/pdv-controle-caixa.webp": {
+    "bytes": 39478,
+    "sha256": "3cebb2782d63f324b974850b4a2c35cf944a5bba88b9a54f30e07bf58f60c34a"
+  },
+  "src/img/optimized/pdv-perfil-config.webp": {
+    "bytes": 17420,
+    "sha256": "bf836a74e3da06cba4aa3472ff2891747a857acdf181f85c7ae0273dee26a8f3"
+  },
+  "src/img/optimized/pdv-relatorio-de-vendas.webp": {
+    "bytes": 34964,
+    "sha256": "be09f4035bc063a8aa51756398e06f3f38e97b349e04df5c03ac6c8bee3f075e"
+  },
+  "src/img/optimized/pdv-fechamento-diario.webp": {
+    "bytes": 28120,
+    "sha256": "45fe7d0d84e73d81c7a7092c79f4307bc191919fd9c5fd15a4601e711e162f09"
+  },
+  "src/img/optimized/pdv-contabilidade.webp": {
+    "bytes": 37524,
+    "sha256": "309029fc44f9f58d14e825d29452e8ee6307419abb1c614a4748481652bd3bef"
+  },
+  "src/img/optimized/logo-preto.png": {
+    "bytes": 20891,
+    "sha256": "14500a8a933954c3d964c50676ae2cad4c230d1c599a25141aa1ca734f94a099"
+  },
+  "src/img/optimized/logo-branco.png": {
+    "bytes": 18163,
+    "sha256": "622e2092310abbcb1c2cd3f89861010147781e701f669e61ffcdd7043da34f4f"
+  },
+  "src/img/optimized/favicon-preto.png": {
+    "bytes": 3844,
+    "sha256": "68eea454f95368261385238e9e48858f3f9063755802fef7fb6d2f25c730913c"
+  },
+  "src/img/optimized/favicon-branco.png": {
+    "bytes": 3178,
+    "sha256": "ba9f62d12b08a9b7fb4f54463a645e634db7132f88922f27a4190a53d7004e6b"
+  },
+  "src/img/thumbs/aquila-pdv-480.webp": {
+    "bytes": 8258,
+    "sha256": "4696c58d01d84abc2b2cf959c29b3987c3403b85f33df5625e93076360ee76d1"
+  },
+  "src/img/thumbs/aquila-pdv-800.webp": {
+    "bytes": 18820,
+    "sha256": "4e9435a755899e9e5a115de32d1d46baf0b5228ff97678d13479244144a94fe8"
+  },
+  "src/img/thumbs/site-aquila-480.webp": {
+    "bytes": 17680,
+    "sha256": "c22dff1479798afe4e4ac8b9444b0ea3da05c75d1887393df955d88f3e2fff9d"
+  },
+  "src/img/thumbs/site-aquila-800.webp": {
+    "bytes": 34894,
+    "sha256": "288abc703c5306bda9546c6ccef00b8b989b842eb3409b2a237dc9d04d1f4b60"
+  }
+}

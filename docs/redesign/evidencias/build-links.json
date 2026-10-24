@@ -1,0 +1,9 @@
+{
+  "build": "PASS",
+  "htmlPages": 8,
+  "brokenLocalTargets": [],
+  "outputFiles": 95,
+  "outputBytes": 7220173,
+  "sourceHTMLMatchesOutput": true,
+  "privateDirectoriesExcluded": true
+}

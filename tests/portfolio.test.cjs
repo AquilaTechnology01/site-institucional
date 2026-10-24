@@ -5,19 +5,23 @@ const {categories, safeUrl, validate, filter} = require('../src/js/portfolio-cor
 const raw = JSON.parse(fs.readFileSync('src/data/projects.json', 'utf8'));
 const projects = validate(raw);
 test('catálogo público possui somente projetos documentados', () => {
-  assert.equal(projects.length, 6);
+  assert.equal(projects.length, 8);
   for (const p of projects) for (const source of p.evidence) assert.ok(fs.existsSync(source));
   assert.equal(categories.length, 5);
 });
 test('filtros de categoria e estado vazio', () => {
   assert.equal(filter(projects, 'Sistemas', '').length, 1);
   assert.equal(filter(projects, 'Websites', '').length, 5);
-  assert.equal(filter(projects, 'Dados e IA', '').length, 0);
+  assert.equal(filter(projects, 'Automações', '').length, 1);
+  assert.equal(filter(projects, 'Em desenvolvimento', '').length, 0);
+  assert.equal(filter(projects, 'Em desenvolvimento', 'chatbot').length, 0);
+  assert.equal(filter(projects, 'Em desenvolvimento', 'python').length, 0);
+  assert.equal(filter(projects, 'Dados e IA', '').length, 1);
 });
 test('busca combina categoria, termos, tecnologia, acentos e descrição', () => {
   assert.equal(filter(projects, 'Websites', 'JAVASCRIPT whatsapp').length, 1);
   assert.equal(filter(projects, 'Sistemas', 'JavaScript').length, 0);
-  assert.equal(filter(projects, 'Todos', 'solucao').length, 1);
+  assert.equal(filter(projects, 'Todos', 'solucao').length, 2);
   assert.equal(filter(projects, 'Todos', 'inexistente').length, 0);
 });
 test('rejeita URLs perigosas e credenciais', () => {
@@ -45,4 +49,16 @@ test('imagens não podem escapar das pastas públicas nem conter codificações 
     assert.equal(p.gallery[0].src, fallback, image);
   }
   assert.ok(projects.flatMap(p => p.gallery).every(item => item.src.startsWith('/portfolio/img/')));
+});
+
+test('variantes responsivas aceitam somente caminhos públicos e larguras válidas', () => {
+  const image = '/src/img/thumbs/aquila-pdv-480.webp';
+  const result = validate([{...raw[0], imageVariants:[
+    {src:'javascript:alert(1)',width:480},
+    {src:'/portfolio/img/%2e%2e/private.png',width:800},
+    {src:image,width:'480'},
+    {src:image,width:10001},
+    {src:image,width:480}
+  ]}])[0];
+  assert.deepEqual(result.imageVariants,[{src:image,width:480}]);
 });

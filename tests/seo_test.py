@@ -1,6 +1,7 @@
 """Verifica sitemap, metadados e catálogo disponíveis no HTML publicado."""
 from pathlib import Path
 from html.parser import HTMLParser
+import os
 import base64
 import hashlib
 import json
@@ -8,7 +9,7 @@ import re
 import unittest
 import xml.etree.ElementTree as ET
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(os.environ.get('SITE_ROOT', str(Path(__file__).resolve().parent.parent)))
 BASE = 'https://www.aquilatechnology.com.br'
 
 
