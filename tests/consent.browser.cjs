@@ -1,3 +1,4 @@
+const SITE_BASE = process.env.SITE_BASE || 'http://127.0.0.1:4173';
 const { chromium } = require('playwright');
 const assert = require('node:assert/strict');
 (async () => {
@@ -8,7 +9,7 @@ const assert = require('node:assert/strict');
   const errors=[]; page.on('pageerror',e=>errors.push(e.message));
   const optionalRequests=[];
   page.on('request',r=>{if(/google-analytics|googletagmanager|facebook\.net|doubleclick/.test(r.url()))optionalRequests.push(r.url());});
-  await page.goto('http://127.0.0.1:4173/');
+  await page.goto(SITE_BASE + '/');
   const banner=page.locator('#cookie-banner'), dialog=page.locator('#cookie-preferences');
   await banner.waitFor();
   assert.equal(await banner.evaluate(e=>e.matches(':modal')),true);
@@ -25,7 +26,7 @@ const assert = require('node:assert/strict');
   assert.equal(value.action,'reject');assert.equal(value.version,1);assert.ok(Date.parse(value.decidedAt));
   assert.deepEqual(Object.keys(value).sort(),['action','decidedAt','necessary','version']);
   for(const path of ['/','/portfolio/','/pdv.html','/FAQ.html','/blog.html','/privacidade.html','/termos.html','/lgpd.html']){
-   await page.goto('http://127.0.0.1:4173'+path);
+   await page.goto(SITE_BASE+path);
    assert.equal(await banner.isVisible(),true);
    await page.getByRole('button',{name:'Fechar aviso de privacidade'}).click();
    assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('aquila.consent')).action),'reject');
@@ -68,14 +69,14 @@ const assert = require('node:assert/strict');
   }
   // Rejecting does not break the actual catalog.
   await page.getByRole('button',{name:'Rejeitar opcionais',exact:true}).click();
-  await page.goto('http://127.0.0.1:4173/portfolio/');
+  await page.goto(SITE_BASE + '/portfolio/');
   await page.getByRole('button',{name:'Fechar aviso de privacidade'}).click();
   await page.getByRole('button',{name:'Explorar Aquila PDV'}).waitFor();
   assert.equal(await page.locator('.portfolio-card').count(),6);
   assert.deepEqual(optionalRequests,[]);assert.deepEqual(errors,[]);
   // Blocked storage must not throw or pretend the decision was persisted.
   const blocked=await browser.newContext();await blocked.addInitScript(()=>{Storage.prototype.setItem=()=>{throw new Error('blocked')};Storage.prototype.getItem=()=>{throw new Error('blocked')};});
-  const p=await blocked.newPage();await p.goto('http://127.0.0.1:4173/');await p.getByRole('button',{name:'Rejeitar opcionais',exact:true}).click();
+  const p=await blocked.newPage();await p.goto(SITE_BASE + '/');await p.getByRole('button',{name:'Rejeitar opcionais',exact:true}).click();
   assert.match(await p.locator('#cookie-notice').textContent(),/não permitiu/);
   console.log('PASS: primeira visita; três decisões; recarga; oito rotas; revogação; versão/data/expiração; seis larguras; modal/foco/teclado; rejeição preserva catálogo; zero requests de rastreadores conhecidos; cookies locais ausentes; armazenamento bloqueado.');
  } finally { await browser.close(); }

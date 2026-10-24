@@ -46,3 +46,15 @@ test('imagens não podem escapar das pastas públicas nem conter codificações 
   }
   assert.ok(projects.flatMap(p => p.gallery).every(item => item.src.startsWith('/portfolio/img/')));
 });
+
+test('variantes responsivas aceitam somente caminhos públicos e larguras válidas', () => {
+  const image = '/src/img/thumbs/aquila-pdv-480.webp';
+  const result = validate([{...raw[0], imageVariants:[
+    {src:'javascript:alert(1)',width:480},
+    {src:'/portfolio/img/%2e%2e/private.png',width:800},
+    {src:image,width:'480'},
+    {src:image,width:10001},
+    {src:image,width:480}
+  ]}])[0];
+  assert.deepEqual(result.imageVariants,[{src:image,width:480}]);
+});

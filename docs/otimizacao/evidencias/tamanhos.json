@@ -1,0 +1,16 @@
+{
+  "checkpoint": "b7e6bcb",
+  "before": {
+    "worktreeFiles": 219,
+    "worktreeFileBytes": 39650208,
+    "buildFiles": 97,
+    "buildBytes": 7273447
+  },
+  "after": {
+    "worktreeFiles": 267,
+    "worktreeFileBytes": 38006577,
+    "buildFiles": 118,
+    "buildBytes": 7164933
+  },
+  "notes": "Somas de arquivos regulares da \u00e1rvore de trabalho, sem .git/dist/caches; incluem relat\u00f3rios e evid\u00eancias. Hist\u00f3rico Git preservado."
+}

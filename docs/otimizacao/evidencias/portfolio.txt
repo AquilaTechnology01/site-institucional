@@ -1,0 +1,1 @@
+PASS: rota direta/recarga, filtros/busca, seleção/Enter/foco, ausência de demo, vazio, falha/retry, dados inválidos, menu/Escape, 5 larguras, 7 páginas sem erros JS.

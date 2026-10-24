@@ -3,9 +3,9 @@ const AxeBuilder=require('@axe-core/playwright').default;
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const base=process.env.SITE_BASE||'http://127.0.0.1:4173';
-const output='docs/identidade-azul/evidencias';
+const output=process.env.ARTIFACT_DIR||'docs/identidade-azul/evidencias';
 (async()=>{const browser=await chromium.launch({executablePath:process.env.BROWSER_EXECUTABLE||'/usr/bin/google-chrome',args:['--no-sandbox']});try{
- fs.mkdirSync(output,{recursive:true});const context=await browser.newContext();const page=await context.newPage();const errors=[],failed=[],matrix=[],a11y=[];
+ fs.mkdirSync(output,{recursive:true});const context=await browser.newContext();const page=await context.newPage();let screenshotCount=0;const errors=[],failed=[],matrix=[],a11y=[];
  page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.url().startsWith(base)&&r.status()>=400)failed.push({url:r.url(),status:r.status()});});
  const routes=['/','/pdv.html','/portfolio/','/FAQ.html','/blog.html','/privacidade.html','/termos.html','/lgpd.html'];
  for(const route of routes){for(const width of [320,375,390,430,768,1024,1366,1440,1920]){
@@ -35,7 +35,7 @@ const output='docs/identidade-azul/evidencias';
   await page.evaluate(async()=>{for(let y=0;y<document.documentElement.scrollHeight;y+=700){scrollTo(0,y);await new Promise(r=>setTimeout(r,10));}});
   const broken=await page.locator('img').evaluateAll(images=>images.filter(i=>i.complete&&!i.naturalWidth).map(i=>i.currentSrc));assert.deepEqual(broken,[]);
   await page.evaluate(()=>{document.activeElement.blur();scrollTo(0,0)});
-  if(['/', '/pdv.html','/portfolio/'].includes(route))await page.screenshot({path:`${output}/${route==='/'?'home':route==='/pdv.html'?'pdv':'portfolio'}-${width}.png`,fullPage:true});
+  if(process.env.SKIP_SCREENSHOTS !== '1' && ['/', '/pdv.html','/portfolio/'].includes(route)){await page.screenshot({path:`${output}/${route==='/'?'home':route==='/pdv.html'?'pdv':'portfolio'}-${width}.png`,fullPage:true});screenshotCount++;}
   matrix.push({route,width,logos:'2 carregados e visíveis, proporção preservada',overflow:false,menu:'PASS',images:'PASS'});
  }
  // Analyze each page after the geometric matrix.
@@ -57,5 +57,5 @@ const output='docs/identidade-azul/evidencias';
  await page.getByRole('button',{name:'Personalizar',exact:true}).click();a11y.push({route:'preferencias',violations:(await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze()).violations});
  fs.writeFileSync(output+'/matriz.json',JSON.stringify(matrix,null,2));fs.writeFileSync(output+'/acessibilidade.json',JSON.stringify(a11y,null,2));fs.writeFileSync(output+'/erros.json',JSON.stringify({errors,failed},null,2));
  assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);assert.deepEqual(a11y.flatMap(v=>v.violations).map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})),[]);
- console.log('PASS: 72 combinações, 144 verificações de logos, 27 screenshots, fallback PNG, menus/Escape/foco, rotas atuais, imagens, formulário simulado, console/recursos e axe nas 8 páginas/2 diálogos.');
+ console.log(`PASS: 72 combinações, 144 verificações de logos, ${screenshotCount} screenshots, fallback PNG, menus/Escape/foco, rotas atuais, imagens, formulário simulado, console/recursos e axe nas 8 páginas/2 diálogos.`);
 }finally{await browser.close();}})().catch(e=>{console.error(e);process.exit(1)});

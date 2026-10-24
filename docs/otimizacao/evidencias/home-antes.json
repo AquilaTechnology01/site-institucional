@@ -1,0 +1,571 @@
+{
+  "lighthouseVersion": "13.5.0",
+  "requestedUrl": "http://127.0.0.1:4177/",
+  "finalDisplayedUrl": "http://127.0.0.1:4177/",
+  "fetchTime": "2026-10-24T02:28:09.212Z",
+  "configSettings": {
+    "output": [
+      "json"
+    ],
+    "maxWaitForFcp": 30000,
+    "maxWaitForLoad": 45000,
+    "pauseAfterFcpMs": 1000,
+    "pauseAfterLoadMs": 1000,
+    "networkQuietThresholdMs": 1000,
+    "cpuQuietThresholdMs": 1000,
+    "formFactor": "mobile",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "throttlingMethod": "simulate",
+    "screenEmulation": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+    "auditMode": false,
+    "gatherMode": false,
+    "clearStorageTypes": [
+      "file_systems",
+      "shader_cache",
+      "service_workers",
+      "cache_storage"
+    ],
+    "disableStorageReset": false,
+    "debugNavigation": false,
+    "channel": "cli",
+    "usePassiveGathering": false,
+    "disableFullPageScreenshot": false,
+    "skipAboutBlank": false,
+    "blankPage": "about:blank",
+    "ignoreStatusCode": false,
+    "locale": "en-US",
+    "blockedUrlPatterns": null,
+    "additionalTraceCategories": null,
+    "extraHeaders": null,
+    "precomputedLanternData": null,
+    "onlyAudits": null,
+    "onlyCategories": [
+      "performance",
+      "accessibility",
+      "seo"
+    ],
+    "skipAudits": null
+  },
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+  "environment": {
+    "networkUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36",
+    "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "benchmarkIndex": 2071.5,
+    "credits": {
+      "axe-core": "4.14.0"
+    }
+  },
+  "runtimeError": null,
+  "runWarnings": [],
+  "categories": {
+    "performance": {
+      "id": "performance",
+      "title": "Performance",
+      "score": 0.98
+    },
+    "accessibility": {
+      "id": "accessibility",
+      "title": "Accessibility",
+      "score": 1
+    },
+    "seo": {
+      "id": "seo",
+      "title": "SEO",
+      "score": 1
+    }
+  },
+  "audits": {
+    "first-contentful-paint": {
+      "id": "first-contentful-paint",
+      "title": "First Contentful Paint",
+      "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1055.6717,
+      "numericUnit": "millisecond",
+      "displayValue": "1.1 s",
+      "scoringOptions": {
+        "p10": 1800,
+        "median": 3000
+      }
+    },
+    "largest-contentful-paint": {
+      "id": "largest-contentful-paint",
+      "title": "Largest Contentful Paint",
+      "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
+      "score": 0.91,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 2405.6717000000003,
+      "numericUnit": "millisecond",
+      "displayValue": "2.4 s",
+      "scoringOptions": {
+        "p10": 2500,
+        "median": 4000
+      }
+    },
+    "speed-index": {
+      "id": "speed-index",
+      "title": "Speed Index",
+      "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1055.6717,
+      "numericUnit": "millisecond",
+      "displayValue": "1.1 s",
+      "scoringOptions": {
+        "p10": 3387,
+        "median": 5800
+      }
+    },
+    "total-blocking-time": {
+      "id": "total-blocking-time",
+      "title": "Total Blocking Time",
+      "description": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more about the Total Blocking Time metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "millisecond",
+      "displayValue": "0 ms",
+      "scoringOptions": {
+        "p10": 200,
+        "median": 600
+      }
+    },
+    "cumulative-layout-shift": {
+      "id": "cumulative-layout-shift",
+      "title": "Cumulative Layout Shift",
+      "description": "Cumulative Layout Shift measures the movement of visible elements within the viewport. [Learn more about the Cumulative Layout Shift metric](https://web.dev/articles/cls).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "unitless",
+      "displayValue": "0",
+      "scoringOptions": {
+        "p10": 0.1,
+        "median": 0.25
+      },
+      "details": {
+        "type": "debugdata",
+        "items": [
+          {
+            "cumulativeLayoutShiftMainFrame": 0,
+            "newEngineResult": {
+              "cumulativeLayoutShift": 0,
+              "cumulativeLayoutShiftMainFrame": 0
+            },
+            "newEngineResultDiffered": false
+          }
+        ]
+      }
+    },
+    "total-byte-weight": {
+      "id": "total-byte-weight",
+      "title": "Avoids enormous network payloads",
+      "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn how to reduce payload sizes](https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight/).",
+      "score": 1,
+      "scoreDisplayMode": "metricSavings",
+      "numericValue": 261381,
+      "numericUnit": "byte",
+      "displayValue": "Total size was 255 KiB",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "totalBytes",
+            "valueType": "bytes",
+            "label": "Transfer Size"
+          }
+        ],
+        "items": [
+          {
+            "url": "http://127.0.0.1:4177/src/img/logo/favicon.png",
+            "totalBytes": 85791
+          },
+          {
+            "url": "http://127.0.0.1:4177/src/img/optimized/office-1024.webp",
+            "totalBytes": 36591
+          },
+          {
+            "url": "http://127.0.0.1:4177/src/img/optimized/pdv-home.webp",
+            "totalBytes": 36563
+          },
+          {
+            "url": "http://127.0.0.1:4177/",
+            "totalBytes": 25001
+          },
+          {
+            "url": "http://127.0.0.1:4177/styles.css",
+            "totalBytes": 19724
+          },
+          {
+            "url": "http://127.0.0.1:4177/src/img/icons.svg",
+            "totalBytes": 17476
+          },
+          {
+            "url": "http://127.0.0.1:4177/src/img/optimized/pdv-login.webp",
+            "totalBytes": 15281
+          },
+          {
+            "url": "http://127.0.0.1:4177/src/img/optimized/logo-preto.webp",
+            "totalBytes": 13141
+          },
+          {
+            "url": "http://127.0.0.1:4177/src/js/main.js",
+            "totalBytes": 4519
+          },
+          {
+            "url": "http://127.0.0.1:4177/src/js/consent.js",
+            "totalBytes": 4394
+          }
+        ],
+        "sortedBy": [
+          "totalBytes"
+        ]
+      },
+      "guidanceLevel": 1
+    },
+    "network-requests": {
+      "id": "network-requests",
+      "title": "Network Requests",
+      "description": "Lists the network requests that were made during page load.",
+      "score": 1,
+      "scoreDisplayMode": "informative",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "protocol",
+            "valueType": "text",
+            "label": "Protocol"
+          },
+          {
+            "key": "networkRequestTime",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Network Request Time"
+          },
+          {
+            "key": "networkEndTime",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Network End Time"
+          },
+          {
+            "key": "transferSize",
+            "valueType": "bytes",
+            "displayUnit": "kb",
+            "granularity": 1,
+            "label": "Transfer Size"
+          },
+          {
+            "key": "resourceSize",
+            "valueType": "bytes",
+            "displayUnit": "kb",
+            "granularity": 1,
+            "label": "Resource Size"
+          },
+          {
+            "key": "statusCode",
+            "valueType": "text",
+            "label": "Status Code"
+          },
+          {
+            "key": "mimeType",
+            "valueType": "text",
+            "label": "MIME Type"
+          },
+          {
+            "key": "resourceType",
+            "valueType": "text",
+            "label": "Resource Type"
+          }
+        ],
+        "items": [
+          {
+            "url": "http://127.0.0.1:4177/",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 0,
+            "networkRequestTime": 1.7089999988675117,
+            "networkEndTime": 17.584999999031425,
+            "finished": true,
+            "transferSize": 25001,
+            "resourceSize": 24813,
+            "statusCode": 200,
+            "mimeType": "text/html",
+            "resourceType": "Document",
+            "priority": "VeryHigh",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4177/styles.css",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 31.13099999912083,
+            "networkRequestTime": 39.88499999977648,
+            "networkEndTime": 49.527000000700355,
+            "finished": true,
+            "transferSize": 19724,
+            "resourceSize": 19537,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet",
+            "priority": "VeryHigh",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4177/src/consent.css",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 31.605000000447035,
+            "networkRequestTime": 40.45399999991059,
+            "networkEndTime": 46.82300000078976,
+            "finished": true,
+            "transferSize": 2900,
+            "resourceSize": 2714,
+            "statusCode": 200,
+            "mimeType": "text/css",
+            "resourceType": "Stylesheet",
+            "priority": "VeryHigh",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4177/src/img/icons.svg",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 33.213999999687076,
+            "networkRequestTime": 41.05499999970198,
+            "networkEndTime": 59.18600000068545,
+            "finished": true,
+            "transferSize": 17476,
+            "resourceSize": 17284,
+            "statusCode": 200,
+            "mimeType": "image/svg+xml",
+            "resourceType": "Other",
+            "priority": "Low",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4177/src/img/optimized/logo-preto.webp",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 36.73300000093877,
+            "networkRequestTime": 41.803999999538064,
+            "networkEndTime": 54.95399999991059,
+            "finished": true,
+            "transferSize": 13141,
+            "resourceSize": 12952,
+            "statusCode": 200,
+            "mimeType": "image/webp",
+            "resourceType": "Image",
+            "priority": "High",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4177/src/img/optimized/office-1024.webp",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 37.05299999937415,
+            "networkRequestTime": 42.71199999935925,
+            "networkEndTime": 57.10899999924004,
+            "finished": true,
+            "transferSize": 36591,
+            "resourceSize": 36402,
+            "statusCode": 200,
+            "mimeType": "image/webp",
+            "resourceType": "Image",
+            "priority": "High",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4177/src/js/main.js",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 37.51600000075996,
+            "networkRequestTime": 43.675999999046326,
+            "networkEndTime": 60.13800000026822,
+            "finished": true,
+            "transferSize": 4519,
+            "resourceSize": 4326,
+            "statusCode": 200,
+            "mimeType": "text/javascript",
+            "resourceType": "Script",
+            "priority": "Low",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4177/src/js/consent.js",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 38.027000000700355,
+            "networkRequestTime": 47.721000000834465,
+            "networkEndTime": 57.691999999806285,
+            "finished": true,
+            "transferSize": 4394,
+            "resourceSize": 4201,
+            "statusCode": 200,
+            "mimeType": "text/javascript",
+            "resourceType": "Script",
+            "priority": "Low",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4177/src/img/optimized/pdv-home.webp",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 146.6030000001192,
+            "networkRequestTime": 147.875,
+            "networkEndTime": 156.09500000067055,
+            "finished": true,
+            "transferSize": 36563,
+            "resourceSize": 36374,
+            "statusCode": 200,
+            "mimeType": "image/webp",
+            "resourceType": "Image",
+            "priority": "Low",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4177/src/img/optimized/pdv-login.webp",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 147.13199999928474,
+            "networkRequestTime": 148.79099999926984,
+            "networkEndTime": 160.70600000023842,
+            "finished": true,
+            "transferSize": 15281,
+            "resourceSize": 15092,
+            "statusCode": 200,
+            "mimeType": "image/webp",
+            "resourceType": "Image",
+            "priority": "Low",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          },
+          {
+            "url": "http://127.0.0.1:4177/src/img/logo/favicon.png",
+            "sessionTargetType": "page",
+            "protocol": "http/1.0",
+            "cache": "none",
+            "rendererStartTime": 208.7979999985546,
+            "networkRequestTime": 209.4780000001192,
+            "networkEndTime": 214.128999998793,
+            "finished": true,
+            "transferSize": 85791,
+            "resourceSize": 85603,
+            "statusCode": 200,
+            "mimeType": "image/png",
+            "resourceType": "Other",
+            "priority": "High",
+            "experimentalFromMainFrame": true,
+            "entity": "127.0.0.1"
+          }
+        ],
+        "debugData": {
+          "type": "debugdata",
+          "networkStartTimeTs": 11080485637,
+          "initiators": [
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4177/",
+              "lineNumber": 35,
+              "columnNumber": 47
+            },
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4177/",
+              "lineNumber": 38,
+              "columnNumber": 53
+            },
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4177/",
+              "lineNumber": 169,
+              "columnNumber": 133
+            },
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4177/",
+              "lineNumber": 349,
+              "columnNumber": 48
+            },
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4177/",
+              "lineNumber": 349,
+              "columnNumber": 48
+            },
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4177/",
+              "lineNumber": 349,
+              "columnNumber": 48
+            },
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4177/",
+              "lineNumber": 385,
+              "columnNumber": 52
+            },
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4177/",
+              "lineNumber": 388,
+              "columnNumber": 1
+            },
+            {
+              "type": "parser",
+              "url": "http://127.0.0.1:4177/",
+              "lineNumber": 388,
+              "columnNumber": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "note": "Resumo verificável da medição original; inclui métricas e requisições, sem screenshots/trace embutidos."
+}

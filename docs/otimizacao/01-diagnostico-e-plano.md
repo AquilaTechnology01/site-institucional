@@ -1,0 +1,13 @@
+# Diagnóstico e plano de limpeza
+
+Ponto de restauração Git: `b7e6bcb`, incluindo todas as alterações anteriores. O projeto continua multipágina HTML/CSS/JS nativo, sem package.json/lockfile ou dependências npm de produção. Testes usam Node/Python e Playwright externo em /tmp. Build atual: python3 scripts/build.py → dist; chama renderizador que altera o HTML fonte e copia recursivamente src/portfolio, podendo carregar resíduos de builds anteriores. Não há configuração de conta Cloudflare versionada.
+
+Oito rotas: /, /portfolio/, /pdv.html, /FAQ.html, /blog.html, /privacidade.html, /termos.html, /lgpd.html. Logos, sprite SVG, catálogo JSON, formulário WhatsApp e consentimento são componentes necessários. Catálogo carrega dinamicamente suas galerias; placeholder é fallback de erro e deve ser preservado. Sem service worker, manifest, importações externas de runtime ou animações contínuas identificados.
+
+Inventário anterior, classificações, referências e grupos SHA-256: evidencias/inventario-antes.json. Repositório, docs e build serão medidos separadamente. Evidências anteriores têm finalidade de rastreabilidade e não serão apagadas indiscriminadamente. Os arquivos originais de imagens também podem ter URLs públicas ou finalidade de comprovação; a falta de uma referência no HTML não basta para excluí-los.
+
+Remoções seguras propostas: somente duas cópias byte a byte de screenshots de produção já preservados em docs/auditoria/evidencias, depois de atualizar referências documentais. Logs iguais de fases diferentes permanecem para preservar o contexto da execução. Logos favicon/branco e duplicata de PDV mantêm seus caminhos por compatibilidade; o catálogo passará a usar a cópia canônica já usada pela home.
+
+Ações: compressão PNG estritamente sem perda (comparar pixels/ICC e só substituir quando menor); miniaturas responsivas para cartões do portfólio; remoção de marcadores e seletores mortos confirmados; corrigir declaração de backdrop inválida var(--text)99; separar o formulário para carregar apenas na home; agrupar/minificar CSS no build e agrupar scripts respeitando ordem; JSON compacto; saída de build limpa, validada e sem mutação de fonte; regras de cache apenas para arquivos gerados com hash, preservando os demais padrões Cloudflare. Sem alterar comando de build, diretório de saída, DNS ou integração GitHub.
+
+Não excluir materiais de finalidade incerta, não mudar URLs de páginas nem remover integrações. Validar passos com testes de build, screenshots comparativos, regressão sobre dist, Lighthouse antes/depois em condições equivalentes e relatório na raiz RELATORIO_OTIMIZACAO.md.

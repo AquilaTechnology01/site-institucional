@@ -1,14 +1,13 @@
 /* Catálogo corporativo, com produto próprio e modelos identificados. */
-.portfolio-page { --portfolio-outline: #d0d0d0; }
 .portfolio-hero { padding-block: clamp(3.5rem, 7vw, 6.5rem); border-bottom: 1px solid var(--border); }
 .portfolio-hero h1 { max-width: 980px; margin-block: 1.25rem 1.5rem; font-size: clamp(2.7rem, 5vw, 5rem); font-weight: 500; line-height: 1.05; }
 .portfolio-hero > p:not(.eyebrow) { max-width: 660px; color: var(--muted); }
 .portfolio-explorer { padding-top: 4rem; }
 .portfolio-explorer > h2 { font-size: clamp(1.7rem, 3vw, 2.5rem); }
-.portfolio-tools { display: flex; flex-wrap: wrap; align-items: end; gap: 2rem; margin-block: 2.5rem 1rem; }
+.portfolio-tools { display: flex; flex-wrap: wrap; align-items: end; gap: 2rem; margin-block: 2.5rem 1rem; min-height: 100px; }
 .portfolio-tools fieldset { border: 0; flex: 1 1 400px; min-width: 0; }
 .portfolio-tools legend, .portfolio-search label { display: block; margin-bottom: .75rem; font-size: .8rem; font-weight: 600; }
-.portfolio-filters { display: flex; flex-wrap: wrap; gap: .5rem; }
+.portfolio-filters { display: flex; flex-wrap: wrap; gap: .5rem; min-height: 44px; }
 .portfolio-filters button { border: 1px solid var(--color-control-border); background: #fff; color: var(--text); padding: .5rem 1rem; cursor: pointer; min-height: 44px; font: inherit; font-size: .85rem; }
 .portfolio-filters button[aria-pressed=true] { background: var(--primary); color: #fff; border-color: var(--primary); }
 .portfolio-search { flex: 0 1 320px; }
@@ -38,10 +37,8 @@
  .portfolio-layout { grid-template-columns: 1fr; }
  .portfolio-detail { position: static; max-height: none; }
  .portfolio-search { flex: 1 1 240px; }
+ .portfolio-tools { min-height: 172px; }
 }
 @media (max-width: 480px) { .portfolio-grid { grid-template-columns: 1fr; } }
 
-.portfolio-tools { min-height: 100px; }
-.portfolio-filters { min-height: 44px; }
-@media (max-width: 900px) { .portfolio-tools { min-height: 172px; } }
 @media (scripting: none) { .portfolio-tools { display: none; } }

@@ -1,10 +1,11 @@
+const SITE_BASE = process.env.SITE_BASE || 'http://127.0.0.1:4173';
 const { chromium } = require('playwright');
 const assert = require('node:assert/strict');
 (async () => {
  const browser = await chromium.launch({executablePath:process.env.BROWSER_EXECUTABLE || '/usr/bin/google-chrome', headless:true, args:['--no-sandbox']});
  const page = await browser.newPage({viewport:{width:1440,height:1000}});
  const errors=[]; page.on('pageerror',e=>errors.push(e.message));
- await page.goto('http://127.0.0.1:4173/portfolio');
+ await page.goto(SITE_BASE + '/portfolio');
  await page.getByRole('button',{name:'Rejeitar opcionais',exact:true}).click();
  await page.getByRole('button',{name:'Explorar Aquila PDV'}).waitFor();
  assert.ok(page.url().endsWith('/portfolio/'));
@@ -43,7 +44,7 @@ const assert = require('node:assert/strict');
  await page.reload(); await page.getByRole('button',{name:'Fechar aviso de privacidade'}).click(); await page.getByRole('button',{name:'Tentar novamente'}).waitFor();
  await page.unroute('**/src/data/projects.json');
  for(const path of ['/index.html','/pdv.html','/FAQ.html','/blog.html','/privacidade.html','/termos.html','/lgpd.html']) {
-  const response=await page.goto('http://127.0.0.1:4173'+path); assert.equal(response.status(),200);
+  const response=await page.goto(SITE_BASE+path); assert.equal(response.status(),200);
   assert.equal(await page.locator('#main-navigation a[href="/portfolio/"]').count(),1);
  }
  assert.deepEqual(errors,[]);

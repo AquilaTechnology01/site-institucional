@@ -7,7 +7,7 @@
     "description": "Produto apresentado na página pública do Aquila PDV. Conheça os recursos documentados e solicite uma apresentação pelo contato da Aquila.",
     "category": "Sistemas",
     "technologies": [],
-    "image": "/src/img/optimized/aquila-pdv-1.webp",
+    "image": "/src/img/optimized/pdv-home.webp",
     "imageAlt": "Tela principal do produto Aquila PDV",
     "status": "Produto",
     "visibility": "public",
@@ -24,6 +24,20 @@
     "solution": "Centralização dessas rotinas no sistema apresentado pela Aquila.",
     "evidence": [
       "pdv.html"
+    ],
+    "imageVariants": [
+      {
+        "src": "/src/img/thumbs/aquila-pdv-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/src/img/thumbs/aquila-pdv-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/src/img/optimized/pdv-home.webp",
+        "width": 1200
+      }
     ]
   },
   {
@@ -57,6 +71,20 @@
       "index.html",
       "styles.css",
       "src/js/main.js"
+    ],
+    "imageVariants": [
+      {
+        "src": "/src/img/thumbs/site-aquila-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/src/img/thumbs/site-aquila-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/src/img/optimized/site-aquila.webp",
+        "width": 1200
+      }
     ]
   },
   {
@@ -133,6 +161,20 @@
       "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-48-44.png",
       "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-49-49.png",
       "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-50-18.png"
+    ],
+    "imageVariants": [
+      {
+        "src": "/portfolio/img/thumbs/modelo-institucional-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/portfolio/img/thumbs/modelo-institucional-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/portfolio/img/optimized/modelo-institucional-1.webp",
+        "width": 1067
+      }
     ]
   },
   {
@@ -209,6 +251,20 @@
       "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-36-39.png",
       "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-36-53.png",
       "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-37-16.png"
+    ],
+    "imageVariants": [
+      {
+        "src": "/portfolio/img/thumbs/cardapio-digital-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/portfolio/img/thumbs/cardapio-digital-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/portfolio/img/optimized/cardapio-digital-1.webp",
+        "width": 1067
+      }
     ]
   },
   {
@@ -264,6 +320,20 @@
       "portfolio/img/landing-page/Advocacia/Captura de tela de 2026-10-22 22-19-45.png",
       "portfolio/img/landing-page/Advocacia/Captura de tela de 2026-10-22 22-20-04.png",
       "portfolio/img/landing-page/Advocacia/Captura de tela de 2026-10-22 22-20-22.png"
+    ],
+    "imageVariants": [
+      {
+        "src": "/portfolio/img/thumbs/landing-advocacia-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/portfolio/img/thumbs/landing-advocacia-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/portfolio/img/optimized/landing-advocacia-1.webp",
+        "width": 1075
+      }
     ]
   },
   {
@@ -312,6 +382,20 @@
       "portfolio/img/landing-page/Padaria/Captura de tela de 2026-10-22 22-22-19.png",
       "portfolio/img/landing-page/Padaria/Captura de tela de 2026-10-22 22-27-19.png",
       "portfolio/img/landing-page/Padaria/Captura de tela de 2026-10-22 22-27-42.png"
+    ],
+    "imageVariants": [
+      {
+        "src": "/portfolio/img/thumbs/landing-padaria-480.webp",
+        "width": 480
+      },
+      {
+        "src": "/portfolio/img/thumbs/landing-padaria-800.webp",
+        "width": 800
+      },
+      {
+        "src": "/portfolio/img/optimized/landing-padaria-1.webp",
+        "width": 1075
+      }
     ]
   }
 ]

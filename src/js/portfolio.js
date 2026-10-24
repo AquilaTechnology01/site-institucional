@@ -59,7 +59,11 @@
     visible.forEach(project => {
       const card = node('article', '', 'portfolio-card');
       const image = node('img'); image.src = project.image; image.alt = project.imageAlt; image.width = 800; image.height = 450; image.loading = 'lazy';
-      image.addEventListener('error', () => { image.onerror = null; image.src = '/src/img/portfolio-placeholder.svg'; }, {once: true});
+      if (project.imageVariants.length) {
+        image.srcset = project.imageVariants.map(item => `${item.src} ${item.width}w`).join(', ');
+        image.sizes = '(max-width: 480px) 92vw, (max-width: 900px) 44vw, 26vw';
+      }
+      image.addEventListener('error', () => { image.removeAttribute('srcset'); image.src = '/src/img/portfolio-placeholder.svg'; }, {once: true});
       card.append(image, node('p', `${project.category} · ${project.status}`, 'eyebrow'), node('h3', project.title), node('p', project.summary), node('p', project.technologies.join(' · ') || 'Stack não divulgada', 'portfolio-note'));
       const button = node('button', `Explorar ${project.title} →`, 'btn btn-secondary'); button.type = 'button'; button.dataset.project = project.id; button.setAttribute('aria-controls', 'project-detail');
       button.addEventListener('click', () => showDetail(project, true)); card.append(button); list.append(card);
@@ -68,13 +72,20 @@
     else showDetail(visible.find(p => p.id === selected) || visible[0]);
   }
   function renderCategories() {
-  const available = categories.filter(name => name === 'Todos' || projects.some(project => project.category === name));
-  document.getElementById('filters').replaceChildren();
-  available.forEach(name => {
-    const button = node('button', name); button.type = 'button'; button.setAttribute('aria-pressed', String(name === category));
-    button.addEventListener('click', () => { category = name; document.querySelectorAll('#filters button').forEach(b => b.setAttribute('aria-pressed', String(b === button))); render(); });
-    document.getElementById('filters').append(button);
-  });
+    const available = categories.filter(name => name === 'Todos' || projects.some(project => project.category === name));
+    const filters = document.getElementById('filters');
+    filters.replaceChildren();
+    available.forEach(name => {
+      const button = node('button', name);
+      button.type = 'button';
+      button.setAttribute('aria-pressed', String(name === category));
+      button.addEventListener('click', () => {
+        category = name;
+        filters.querySelectorAll('button').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+        render();
+      });
+      filters.append(button);
+    });
   }
   search.addEventListener('input', render);
   async function load() {

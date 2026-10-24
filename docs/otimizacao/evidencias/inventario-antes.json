@@ -1,0 +1,2319 @@
+{
+  "checkpoint": "b7e6bcb",
+  "trackedFiles": 219,
+  "trackedBytes": 39650208,
+  "buildFiles": 97,
+  "buildBytes": 7273447,
+  "duplicates": [
+    [
+      "docs/auditoria/evidencias/home-antes.png",
+      "docs/identidade-azul/evidencias/producao-home.png"
+    ],
+    [
+      "docs/auditoria/evidencias/portfolio-antes.png",
+      "docs/identidade-azul/evidencias/producao-portfolio.png"
+    ],
+    [
+      "docs/auditoria/evidencias/portfolio-browser.txt",
+      "docs/identidade-azul/evidencias/portfolio.txt",
+      "docs/redesign/evidencias/portfolio.txt"
+    ],
+    [
+      "docs/auditoria/evidencias/security-browser.txt",
+      "docs/identidade-azul/evidencias/seguranca.txt",
+      "docs/redesign/evidencias/seguranca.txt"
+    ],
+    [
+      "docs/identidade-azul/evidencias/consentimento.txt",
+      "docs/redesign/evidencias/consentimento.txt"
+    ],
+    [
+      "docs/identidade-azul/evidencias/regressao-inicial.txt",
+      "docs/redesign/evidencias/redesign-test.txt"
+    ],
+    [
+      "src/img/logo/favicon.png",
+      "src/img/logo/logo-branco.png"
+    ],
+    [
+      "src/img/optimized/aquila-pdv-1.webp",
+      "src/img/optimized/pdv-home.webp"
+    ]
+  ],
+  "files": [
+    {
+      "file": ".gitignore",
+      "bytes": 31,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "CODIGO_DE_CONDUTA.md",
+      "bytes": 925,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "CONTRIBUINDO.md",
+      "bytes": 950,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "FAQ.html",
+      "bytes": 13850,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "FAQ.html",
+        "blog.html",
+        "docs/PORTFOLIO.md",
+        "docs/auditoria/01-diagnostico.md",
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/responsividade.json",
+        "docs/consentimento/README.md",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/identidade-azul/evidencias/acessibilidade.json",
+        "docs/identidade-azul/evidencias/matriz.json",
+        "docs/redesign/02-entrega.md",
+        "docs/redesign/evidencias/acessibilidade.json",
+        "docs/redesign/evidencias/responsividade.json",
+        "index.html",
+        "lgpd.html",
+        "pdv.html",
+        "portfolio/index.html",
+        "privacidade.html",
+        "termos.html",
+        "tests/consent.browser.cjs",
+        "tests/identity.browser.cjs",
+        "tests/portfolio.browser.cjs",
+        "tests/redesign.browser.cjs",
+        "tests/security.browser.cjs"
+      ]
+    },
+    {
+      "file": "LICENCA.md",
+      "bytes": 760,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "README.md",
+      "bytes": 1442,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": [
+        "docs/identidade-azul/02-relatorio-final.md"
+      ]
+    },
+    {
+      "file": "blog.html",
+      "bytes": 9456,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "FAQ.html",
+        "blog.html",
+        "docs/PORTFOLIO.md",
+        "docs/auditoria/01-diagnostico.md",
+        "docs/auditoria/04-ux-ui.md",
+        "docs/auditoria/06-seo.md",
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/responsividade.json",
+        "docs/consentimento/README.md",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/identidade-azul/evidencias/acessibilidade.json",
+        "docs/identidade-azul/evidencias/matriz.json",
+        "docs/redesign/02-entrega.md",
+        "docs/redesign/evidencias/acessibilidade.json",
+        "docs/redesign/evidencias/responsividade.json",
+        "index.html",
+        "lgpd.html",
+        "pdv.html",
+        "portfolio/index.html",
+        "privacidade.html",
+        "termos.html",
+        "tests/consent.browser.cjs",
+        "tests/identity.browser.cjs",
+        "tests/portfolio.browser.cjs",
+        "tests/redesign.browser.cjs",
+        "tests/security.browser.cjs"
+      ]
+    },
+    {
+      "file": "docs/PORTFOLIO.md",
+      "bytes": 7987,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/SEGURANCA.md",
+      "bytes": 4504,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/SEO.md",
+      "bytes": 3043,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/01-diagnostico.md",
+      "bytes": 3844,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": [
+        "docs/redesign/01-diagnostico-e-plano.md"
+      ]
+    },
+    {
+      "file": "docs/auditoria/02-seguranca.md",
+      "bytes": 4422,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/03-performance.md",
+      "bytes": 3489,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/04-ux-ui.md",
+      "bytes": 3271,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/05-responsividade.md",
+      "bytes": 2276,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/06-seo.md",
+      "bytes": 1749,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/07-cloudflare.md",
+      "bytes": 2372,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/08-benchmark.md",
+      "bytes": 3399,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/09-plano-de-acao.md",
+      "bytes": 3310,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/10-resultados.md",
+      "bytes": 2827,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/evidencias/build.json",
+      "bytes": 290,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/evidencias/headers-home.txt",
+      "bytes": 832,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/evidencias/headers-http.txt",
+      "bytes": 634,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/evidencias/headers-portfolio.txt",
+      "bytes": 705,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/evidencias/home-antes.png",
+      "bytes": 1313117,
+      "classification": "Duplicado",
+      "reason": "Conteúdo SHA-256 idêntico; preservação de URLs/contexto avaliada separadamente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/evidencias/inventario.json",
+      "bytes": 7011,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/evidencias/lighthouse-home-antes.json",
+      "bytes": 544090,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/evidencias/lighthouse-portfolio-antes.json",
+      "bytes": 527573,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/evidencias/portfolio-antes.png",
+      "bytes": 713901,
+      "classification": "Duplicado",
+      "reason": "Conteúdo SHA-256 idêntico; preservação de URLs/contexto avaliada separadamente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/evidencias/portfolio-browser.txt",
+      "bytes": 171,
+      "classification": "Duplicado",
+      "reason": "Conteúdo SHA-256 idêntico; preservação de URLs/contexto avaliada separadamente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/evidencias/responsividade.json",
+      "bytes": 8914,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/evidencias/security-browser.txt",
+      "bytes": 104,
+      "classification": "Duplicado",
+      "reason": "Conteúdo SHA-256 idêntico; preservação de URLs/contexto avaliada separadamente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/evidencias/seo.txt",
+      "bytes": 100,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/auditoria/evidencias/unitarios.txt",
+      "bytes": 1406,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/consentimento/README.md",
+      "bytes": 10028,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": [
+        "docs/identidade-azul/02-relatorio-final.md"
+      ]
+    },
+    {
+      "file": "docs/consentimento/banner-mobile.png",
+      "bytes": 96236,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/consentimento/preferencias-mobile.png",
+      "bytes": 80370,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/consentimento/rodape-desktop.png",
+      "bytes": 10381,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/01-diagnostico.md",
+      "bytes": 3267,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": [
+        "docs/identidade-azul/02-relatorio-final.md"
+      ]
+    },
+    {
+      "file": "docs/identidade-azul/02-relatorio-final.md",
+      "bytes": 15023,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/acessibilidade.json",
+      "bytes": 568,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/build-links-logos.json",
+      "bytes": 1083,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/cabecalho-320.png",
+      "bytes": 6845,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/consentimento.txt",
+      "bytes": 258,
+      "classification": "Duplicado",
+      "reason": "Conteúdo SHA-256 idêntico; preservação de URLs/contexto avaliada separadamente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/contraste-tokens.json",
+      "bytes": 355,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/erros.json",
+      "bytes": 34,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/home-1024.png",
+      "bytes": 790262,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/home-1366.png",
+      "bytes": 976663,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/home-1440.png",
+      "bytes": 1018315,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/home-1920.png",
+      "bytes": 1178265,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/home-320.png",
+      "bytes": 541581,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/home-375.png",
+      "bytes": 574016,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/home-390.png",
+      "bytes": 579815,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/home-430.png",
+      "bytes": 607068,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/home-768.png",
+      "bytes": 676767,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/home-antes.json",
+      "bytes": 681915,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/home-depois.json",
+      "bytes": 754234,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/identidade-test.txt",
+      "bytes": 198,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/marca-rodape-320.png",
+      "bytes": 12166,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/matriz.json",
+      "bytes": 13201,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/pdv-1024.png",
+      "bytes": 687566,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/pdv-1366.png",
+      "bytes": 1010213,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/pdv-1440.png",
+      "bytes": 1039300,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/pdv-1920.png",
+      "bytes": 1062945,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/pdv-320.png",
+      "bytes": 430578,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/pdv-375.png",
+      "bytes": 509898,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/pdv-390.png",
+      "bytes": 530438,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/pdv-430.png",
+      "bytes": 588295,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/pdv-768.png",
+      "bytes": 491229,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/portfolio-1024.png",
+      "bytes": 458869,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/portfolio-1366.png",
+      "bytes": 591096,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/portfolio-1440.png",
+      "bytes": 605748,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/portfolio-1920.png",
+      "bytes": 622604,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/portfolio-320.png",
+      "bytes": 491744,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/portfolio-375.png",
+      "bytes": 565146,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/portfolio-390.png",
+      "bytes": 584580,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/portfolio-430.png",
+      "bytes": 634379,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/portfolio-768.png",
+      "bytes": 557202,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/portfolio-antes.json",
+      "bytes": 673494,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/portfolio-depois.json",
+      "bytes": 733326,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/portfolio.txt",
+      "bytes": 171,
+      "classification": "Duplicado",
+      "reason": "Conteúdo SHA-256 idêntico; preservação de URLs/contexto avaliada separadamente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/producao-home.png",
+      "bytes": 1313117,
+      "classification": "Duplicado",
+      "reason": "Conteúdo SHA-256 idêntico; preservação de URLs/contexto avaliada separadamente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/producao-otimizados.json",
+      "bytes": 299,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/producao-portfolio.png",
+      "bytes": 713901,
+      "classification": "Duplicado",
+      "reason": "Conteúdo SHA-256 idêntico; preservação de URLs/contexto avaliada separadamente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/producao.json",
+      "bytes": 2179,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/regressao-inicial.txt",
+      "bytes": 145,
+      "classification": "Duplicado",
+      "reason": "Conteúdo SHA-256 idêntico; preservação de URLs/contexto avaliada separadamente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/seguranca.txt",
+      "bytes": 104,
+      "classification": "Duplicado",
+      "reason": "Conteúdo SHA-256 idêntico; preservação de URLs/contexto avaliada separadamente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/seo.txt",
+      "bytes": 100,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/identidade-azul/evidencias/unitarios.txt",
+      "bytes": 1407,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/01-diagnostico-e-plano.md",
+      "bytes": 2598,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/02-entrega.md",
+      "bytes": 9371,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": [
+        "docs/identidade-azul/02-relatorio-final.md"
+      ]
+    },
+    {
+      "file": "docs/redesign/03-ativos.md",
+      "bytes": 1273,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/LICENCA-ICONES.txt",
+      "bytes": 1093,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/acessibilidade.json",
+      "bytes": 568,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": [
+        "tests/redesign.browser.cjs"
+      ]
+    },
+    {
+      "file": "docs/redesign/evidencias/build-links.json",
+      "bytes": 187,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/consentimento.txt",
+      "bytes": 258,
+      "classification": "Duplicado",
+      "reason": "Conteúdo SHA-256 idêntico; preservação de URLs/contexto avaliada separadamente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/home-antes.json",
+      "bytes": 619875,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/home-depois.json",
+      "bytes": 681991,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/home-desktop.png",
+      "bytes": 953678,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/home-mobile.png",
+      "bytes": 478421,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/menu-mobile.png",
+      "bytes": 121895,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/mobile-sem-js.txt",
+      "bytes": 53,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/portfolio-antes.json",
+      "bytes": 721480,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/portfolio-depois.json",
+      "bytes": 673427,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/portfolio-desktop.png",
+      "bytes": 548192,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/portfolio-mobile.png",
+      "bytes": 523188,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/portfolio.txt",
+      "bytes": 171,
+      "classification": "Duplicado",
+      "reason": "Conteúdo SHA-256 idêntico; preservação de URLs/contexto avaliada separadamente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/privacidade-mobile.png",
+      "bytes": 73688,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/redesign-test.txt",
+      "bytes": 145,
+      "classification": "Duplicado",
+      "reason": "Conteúdo SHA-256 idêntico; preservação de URLs/contexto avaliada separadamente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/referencia-stefanini.png",
+      "bytes": 227642,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/referencia.json",
+      "bytes": 1005,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/responsividade.json",
+      "bytes": 5619,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": [
+        "tests/redesign.browser.cjs"
+      ]
+    },
+    {
+      "file": "docs/redesign/evidencias/seguranca.txt",
+      "bytes": 104,
+      "classification": "Duplicado",
+      "reason": "Conteúdo SHA-256 idêntico; preservação de URLs/contexto avaliada separadamente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/seo.txt",
+      "bytes": 100,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "docs/redesign/evidencias/unitarios.txt",
+      "bytes": 1408,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": []
+    },
+    {
+      "file": "index.html",
+      "bytes": 24813,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "FAQ.html",
+        "blog.html",
+        "docs/PORTFOLIO.md",
+        "docs/SEO.md",
+        "docs/auditoria/01-diagnostico.md",
+        "docs/auditoria/02-seguranca.md",
+        "docs/auditoria/04-ux-ui.md",
+        "docs/auditoria/06-seo.md",
+        "docs/auditoria/09-plano-de-acao.md",
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/consentimento/README.md",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/identidade-azul/evidencias/portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-depois.json",
+        "docs/redesign/02-entrega.md",
+        "docs/redesign/evidencias/portfolio-depois.json",
+        "index.html",
+        "lgpd.html",
+        "pdv.html",
+        "portfolio/index.html",
+        "privacidade.html",
+        "scripts/render_portfolio.py",
+        "src/data/projects.json",
+        "termos.html",
+        "tests/identity.browser.cjs",
+        "tests/portfolio.browser.cjs",
+        "tests/portfolio.test.cjs",
+        "tests/seo_test.py"
+      ]
+    },
+    {
+      "file": "lgpd.html",
+      "bytes": 11091,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "FAQ.html",
+        "blog.html",
+        "docs/PORTFOLIO.md",
+        "docs/auditoria/01-diagnostico.md",
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/responsividade.json",
+        "docs/consentimento/README.md",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/identidade-azul/evidencias/acessibilidade.json",
+        "docs/identidade-azul/evidencias/matriz.json",
+        "docs/redesign/02-entrega.md",
+        "docs/redesign/evidencias/acessibilidade.json",
+        "docs/redesign/evidencias/responsividade.json",
+        "index.html",
+        "lgpd.html",
+        "pdv.html",
+        "portfolio/index.html",
+        "privacidade.html",
+        "termos.html",
+        "tests/consent.browser.cjs",
+        "tests/identity.browser.cjs",
+        "tests/portfolio.browser.cjs",
+        "tests/redesign.browser.cjs",
+        "tests/security.browser.cjs"
+      ]
+    },
+    {
+      "file": "pdv.html",
+      "bytes": 15594,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "FAQ.html",
+        "blog.html",
+        "docs/PORTFOLIO.md",
+        "docs/SEO.md",
+        "docs/auditoria/01-diagnostico.md",
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/responsividade.json",
+        "docs/consentimento/README.md",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/identidade-azul/evidencias/acessibilidade.json",
+        "docs/identidade-azul/evidencias/matriz.json",
+        "docs/redesign/02-entrega.md",
+        "docs/redesign/evidencias/acessibilidade.json",
+        "docs/redesign/evidencias/responsividade.json",
+        "index.html",
+        "lgpd.html",
+        "pdv.html",
+        "portfolio/index.html",
+        "privacidade.html",
+        "src/data/projects.json",
+        "termos.html",
+        "tests/consent.browser.cjs",
+        "tests/identity.browser.cjs",
+        "tests/portfolio.browser.cjs",
+        "tests/portfolio.test.cjs",
+        "tests/redesign.browser.cjs",
+        "tests/security.browser.cjs"
+      ]
+    },
+    {
+      "file": "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-35-24.png",
+      "bytes": 333220,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/lighthouse-portfolio-antes.json",
+        "docs/redesign/evidencias/portfolio-antes.json",
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-35-41.png",
+      "bytes": 53417,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-36-04.png",
+      "bytes": 78165,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-36-22.png",
+      "bytes": 65178,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-36-39.png",
+      "bytes": 72753,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-36-53.png",
+      "bytes": 80502,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/Cardapio digital/Captura de tela de 2026-10-22 22-37-16.png",
+      "bytes": 17188,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-46-23.png",
+      "bytes": 63690,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/lighthouse-portfolio-antes.json",
+        "docs/redesign/evidencias/portfolio-antes.json",
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-46-41.png",
+      "bytes": 187407,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json",
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-47-19.png",
+      "bytes": 72724,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-48-32.png",
+      "bytes": 88089,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-48-44.png",
+      "bytes": 80277,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-49-49.png",
+      "bytes": 77696,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/Site Institucional/Captura de tela de 2026-10-22 22-50-18.png",
+      "bytes": 10632,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/landing-page/Advocacia/Captura de tela de 2026-10-22 22-19-03.png",
+      "bytes": 183940,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/lighthouse-portfolio-antes.json",
+        "docs/redesign/evidencias/portfolio-antes.json",
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/landing-page/Advocacia/Captura de tela de 2026-10-22 22-19-45.png",
+      "bytes": 90154,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/landing-page/Advocacia/Captura de tela de 2026-10-22 22-20-04.png",
+      "bytes": 62524,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/landing-page/Advocacia/Captura de tela de 2026-10-22 22-20-22.png",
+      "bytes": 71351,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/landing-page/Padaria/Captura de tela de 2026-10-22 22-22-19.png",
+      "bytes": 626088,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/lighthouse-portfolio-antes.json",
+        "docs/redesign/evidencias/portfolio-antes.json",
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/landing-page/Padaria/Captura de tela de 2026-10-22 22-27-19.png",
+      "bytes": 560414,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json",
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/landing-page/Padaria/Captura de tela de 2026-10-22 22-27-42.png",
+      "bytes": 47010,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/cardapio-digital-1.webp",
+      "bytes": 33838,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/identidade-azul/evidencias/portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-depois.json",
+        "docs/redesign/evidencias/portfolio-depois.json",
+        "portfolio/index.html",
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/cardapio-digital-2.webp",
+      "bytes": 26566,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/cardapio-digital-3.webp",
+      "bytes": 35118,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/cardapio-digital-4.webp",
+      "bytes": 29292,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/cardapio-digital-5.webp",
+      "bytes": 29798,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/cardapio-digital-6.webp",
+      "bytes": 34902,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/cardapio-digital-7.webp",
+      "bytes": 8546,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/landing-advocacia-1.webp",
+      "bytes": 41820,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/identidade-azul/evidencias/portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-depois.json",
+        "docs/redesign/evidencias/portfolio-depois.json",
+        "portfolio/index.html",
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/landing-advocacia-2.webp",
+      "bytes": 37702,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/landing-advocacia-3.webp",
+      "bytes": 22502,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/landing-advocacia-4.webp",
+      "bytes": 26844,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/landing-padaria-1.webp",
+      "bytes": 91948,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/identidade-azul/evidencias/portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-depois.json",
+        "docs/redesign/evidencias/portfolio-depois.json",
+        "portfolio/index.html",
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/landing-padaria-2.webp",
+      "bytes": 87416,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/landing-padaria-3.webp",
+      "bytes": 17340,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/modelo-institucional-1.webp",
+      "bytes": 26828,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/identidade-azul/evidencias/portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-depois.json",
+        "docs/redesign/evidencias/portfolio-depois.json",
+        "portfolio/index.html",
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/modelo-institucional-2.webp",
+      "bytes": 12032,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/modelo-institucional-3.webp",
+      "bytes": 30634,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/modelo-institucional-4.webp",
+      "bytes": 31298,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/modelo-institucional-5.webp",
+      "bytes": 31180,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/modelo-institucional-6.webp",
+      "bytes": 20572,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/img/optimized/modelo-institucional-7.webp",
+      "bytes": 1888,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "portfolio/index.html",
+      "bytes": 13405,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/PORTFOLIO.md",
+        "docs/auditoria/09-plano-de-acao.md",
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/consentimento/README.md",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/redesign/02-entrega.md",
+        "scripts/render_portfolio.py",
+        "tests/seo_test.py"
+      ]
+    },
+    {
+      "file": "privacidade.html",
+      "bytes": 14745,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "FAQ.html",
+        "blog.html",
+        "docs/PORTFOLIO.md",
+        "docs/auditoria/01-diagnostico.md",
+        "docs/auditoria/02-seguranca.md",
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/responsividade.json",
+        "docs/consentimento/README.md",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/identidade-azul/evidencias/acessibilidade.json",
+        "docs/identidade-azul/evidencias/matriz.json",
+        "docs/redesign/02-entrega.md",
+        "docs/redesign/evidencias/acessibilidade.json",
+        "docs/redesign/evidencias/responsividade.json",
+        "index.html",
+        "lgpd.html",
+        "pdv.html",
+        "portfolio/index.html",
+        "privacidade.html",
+        "termos.html",
+        "tests/consent.browser.cjs",
+        "tests/identity.browser.cjs",
+        "tests/portfolio.browser.cjs",
+        "tests/redesign.browser.cjs",
+        "tests/security.browser.cjs"
+      ]
+    },
+    {
+      "file": "robots.txt",
+      "bytes": 81,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": [
+        "docs/PORTFOLIO.md",
+        "docs/SEGURANCA.md",
+        "docs/SEO.md",
+        "docs/auditoria/06-seo.md",
+        "docs/auditoria/evidencias/lighthouse-home-antes.json",
+        "docs/auditoria/evidencias/lighthouse-portfolio-antes.json",
+        "docs/identidade-azul/evidencias/home-antes.json",
+        "docs/identidade-azul/evidencias/home-depois.json",
+        "docs/identidade-azul/evidencias/portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-depois.json",
+        "docs/redesign/evidencias/home-antes.json",
+        "docs/redesign/evidencias/home-depois.json",
+        "docs/redesign/evidencias/portfolio-antes.json",
+        "docs/redesign/evidencias/portfolio-depois.json",
+        "scripts/build.py",
+        "tests/seo_test.py"
+      ]
+    },
+    {
+      "file": "scripts/build.py",
+      "bytes": 623,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": [
+        "docs/PORTFOLIO.md",
+        "docs/SEO.md",
+        "docs/auditoria/01-diagnostico.md",
+        "docs/auditoria/07-cloudflare.md",
+        "docs/auditoria/09-plano-de-acao.md",
+        "docs/auditoria/evidencias/build.json",
+        "docs/consentimento/README.md",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/redesign/02-entrega.md"
+      ]
+    },
+    {
+      "file": "scripts/render_portfolio.py",
+      "bytes": 1151,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": [
+        "docs/SEO.md",
+        "docs/auditoria/09-plano-de-acao.md"
+      ]
+    },
+    {
+      "file": "sitemap.xml",
+      "bytes": 669,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": [
+        "docs/SEO.md",
+        "scripts/build.py",
+        "tests/seo_test.py"
+      ]
+    },
+    {
+      "file": "src/consent.css",
+      "bytes": 2714,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "FAQ.html",
+        "blog.html",
+        "docs/consentimento/README.md",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/identidade-azul/evidencias/home-antes.json",
+        "docs/identidade-azul/evidencias/home-depois.json",
+        "docs/identidade-azul/evidencias/portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-depois.json",
+        "docs/redesign/02-entrega.md",
+        "docs/redesign/evidencias/home-antes.json",
+        "docs/redesign/evidencias/home-depois.json",
+        "docs/redesign/evidencias/portfolio-antes.json",
+        "docs/redesign/evidencias/portfolio-depois.json",
+        "index.html",
+        "lgpd.html",
+        "pdv.html",
+        "portfolio/index.html",
+        "privacidade.html",
+        "termos.html"
+      ]
+    },
+    {
+      "file": "src/data/projects.json",
+      "bytes": 11848,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/PORTFOLIO.md",
+        "docs/auditoria/01-diagnostico.md",
+        "docs/auditoria/09-plano-de-acao.md",
+        "docs/auditoria/evidencias/lighthouse-portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-depois.json",
+        "docs/redesign/02-entrega.md",
+        "docs/redesign/evidencias/portfolio-antes.json",
+        "docs/redesign/evidencias/portfolio-depois.json",
+        "scripts/render_portfolio.py",
+        "src/js/portfolio.js",
+        "tests/portfolio.browser.cjs",
+        "tests/portfolio.test.cjs",
+        "tests/seo_test.py"
+      ]
+    },
+    {
+      "file": "src/img/PDV/Controle-de-estoque.png",
+      "bytes": 115771,
+      "classification": "Necessita validação manual",
+      "reason": "Citado apenas por auditorias/histórico; pode manter URL legada ou valor de comprovação. Não removido.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json"
+      ]
+    },
+    {
+      "file": "src/img/PDV/Venda-PDV.png",
+      "bytes": 47135,
+      "classification": "Necessita validação manual",
+      "reason": "Citado apenas por auditorias/histórico; pode manter URL legada ou valor de comprovação. Não removido.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json"
+      ]
+    },
+    {
+      "file": "src/img/PDV/backup.png",
+      "bytes": 38159,
+      "classification": "Necessita validação manual",
+      "reason": "Citado apenas por auditorias/histórico; pode manter URL legada ou valor de comprovação. Não removido.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json"
+      ]
+    },
+    {
+      "file": "src/img/PDV/confi-empresa.png",
+      "bytes": 94283,
+      "classification": "Necessita validação manual",
+      "reason": "Citado apenas por auditorias/histórico; pode manter URL legada ou valor de comprovação. Não removido.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json"
+      ]
+    },
+    {
+      "file": "src/img/PDV/contabilidade.png",
+      "bytes": 139795,
+      "classification": "Necessita validação manual",
+      "reason": "Citado apenas por auditorias/histórico; pode manter URL legada ou valor de comprovação. Não removido.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json"
+      ]
+    },
+    {
+      "file": "src/img/PDV/controle-caixa.png",
+      "bytes": 67094,
+      "classification": "Necessita validação manual",
+      "reason": "Citado apenas por auditorias/histórico; pode manter URL legada ou valor de comprovação. Não removido.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json"
+      ]
+    },
+    {
+      "file": "src/img/PDV/fechamento-diario.png",
+      "bytes": 51508,
+      "classification": "Necessita validação manual",
+      "reason": "Citado apenas por auditorias/histórico; pode manter URL legada ou valor de comprovação. Não removido.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json"
+      ]
+    },
+    {
+      "file": "src/img/PDV/home",
+      "bytes": 131145,
+      "classification": "Necessita validação manual",
+      "reason": "Citado apenas por auditorias/histórico; pode manter URL legada ou valor de comprovação. Não removido.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/lighthouse-home-antes.json",
+        "docs/redesign/evidencias/home-antes.json"
+      ]
+    },
+    {
+      "file": "src/img/PDV/login",
+      "bytes": 35648,
+      "classification": "Necessita validação manual",
+      "reason": "Citado apenas por auditorias/histórico; pode manter URL legada ou valor de comprovação. Não removido.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/lighthouse-home-antes.json",
+        "docs/redesign/evidencias/home-antes.json"
+      ]
+    },
+    {
+      "file": "src/img/PDV/perfil-config.png",
+      "bytes": 32544,
+      "classification": "Necessita validação manual",
+      "reason": "Citado apenas por auditorias/histórico; pode manter URL legada ou valor de comprovação. Não removido.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json"
+      ]
+    },
+    {
+      "file": "src/img/PDV/relatorio-de-vendas.png",
+      "bytes": 122812,
+      "classification": "Necessita validação manual",
+      "reason": "Citado apenas por auditorias/histórico; pode manter URL legada ou valor de comprovação. Não removido.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json"
+      ]
+    },
+    {
+      "file": "src/img/backgraund-img/Futuristic Data Display.png",
+      "bytes": 1376848,
+      "classification": "Necessita validação manual",
+      "reason": "Citado apenas por auditorias/histórico; pode manter URL legada ou valor de comprovação. Não removido.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/lighthouse-home-antes.json",
+        "docs/redesign/evidencias/home-antes.json"
+      ]
+    },
+    {
+      "file": "src/img/icons.svg",
+      "bytes": 17284,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/identidade-azul/evidencias/home-antes.json",
+        "docs/identidade-azul/evidencias/home-depois.json",
+        "docs/redesign/02-entrega.md",
+        "docs/redesign/evidencias/home-depois.json",
+        "index.html",
+        "pdv.html"
+      ]
+    },
+    {
+      "file": "src/img/logo/favicon.png",
+      "bytes": 85603,
+      "classification": "Duplicado",
+      "reason": "Conteúdo SHA-256 idêntico; preservação de URLs/contexto avaliada separadamente.",
+      "referencedBy": [
+        "FAQ.html",
+        "blog.html",
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/lighthouse-home-antes.json",
+        "docs/auditoria/evidencias/lighthouse-portfolio-antes.json",
+        "docs/identidade-azul/evidencias/home-antes.json",
+        "docs/identidade-azul/evidencias/home-depois.json",
+        "docs/identidade-azul/evidencias/portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-depois.json",
+        "docs/redesign/evidencias/home-antes.json",
+        "docs/redesign/evidencias/home-depois.json",
+        "docs/redesign/evidencias/portfolio-antes.json",
+        "docs/redesign/evidencias/portfolio-depois.json",
+        "index.html",
+        "lgpd.html",
+        "pdv.html",
+        "portfolio/index.html",
+        "privacidade.html",
+        "termos.html"
+      ]
+    },
+    {
+      "file": "src/img/logo/logo-branco.png",
+      "bytes": 85603,
+      "classification": "Duplicado",
+      "reason": "Conteúdo SHA-256 idêntico; preservação de URLs/contexto avaliada separadamente.",
+      "referencedBy": [
+        "FAQ.html",
+        "blog.html",
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/lighthouse-home-antes.json",
+        "docs/auditoria/evidencias/lighthouse-portfolio-antes.json",
+        "docs/identidade-azul/01-diagnostico.md",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/identidade-azul/evidencias/producao.json",
+        "docs/redesign/evidencias/home-antes.json",
+        "docs/redesign/evidencias/portfolio-antes.json",
+        "index.html",
+        "lgpd.html",
+        "pdv.html",
+        "portfolio/index.html",
+        "privacidade.html",
+        "termos.html"
+      ]
+    },
+    {
+      "file": "src/img/logo/logo-preto.png",
+      "bytes": 466215,
+      "classification": "Necessita validação manual",
+      "reason": "Citado apenas por auditorias/histórico; pode manter URL legada ou valor de comprovação. Não removido.",
+      "referencedBy": [
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/identidade-azul/01-diagnostico.md",
+        "docs/identidade-azul/02-relatorio-final.md"
+      ]
+    },
+    {
+      "file": "src/img/optimized/aquila-pdv-1.webp",
+      "bytes": 36374,
+      "classification": "Duplicado",
+      "reason": "Conteúdo SHA-256 idêntico; preservação de URLs/contexto avaliada separadamente.",
+      "referencedBy": [
+        "docs/identidade-azul/evidencias/portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-depois.json",
+        "docs/redesign/evidencias/portfolio-depois.json",
+        "portfolio/index.html",
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "src/img/optimized/logo-branco.png",
+      "bytes": 18163,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "FAQ.html",
+        "blog.html",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/identidade-azul/evidencias/build-links-logos.json",
+        "index.html",
+        "lgpd.html",
+        "pdv.html",
+        "portfolio/index.html",
+        "privacidade.html",
+        "termos.html"
+      ]
+    },
+    {
+      "file": "src/img/optimized/logo-branco.webp",
+      "bytes": 12058,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "FAQ.html",
+        "blog.html",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/identidade-azul/evidencias/build-links-logos.json",
+        "docs/identidade-azul/evidencias/producao-otimizados.json",
+        "index.html",
+        "lgpd.html",
+        "pdv.html",
+        "portfolio/index.html",
+        "privacidade.html",
+        "termos.html"
+      ]
+    },
+    {
+      "file": "src/img/optimized/logo-preto.png",
+      "bytes": 20891,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "FAQ.html",
+        "blog.html",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/identidade-azul/evidencias/build-links-logos.json",
+        "index.html",
+        "lgpd.html",
+        "pdv.html",
+        "portfolio/index.html",
+        "privacidade.html",
+        "termos.html"
+      ]
+    },
+    {
+      "file": "src/img/optimized/logo-preto.webp",
+      "bytes": 12952,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "FAQ.html",
+        "blog.html",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/identidade-azul/evidencias/build-links-logos.json",
+        "docs/identidade-azul/evidencias/home-antes.json",
+        "docs/identidade-azul/evidencias/home-depois.json",
+        "docs/identidade-azul/evidencias/portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-depois.json",
+        "docs/identidade-azul/evidencias/producao-otimizados.json",
+        "docs/redesign/evidencias/home-depois.json",
+        "docs/redesign/evidencias/portfolio-depois.json",
+        "index.html",
+        "lgpd.html",
+        "pdv.html",
+        "portfolio/index.html",
+        "privacidade.html",
+        "termos.html"
+      ]
+    },
+    {
+      "file": "src/img/optimized/office-1024.webp",
+      "bytes": 36402,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/identidade-azul/evidencias/home-antes.json",
+        "docs/identidade-azul/evidencias/home-depois.json",
+        "docs/redesign/evidencias/home-depois.json",
+        "index.html"
+      ]
+    },
+    {
+      "file": "src/img/optimized/office-1600.webp",
+      "bytes": 71370,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "index.html"
+      ]
+    },
+    {
+      "file": "src/img/optimized/office-640.webp",
+      "bytes": 20118,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/identidade-azul/evidencias/home-antes.json",
+        "docs/identidade-azul/evidencias/home-depois.json",
+        "docs/redesign/evidencias/home-depois.json",
+        "index.html"
+      ]
+    },
+    {
+      "file": "src/img/optimized/pdv-Controle-de-estoque.webp",
+      "bytes": 32528,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "pdv.html"
+      ]
+    },
+    {
+      "file": "src/img/optimized/pdv-Venda-PDV.webp",
+      "bytes": 24266,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "pdv.html"
+      ]
+    },
+    {
+      "file": "src/img/optimized/pdv-backup.webp",
+      "bytes": 21210,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "pdv.html"
+      ]
+    },
+    {
+      "file": "src/img/optimized/pdv-confi-empresa.webp",
+      "bytes": 20060,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "pdv.html"
+      ]
+    },
+    {
+      "file": "src/img/optimized/pdv-contabilidade.webp",
+      "bytes": 37524,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "pdv.html"
+      ]
+    },
+    {
+      "file": "src/img/optimized/pdv-controle-caixa.webp",
+      "bytes": 39478,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "pdv.html"
+      ]
+    },
+    {
+      "file": "src/img/optimized/pdv-fechamento-diario.webp",
+      "bytes": 28120,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "pdv.html"
+      ]
+    },
+    {
+      "file": "src/img/optimized/pdv-home.webp",
+      "bytes": 36374,
+      "classification": "Duplicado",
+      "reason": "Conteúdo SHA-256 idêntico; preservação de URLs/contexto avaliada separadamente.",
+      "referencedBy": [
+        "docs/identidade-azul/evidencias/home-antes.json",
+        "docs/identidade-azul/evidencias/home-depois.json",
+        "docs/redesign/evidencias/home-depois.json",
+        "index.html",
+        "pdv.html"
+      ]
+    },
+    {
+      "file": "src/img/optimized/pdv-login.webp",
+      "bytes": 15092,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/identidade-azul/evidencias/home-antes.json",
+        "docs/identidade-azul/evidencias/home-depois.json",
+        "docs/redesign/evidencias/home-depois.json",
+        "index.html",
+        "pdv.html"
+      ]
+    },
+    {
+      "file": "src/img/optimized/pdv-perfil-config.webp",
+      "bytes": 17420,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "pdv.html"
+      ]
+    },
+    {
+      "file": "src/img/optimized/pdv-relatorio-de-vendas.webp",
+      "bytes": 34964,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "pdv.html"
+      ]
+    },
+    {
+      "file": "src/img/optimized/site-aquila.webp",
+      "bytes": 58982,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/identidade-azul/evidencias/portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-depois.json",
+        "docs/redesign/evidencias/portfolio-depois.json",
+        "portfolio/index.html",
+        "src/data/projects.json"
+      ]
+    },
+    {
+      "file": "src/img/portfolio-placeholder.svg",
+      "bytes": 475,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/PORTFOLIO.md",
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/lighthouse-portfolio-antes.json",
+        "docs/redesign/evidencias/portfolio-antes.json",
+        "src/js/portfolio-core.js",
+        "src/js/portfolio.js",
+        "tests/portfolio.test.cjs"
+      ]
+    },
+    {
+      "file": "src/js/consent.js",
+      "bytes": 4201,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "FAQ.html",
+        "blog.html",
+        "docs/consentimento/README.md",
+        "docs/identidade-azul/evidencias/home-antes.json",
+        "docs/identidade-azul/evidencias/home-depois.json",
+        "docs/identidade-azul/evidencias/portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-depois.json",
+        "docs/redesign/02-entrega.md",
+        "docs/redesign/evidencias/home-antes.json",
+        "docs/redesign/evidencias/home-depois.json",
+        "docs/redesign/evidencias/portfolio-antes.json",
+        "docs/redesign/evidencias/portfolio-depois.json",
+        "index.html",
+        "lgpd.html",
+        "pdv.html",
+        "portfolio/index.html",
+        "privacidade.html",
+        "termos.html"
+      ]
+    },
+    {
+      "file": "src/js/main.js",
+      "bytes": 4326,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "FAQ.html",
+        "blog.html",
+        "docs/PORTFOLIO.md",
+        "docs/auditoria/01-diagnostico.md",
+        "docs/auditoria/02-seguranca.md",
+        "docs/auditoria/09-plano-de-acao.md",
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/lighthouse-home-antes.json",
+        "docs/auditoria/evidencias/lighthouse-portfolio-antes.json",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/identidade-azul/evidencias/home-antes.json",
+        "docs/identidade-azul/evidencias/home-depois.json",
+        "docs/identidade-azul/evidencias/portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-depois.json",
+        "docs/redesign/02-entrega.md",
+        "docs/redesign/evidencias/home-antes.json",
+        "docs/redesign/evidencias/home-depois.json",
+        "docs/redesign/evidencias/portfolio-antes.json",
+        "docs/redesign/evidencias/portfolio-depois.json",
+        "index.html",
+        "lgpd.html",
+        "pdv.html",
+        "portfolio/index.html",
+        "privacidade.html",
+        "src/data/projects.json",
+        "termos.html"
+      ]
+    },
+    {
+      "file": "src/js/portfolio-core.js",
+      "bytes": 3097,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/PORTFOLIO.md",
+        "docs/auditoria/04-ux-ui.md",
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/lighthouse-portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-depois.json",
+        "docs/redesign/02-entrega.md",
+        "docs/redesign/evidencias/portfolio-antes.json",
+        "docs/redesign/evidencias/portfolio-depois.json",
+        "portfolio/index.html",
+        "tests/portfolio.test.cjs"
+      ]
+    },
+    {
+      "file": "src/js/portfolio.js",
+      "bytes": 6115,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/PORTFOLIO.md",
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/lighthouse-portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-depois.json",
+        "docs/redesign/02-entrega.md",
+        "docs/redesign/evidencias/portfolio-antes.json",
+        "docs/redesign/evidencias/portfolio-depois.json",
+        "portfolio/index.html"
+      ]
+    },
+    {
+      "file": "src/portfolio.css",
+      "bytes": 3917,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "docs/PORTFOLIO.md",
+        "docs/auditoria/01-diagnostico.md",
+        "docs/auditoria/04-ux-ui.md",
+        "docs/auditoria/05-responsividade.md",
+        "docs/auditoria/09-plano-de-acao.md",
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/lighthouse-portfolio-antes.json",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/identidade-azul/evidencias/portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-depois.json",
+        "docs/redesign/02-entrega.md",
+        "docs/redesign/evidencias/portfolio-antes.json",
+        "docs/redesign/evidencias/portfolio-depois.json",
+        "portfolio/index.html"
+      ]
+    },
+    {
+      "file": "styles.css",
+      "bytes": 19537,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "FAQ.html",
+        "blog.html",
+        "docs/PORTFOLIO.md",
+        "docs/auditoria/01-diagnostico.md",
+        "docs/auditoria/03-performance.md",
+        "docs/auditoria/04-ux-ui.md",
+        "docs/auditoria/09-plano-de-acao.md",
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/lighthouse-home-antes.json",
+        "docs/auditoria/evidencias/lighthouse-portfolio-antes.json",
+        "docs/consentimento/README.md",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/identidade-azul/evidencias/home-antes.json",
+        "docs/identidade-azul/evidencias/home-depois.json",
+        "docs/identidade-azul/evidencias/portfolio-antes.json",
+        "docs/identidade-azul/evidencias/portfolio-depois.json",
+        "docs/redesign/02-entrega.md",
+        "docs/redesign/evidencias/home-antes.json",
+        "docs/redesign/evidencias/home-depois.json",
+        "docs/redesign/evidencias/portfolio-antes.json",
+        "docs/redesign/evidencias/portfolio-depois.json",
+        "index.html",
+        "lgpd.html",
+        "pdv.html",
+        "portfolio/index.html",
+        "privacidade.html",
+        "scripts/build.py",
+        "src/data/projects.json",
+        "termos.html"
+      ]
+    },
+    {
+      "file": "termos.html",
+      "bytes": 11237,
+      "classification": "Necessário",
+      "reason": "Referência direta/indireta ou material de comprovação no catálogo/documentação.",
+      "referencedBy": [
+        "FAQ.html",
+        "blog.html",
+        "docs/PORTFOLIO.md",
+        "docs/auditoria/01-diagnostico.md",
+        "docs/auditoria/evidencias/inventario.json",
+        "docs/auditoria/evidencias/responsividade.json",
+        "docs/consentimento/README.md",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/identidade-azul/evidencias/acessibilidade.json",
+        "docs/identidade-azul/evidencias/matriz.json",
+        "docs/redesign/02-entrega.md",
+        "docs/redesign/evidencias/acessibilidade.json",
+        "docs/redesign/evidencias/responsividade.json",
+        "index.html",
+        "lgpd.html",
+        "pdv.html",
+        "portfolio/index.html",
+        "privacidade.html",
+        "termos.html",
+        "tests/consent.browser.cjs",
+        "tests/identity.browser.cjs",
+        "tests/portfolio.browser.cjs",
+        "tests/redesign.browser.cjs",
+        "tests/security.browser.cjs"
+      ]
+    },
+    {
+      "file": "tests/consent.browser.cjs",
+      "bytes": 6268,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": [
+        "docs/consentimento/README.md",
+        "docs/identidade-azul/02-relatorio-final.md"
+      ]
+    },
+    {
+      "file": "tests/identity.browser.cjs",
+      "bytes": 7089,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": [
+        "docs/identidade-azul/02-relatorio-final.md"
+      ]
+    },
+    {
+      "file": "tests/portfolio.browser.cjs",
+      "bytes": 3845,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": [
+        "docs/PORTFOLIO.md",
+        "docs/SEGURANCA.md",
+        "docs/consentimento/README.md",
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/redesign/02-entrega.md"
+      ]
+    },
+    {
+      "file": "tests/portfolio.test.cjs",
+      "bytes": 2773,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": [
+        "docs/SEGURANCA.md",
+        "docs/SEO.md",
+        "docs/consentimento/README.md",
+        "docs/identidade-azul/02-relatorio-final.md"
+      ]
+    },
+    {
+      "file": "tests/redesign.browser.cjs",
+      "bytes": 4734,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": [
+        "docs/identidade-azul/02-relatorio-final.md",
+        "docs/redesign/02-entrega.md"
+      ]
+    },
+    {
+      "file": "tests/security.browser.cjs",
+      "bytes": 2055,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": [
+        "docs/SEGURANCA.md",
+        "docs/consentimento/README.md",
+        "docs/identidade-azul/02-relatorio-final.md"
+      ]
+    },
+    {
+      "file": "tests/seo_test.py",
+      "bytes": 2357,
+      "classification": "Necessário",
+      "reason": "Documentação, teste, build ou configuração existente.",
+      "referencedBy": [
+        "docs/SEO.md",
+        "docs/consentimento/README.md",
+        "docs/identidade-azul/02-relatorio-final.md"
+      ]
+    }
+  ],
+  "generatedDirectories": [
+    {
+      "path": "dist/",
+      "classification": "Temporário",
+      "reason": "Saída reprodutível ignorada no Git; reconstruída e validada pelo build."
+    },
+    {
+      "path": "scripts/__pycache__/",
+      "classification": "Temporário",
+      "reason": "Cache Python ignorado; não publicado."
+    },
+    {
+      "path": ".build-*/",
+      "classification": "Temporário",
+      "reason": "Área de staging descartada automaticamente após validação/rollback."
+    }
+  ]
+}
