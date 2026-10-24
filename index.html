@@ -9,7 +9,7 @@
       name="description"
       content="Aquila Technology oferece soluções em tecnologia para pequenas e médias empresas, com foco em desenvolvimento, automação e consultoria em TI."
     />
-    <meta name="theme-color" content="#E30613" />
+    <meta name="theme-color" content="#0057B8" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:title" content="Desenvolvimento de Sites e Software | Aquila Technology" />
@@ -44,7 +44,7 @@
     <header>
       <div class="navbar container">
         <a class="brand" href="/index.html" aria-label="Aquila Technology — início">
-          <img src="/src/img/optimized/logo-preto.webp" alt="Símbolo Aquila Technology" width="53" height="48" />
+          <picture class="brand-symbol"><source srcset="/src/img/optimized/logo-preto.webp" type="image/webp" /><img src="/src/img/optimized/logo-preto.png" alt="Símbolo Aquila Technology" width="216" height="159" fetchpriority="high" /></picture>
           <span>Aquila Technology<small>Tecnologia para negócios</small></span>
         </a>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Abrir menu"><i aria-hidden="true"></i></button>
@@ -61,6 +61,9 @@
             <a href="/index.html#tecnologias">Tecnologias</a>
             <a href="/FAQ.html">Perguntas frequentes</a>
             <a href="/blog.html">Blog</a>
+            <a href="/privacidade.html">Privacidade</a>
+            <a href="/termos.html">Termos de Uso</a>
+            <a href="/lgpd.html">LGPD</a>
           </div></details>
           <a class="nav-contact" href="/index.html#contato">Fale com a Aquila <span aria-hidden="true">↗</span></a>
         </nav>
@@ -296,20 +299,24 @@
             <div class="form-row">
               <div class="form-field">
                 <label for="nome">Nome</label>
-                <input type="text" id="nome" name="nome" placeholder="Seu nome" autocomplete="name" required />
+                <input type="text" id="nome" name="nome" maxlength="120" aria-describedby="nome-error" placeholder="Seu nome" autocomplete="name" required />
+                <span id="nome-error" class="form-field-error"></span>
               </div>
               <div class="form-field">
                 <label for="email">E-mail</label>
-                <input type="email" id="email" name="email" placeholder="voce@empresa.com" autocomplete="email" required />
+                <input type="email" id="email" name="email" maxlength="254" aria-describedby="email-error" placeholder="voce@empresa.com" autocomplete="email" required />
+                <span id="email-error" class="form-field-error"></span>
               </div>
             </div>
             <div class="form-field">
               <label for="assunto">Assunto</label>
-              <input type="text" id="assunto" name="assunto" placeholder="Como podemos ajudar?" required />
+              <input type="text" id="assunto" name="assunto" maxlength="160" aria-describedby="assunto-error" placeholder="Como podemos ajudar?" required />
+                <span id="assunto-error" class="form-field-error"></span>
             </div>
             <div class="form-field">
               <label for="mensagem">Descrição do projeto</label>
-              <textarea id="mensagem" name="mensagem" placeholder="Conte um pouco sobre sua necessidade" rows="5" minlength="20" required></textarea>
+              <textarea id="mensagem" name="mensagem" maxlength="4000" aria-describedby="mensagem-error" placeholder="Conte um pouco sobre sua necessidade" rows="5" minlength="20" required></textarea>
+                <span id="mensagem-error" class="form-field-error"></span>
             </div>
             <p class="portfolio-note">Ao continuar, seus dados serão incluídos em uma mensagem no WhatsApp. <a href="/privacidade.html#cookies">Saiba como utilizamos seus dados</a>.</p>
             <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
@@ -323,7 +330,7 @@
     <footer>
       <div class="container footer-main">
         <div class="footer-brand">
-          <a class="brand" href="/index.html"><img src="/src/img/optimized/logo-branco.webp" alt="Símbolo Aquila Technology" width="53" height="48" loading="lazy" /><span>Aquila Technology<small>Tecnologia para negócios</small></span></a>
+          <a class="brand" href="/index.html"><picture class="brand-symbol"><source srcset="/src/img/optimized/logo-branco.webp" type="image/webp" /><img src="/src/img/optimized/logo-branco.png" alt="Símbolo Aquila Technology" width="216" height="160" loading="lazy" /></picture><span>Aquila Technology<small>Tecnologia para negócios</small></span></a>
           <p>Desenvolvimento, automação e consultoria em TI para pequenas e médias empresas.</p>
         </div>
         <div><h2>Soluções</h2><a href="/index.html#servicos">Desenvolvimento web</a><a href="/index.html#servicos">Automação de processos</a><a href="/index.html#servicos">Soluções em Excel</a><a href="/index.html#servicos">Consultoria em TI</a><a href="/pdv.html">Aquila PDV</a></div>

@@ -1,0 +1,578 @@
+[
+  {
+    "route": "/",
+    "width": 320,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/",
+    "width": 375,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/",
+    "width": 430,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/",
+    "width": 1024,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/",
+    "width": 1366,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/",
+    "width": 1920,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/pdv.html",
+    "width": 320,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/pdv.html",
+    "width": 375,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/pdv.html",
+    "width": 390,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/pdv.html",
+    "width": 430,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/pdv.html",
+    "width": 768,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/pdv.html",
+    "width": 1024,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/pdv.html",
+    "width": 1366,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/pdv.html",
+    "width": 1440,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/pdv.html",
+    "width": 1920,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/portfolio/",
+    "width": 320,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/portfolio/",
+    "width": 375,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/portfolio/",
+    "width": 390,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/portfolio/",
+    "width": 430,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/portfolio/",
+    "width": 768,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/portfolio/",
+    "width": 1024,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/portfolio/",
+    "width": 1366,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/portfolio/",
+    "width": 1440,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/portfolio/",
+    "width": 1920,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/FAQ.html",
+    "width": 320,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/FAQ.html",
+    "width": 375,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/FAQ.html",
+    "width": 390,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/FAQ.html",
+    "width": 430,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/FAQ.html",
+    "width": 768,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/FAQ.html",
+    "width": 1024,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/FAQ.html",
+    "width": 1366,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/FAQ.html",
+    "width": 1440,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/FAQ.html",
+    "width": 1920,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/blog.html",
+    "width": 320,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/blog.html",
+    "width": 375,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/blog.html",
+    "width": 390,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/blog.html",
+    "width": 430,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/blog.html",
+    "width": 768,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/blog.html",
+    "width": 1024,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/blog.html",
+    "width": 1366,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/blog.html",
+    "width": 1440,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/blog.html",
+    "width": 1920,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/privacidade.html",
+    "width": 320,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/privacidade.html",
+    "width": 375,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/privacidade.html",
+    "width": 390,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/privacidade.html",
+    "width": 430,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/privacidade.html",
+    "width": 768,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/privacidade.html",
+    "width": 1024,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/privacidade.html",
+    "width": 1366,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/privacidade.html",
+    "width": 1440,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/privacidade.html",
+    "width": 1920,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/termos.html",
+    "width": 320,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/termos.html",
+    "width": 375,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/termos.html",
+    "width": 390,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/termos.html",
+    "width": 430,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/termos.html",
+    "width": 768,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/termos.html",
+    "width": 1024,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/termos.html",
+    "width": 1366,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/termos.html",
+    "width": 1440,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/termos.html",
+    "width": 1920,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/lgpd.html",
+    "width": 320,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/lgpd.html",
+    "width": 375,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/lgpd.html",
+    "width": 390,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/lgpd.html",
+    "width": 430,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/lgpd.html",
+    "width": 768,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/lgpd.html",
+    "width": 1024,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/lgpd.html",
+    "width": 1366,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/lgpd.html",
+    "width": 1440,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  },
+  {
+    "route": "/lgpd.html",
+    "width": 1920,
+    "logos": "2 carregados e visíveis, proporção preservada",
+    "overflow": false,
+    "menu": "PASS",
+    "images": "PASS"
+  }
+]

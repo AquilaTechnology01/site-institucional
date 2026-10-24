@@ -1,3 +1,5 @@
+> Registro da etapa anterior (vermelho). A identidade atual foi alterada para azul; veja ../identidade-azul/02-relatorio-final.md.
+
 # Entrega — redesign corporativo Aquila Technology Brasil
 
 Data: 23/10/2026. Branch: `audit/aquila-diagnostico-2026-10-23`. Ponto de restauração anterior: `3b9548f`. Alterações de redesign disponíveis na árvore de trabalho para revisão; nenhum push ou deploy realizado.
